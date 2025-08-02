@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Château Margaux",
+    "coordinates": [ -0.6687, 45.0444 ],
+    "rank": "一級酒莊 (Premier Grand Cru Classé 1855)",
+    "description": "波爾多五大酒莊之一，Margaux 產區的代表，優雅細緻、陳年潛力極佳。",
+    "image": "/images/chateaux/LeftBank/Medoc/margaux.jpg"
+  },
+  {
+    "name": "Château Rauzan-Ségla",
+    "coordinates": [ -0.67556, 45.03595 ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "Margaux 產區最頂尖的二級酒莊之一，風格細膩優雅。",
+    "image": "/images/chateaux/LeftBank/Medoc/rauzan_segla.jpg"
+  },
+  {
+    "name": "Château Lascombes",
+    "coordinates": [ -0.68376, 45.04145 ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以濃郁果香和結構感著稱，陳年後展現複雜層次。",
+    "image": "/images/chateaux/LeftBank/Medoc/lascombes.jpg"
+  },
+  {
+    "name": "Château Brane-Cantenac",
+    "coordinates": [ -0.67370, 45.02395 ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以優雅、細緻的單寧和花香聞名，Margaux 產區代表性酒莊。",
+    "image": "/images/chateaux/LeftBank/Medoc/brane_cantenac.jpg"
+  },
+  {
+    "name": "Château Palmer",
+    "coordinates": [ -0.6694, 45.0369 ],
+    "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+    "description": "雖為三級酒莊，品質媲美一級，風格濃郁且極具陳年潛力。",
+    "image": "/images/chateaux/LeftBank/Medoc/palmer.jpg"
+  },
+  {
+    "name": "Château d’Issan",
+    "coordinates": [ -0.6581, 45.0379 ],
+    "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+    "description": "以優雅、細膩和花香著稱，歷史悠久的 Margaux 名莊。",
+    "image": "/images/chateaux/LeftBank/Medoc/dissan.jpg"
+  },
+  {
+    "name": "Château Kirwan",
+    "coordinates": [ -0.65816, 45.02742 ],
+    "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+    "description": "果香濃郁、結構良好，適合中長期陳年。",
+    "image": "/images/chateaux/LeftBank/Medoc/kirwan.jpg"
+  },
+  {
+    "name": "Château Cantenac-Brown",
+    "coordinates": [ -0.67923, 45.02780 ],
+    "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+    "description": "以濃郁果味和單寧結構著稱，風格現代。",
+    "image": "/images/chateaux/LeftBank/Medoc/cantenac_brown.jpg"
+  },
+  {
+    "name": "Château Marquis de Terme",
+    "coordinates": [ -0.67729, 45.03840 ],
+    "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+    "description": "風格均衡，果香與單寧兼具，性價比高的 Margaux 名莊。",
+    "image": "/images/chateaux/LeftBank/Medoc/marquis_de_terme.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Château Coutet",
+    "coordinates": [
+      -0.32595,
+      44.59476
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé)",
+    "description": "Barsac 五大一級酒莊之一，歷史悠久，以高品質貴腐甜白酒著稱。",
+    "image": "/images/chateaux/Sauternais/coutet.jpg"
+  },
+  {
+    "name": "Château Climens",
+    "coordinates": [
+      -0.3265,
+      44.5935
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé)",
+    "description": "Barsac 五大一級酒莊之一，風格細膩優雅，被譽為Barsac的女王。",
+    "image": "/images/chateaux/Sauternais/climens.jpg"
+  },
+  {
+    "name": "Château Doisy-Daëne",
+    "coordinates": [
+      -0.33079,
+      44.59164
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé)",
+    "description": "以純淨、細緻的貴腐甜白酒聞名，家族經營歷史悠久。",
+    "image": "/images/chateaux/Sauternais/doisy_daene.jpg"
+  },
+  {
+    "name": "Château Doisy-Védrines",
+    "coordinates": [
+      -0.3235,
+      44.5859
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé)",
+    "description": "Barsac 面積最大的二級酒莊，酒體濃郁，陳年潛力佳。",
+    "image": "/images/chateaux/Sauternais/doisy_vedrines.jpg"
+  },
+  {
+    "name": "Château Nairac",
+    "coordinates": [
+      -0.3177,
+      44.6115
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé)",
+    "description": "以優雅、細膩的甜白酒著稱，具備良好陳年能力。",
+    "image": "/images/chateaux/Sauternais/nairac.jpg"
+  },
+  {
+    "name": "Château de Myrat",
+    "coordinates": [
+      -0.33442,
+      44.59724
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé)",
+    "description": "家族經營的二級酒莊，風格清新細緻，甜度適中。",
+    "image": "/images/chateaux/Sauternais/de_myrat.jpg"
+  },
+  {
+    "name": "Château Caillou",
+    "coordinates": [
+      -0.328,
+      44.596
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé)",
+    "description": "以傳統工藝釀造，展現Barsac產區典型的優雅與新鮮感。",
+    "image": "/images/chateaux/Sauternais/caillou.jpg"
+  },
+  {
+    "name": "Château Simon",
+    "coordinates": [
+      -0.33,
+      44.598
+    ],
+    "rank": "Barsac 地區優質酒莊",
+    "description": "家族經營，產量不大但品質穩定，甜白酒風格純淨。",
+    "image": "/images/chateaux/Sauternais/simon.jpg"
+  }
+]

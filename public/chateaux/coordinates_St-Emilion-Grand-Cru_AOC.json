@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Château Cheval Blanc",
+    "coordinates": [
+      -0.1893,
+      44.9195
+    ],
+    "rank": "特級A級 (Premier Grand Cru Classé A)",
+    "description": "聖愛美濃最著名的A級酒莊之一，Merlot與Cabernet Franc混釀，優雅細緻、陳年潛力極佳。",
+    "image": "/images/chateaux/RightBank/Libournais/cheval_blanc.jpg"
+  },
+  {
+    "name": "Château Ausone",
+    "coordinates": [
+      -0.1564,
+      44.8892
+    ],
+    "rank": "特級A級 (Premier Grand Cru Classé A)",
+    "description": "產量極少，風格濃郁複雜，與Cheval Blanc齊名的聖愛美濃傳奇酒莊。",
+    "image": "/images/chateaux/RightBank/Libournais/ausone.jpg"
+  },
+  {
+    "name": "Château Pavie",
+    "coordinates": [
+      -0.14954,
+      44.88428
+    ],
+    "rank": "特級A級 (Premier Grand Cru Classé A)",
+    "description": "以濃郁結構和強大陳年實力著稱，現代風格的A級名莊。",
+    "image": "/images/chateaux/RightBank/Libournais/pavie.jpg"
+  },
+  {
+    "name": "Château Angélus",
+    "coordinates": [
+      -0.1715,
+      44.8927
+    ],
+    "rank": "特級A級 (Premier Grand Cru Classé A)",
+    "description": "以優雅細膩著稱，近年晉升A級，酒標鐘聲極具辨識度。",
+    "image": "/images/chateaux/RightBank/Libournais/angelus.jpg"
+  },
+  {
+    "name": "Château Figeac",
+    "coordinates": [
+      -0.192425,
+      44.912833
+    ],
+    "rank": "特級A級 (Premier Grand Cru Classé A)",
+    "description": "2022年晉升A級，Cabernet Franc比例高，風格優雅、陳年潛力佳。",
+    "image": "/images/chateaux/RightBank/Libournais/figeac.jpg"
+  },
+  {
+    "name": "Château Canon",
+    "coordinates": [
+      -0.15695,
+      44.88708
+    ],
+    "rank": "特級B級 (Premier Grand Cru Classé B)",
+    "description": "位於聖愛美濃村莊核心，風格細膩優雅，近年品質大幅提升。",
+    "image": "/images/chateaux/RightBank/Libournais/canon.jpg"
+  },
+  {
+    "name": "Château La Gaffelière",
+    "coordinates": [
+      -0.15695,
+      44.88708
+    ],
+    "rank": "特級B級 (Premier Grand Cru Classé B)",
+    "description": "歷史悠久的B級名莊，風格均衡，陳年表現佳。",
+    "image": "/images/chateaux/RightBank/Libournais/la_gaffeliere.jpg"
+  },
+  {
+    "name": "Château Troplong Mondot",
+    "coordinates": [
+      -0.14075,
+      44.88853
+    ],
+    "rank": "特級B級 (Premier Grand Cru Classé B)",
+    "description": "位於高地，風格濃郁，單寧結構強，陳年潛力佳。",
+    "image": "/images/chateaux/RightBank/Libournais/troplong_mondot.jpg"
+  },
+  {
+    "name": "Château Valandraud",
+    "coordinates": [
+      -0.0855,
+      44.8878
+    ],
+    "rank": "特級B級 (Premier Grand Cru Classé B)",
+    "description": "右岸車庫酒代表，風格現代，果香濃郁，品質穩定提升。",
+    "image": "/images/chateaux/RightBank/Libournais/valandraud.jpg"
+  }
+]
