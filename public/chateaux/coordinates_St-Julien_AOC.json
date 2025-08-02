@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Château Léoville Las Cases",
+    "coordinates": [
+      -0.74041,
+      45.16371
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "聖朱利安最具代表性的二級酒莊，風格嚴謹、陳年潛力極佳，常被譽為“超一級”。"
+  },
+  {
+    "name": "Château Léoville Barton",
+    "coordinates": [
+      -0.73925,
+      45.15739
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以傳統釀造與穩定品質著稱，風格經典、結構感強。"
+  },
+  {
+    "name": "Château Léoville Poyferré",
+    "coordinates": [
+      -0.74048,
+      45.16409
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以濃郁果香和柔順單寧著稱，近年品質大幅提升。"
+  },
+  {
+    "name": "Château Ducru-Beaucaillou",
+    "coordinates": [
+      -0.7324,
+      45.14912
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以礫石土壤和優雅風格聞名，酒體細緻、陳年潛力佳。"
+  },
+  {
+    "name": "Château Gruaud Larose",
+    "coordinates": [
+      -0.75083,
+      45.14444
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "風格濃郁、結構感強，適合長期陳年。"
+  },
+  {
+    "name": "Château Lagrange",
+    "coordinates": [
+      -0.77325,
+      45.14947
+    ],
+    "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+    "description": "以均衡風格和穩定品質著稱，性價比高。"
+  },
+  {
+    "name": "Château Talbot",
+    "coordinates": [
+      -0.7557,
+      45.1593
+    ],
+    "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+    "description": "聖朱利安最大酒莊之一，風格圓潤、果香明顯。"
+  },
+  {
+    "name": "Château Branaire-Ducru",
+    "coordinates": [
+      -0.735,
+      45.146
+    ],
+    "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+    "description": "以細膩果香和優雅風格著稱，近年品質穩定提升。"
+  },
+  {
+    "name": "Château Beychevelle",
+    "coordinates": [
+      -0.733,
+      45.145
+    ],
+    "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+    "description": "以帆船酒標著稱，風格柔順、易飲，深受市場歡迎。"
+  }
+]

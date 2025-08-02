@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Château d'Yquem",
+    "coordinates": [
+      -0.32869,
+      44.54464
+    ],
+    "rank": "特級超級酒莊 (Premier Cru Supérieur 1855)",
+    "description": "世界最著名的貴腐甜白酒莊，唯一獲得特級超級酒莊殊榮，品質與陳年潛力無與倫比。"
+  },
+  {
+    "name": "Château Suduiraut",
+    "coordinates": [
+      -0.31972,
+      44.55656
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "Sauternes 五大一級酒莊之一，風格濃郁、甜美且層次豐富。"
+  },
+  {
+    "name": "Château Guiraud",
+    "coordinates": [
+      -0.34,
+      44.533
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "以有機種植著稱，甜白酒香氣複雜、口感細膩。"
+  },
+  {
+    "name": "Château Rieussec",
+    "coordinates": [
+      -0.31134,
+      44.53875
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "拉菲集團旗下，甜白酒風格濃郁、陳年潛力佳。"
+  },
+  {
+    "name": "Château Coutet",
+    "coordinates": [
+      -0.32595,
+      44.59476
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "Barsac 五大一級酒莊之一，風格細膩優雅，酸度明亮。"
+  },
+  {
+    "name": "Château Climens",
+    "coordinates": [
+      -0.33473,
+      44.58948
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "Barsac 五大一級酒莊之一，被譽為Barsac的女王，風格細緻優雅。"
+  },
+  {
+    "name": "Château La Tour Blanche",
+    "coordinates": [
+      -0.3507,
+      44.5428
+    ],
+    "rank": "一級酒莊 (Premier Cru Classé 1855)",
+    "description": "以濃郁果香和蜂蜜氣息著稱，甜度與酸度平衡。"
+  },
+  {
+    "name": "Château Filhot",
+    "coordinates": [
+      -0.337,
+      44.534
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé 1855)",
+    "description": "歷史悠久的二級酒莊，甜白酒風格優雅細膩。"
+  },
+  {
+    "name": "Château Doisy-Daëne",
+    "coordinates": [
+      -0.33079,
+      44.59164
+    ],
+    "rank": "二級酒莊 (Deuxième Cru Classé 1855)",
+    "description": "以純淨、細緻的貴腐甜白酒聞名，家族經營歷史悠久。"
+  }
+]

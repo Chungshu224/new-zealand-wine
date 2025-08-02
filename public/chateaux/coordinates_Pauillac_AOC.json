@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Château Lafite Rothschild",
+    "coordinates": [
+      -0.7705,
+      45.2217
+    ],
+    "rank": "一級酒莊 (Premier Grand Cru Classé 1855)",
+    "description": "波爾多五大酒莊之一，Pauillac 產區的頂級代表，優雅細緻、陳年潛力極佳。",
+    "image": "/images/chateaux/lafite_rothschild.jpg"
+  },
+  {
+    "name": "Château Latour",
+    "coordinates": [
+      -0.751,
+      45.1727
+    ],
+    "rank": "一級酒莊 (Premier Grand Cru Classé 1855)",
+    "description": "以濃郁結構和強大陳年實力著稱，Pauillac 最具力量感的一級酒莊。",
+    "image": "/images/chateaux/latour.jpg"
+  },
+  {
+    "name": "Château Mouton Rothschild",
+    "coordinates": [
+      -0.7686,
+      45.2153
+    ],
+    "rank": "一級酒莊 (Premier Grand Cru Classé 1973)",
+    "description": "1973年晉升為一級酒莊，藝術酒標與華麗風格聞名於世。",
+    "image": "/images/chateaux/mouton_rothschild.jpg"
+  },
+  {
+    "name": "Château Pichon Baron",
+    "coordinates": [
+      -0.7515,
+      45.1768
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "Pauillac 最具代表性的二級酒莊之一，酒體濃郁、結構感強。",
+    "image": "/images/chateaux/pichon_baron.jpg"
+  },
+  {
+    "name": "Château Pichon Lalande",
+    "coordinates": [
+      -0.7524,
+      45.1762
+    ],
+    "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+    "description": "以優雅細膩著稱，女性化風格的 Pauillac 二級酒莊。",
+    "image": "/images/chateaux/pichon_lalande.jpg"
+  },
+  {
+    "name": "Château Pontet-Canet",
+    "coordinates": [
+      -0.77053,
+      45.20833
+    ],
+    "rank": "五級酒莊 (Cinquième Grand Cru Classé 1855)",
+    "description": "有機與生物動力法先驅，品質近年大幅提升，媲美二級酒莊。",
+    "image": "/images/chateaux/pontet_canet.jpg"
+  },
+  {
+    "name": "Château Lynch-Bages",
+    "coordinates": [
+      -0.75455,
+      45.19138
+    ],
+    "rank": "五級酒莊 (Cinquième Grand Cru Classé 1855)",
+    "description": "以濃郁果香和結構感著稱，深受收藏家喜愛。",
+    "image": "/images/chateaux/lynch_bages.jpg"
+  },
+  {
+    "name": "Château Grand-Puy-Lacoste",
+    "coordinates": [
+      -0.7691,
+      45.19004
+    ],
+    "rank": "五級酒莊 (Cinquième Grand Cru Classé 1855)",
+    "description": "風格經典、性價比高，Pauillac 產區的優質五級酒莊。",
+    "image": "/images/chateaux/grand_puy_lacoste.jpg"
+  },
+  {
+    "name": "Château Batailley",
+    "coordinates": [
+      -0.77289,
+      45.1768
+    ],
+    "rank": "五級酒莊 (Cinquième Grand Cru Classé 1855)",
+    "description": "以結構紮實、陳年潛力佳著稱，Pauillac 傳統風格代表。",
+    "image": "/images/chateaux/batailley.jpg"
+  },
+  {
+    "name": "Château Haut-Batailley",
+    "coordinates": [
+      -0.77291,
+      45.17681
+    ],
+    "rank": "五級酒莊 (Cinquième Grand Cru Classé 1855)",
+    "description": "Batailley 家族分支，風格優雅細膩，近年品質穩定提升。",
+    "image": "/images/chateaux/haut_batailley.jpg"
+  }
+]
