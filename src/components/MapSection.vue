@@ -199,15 +199,24 @@ const showAOCGeojson = async (groupName, aocFile) => {
       type: 'geojson',
       data: geojson
     })
+<<<<<<< HEAD
     // 統一透明度 0.3
+=======
+    // 判斷是否為初始 Bordeaux_AOC.geojson
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
     const isBordeauxAOC = (groupName === 'Regional' && aocFile === 'Bordeaux_AOC.geojson')
     map.addLayer({
       id: 'aoc-fill',
       type: 'fill',
       source: 'aoc',
       paint: {
+<<<<<<< HEAD
         'fill-color': isBordeauxAOC ? '#8B0000' : randomColor(0.3),
         'fill-opacity': 0.3
+=======
+        'fill-color': isBordeauxAOC ? '#8B0000' : randomColor(0.2),
+        'fill-opacity': isBordeauxAOC ? 0.3 : 0.2
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
       }
     })
     map.addLayer({
@@ -455,7 +464,7 @@ onUnmounted(() => {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background: rgba(255,255,255,0.6);
+  background: white;
   padding: 15px;
   border-radius: 8px;
   max-width: 400px;

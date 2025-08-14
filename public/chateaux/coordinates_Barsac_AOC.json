@@ -6,8 +6,12 @@
       44.59476
     ],
     "rank": "一級酒莊 (Premier Cru Classé)",
+<<<<<<< HEAD
     "description": "Barsac 五大一級酒莊之一，歷史悠久，以高品質貴腐甜白酒著稱。",
     "image": "/images/chateaux/Sauternais/coutet.jpg"
+=======
+    "description": "Barsac 五大一級酒莊之一，歷史悠久，以高品質貴腐甜白酒著稱。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Climens",
@@ -16,8 +20,12 @@
       44.5935
     ],
     "rank": "一級酒莊 (Premier Cru Classé)",
+<<<<<<< HEAD
     "description": "Barsac 五大一級酒莊之一，風格細膩優雅，被譽為Barsac的女王。",
     "image": "/images/chateaux/Sauternais/climens.jpg"
+=======
+    "description": "Barsac 五大一級酒莊之一，風格細膩優雅，被譽為Barsac的女王。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Doisy-Daëne",
@@ -26,8 +34,12 @@
       44.59164
     ],
     "rank": "二級酒莊 (Deuxième Cru Classé)",
+<<<<<<< HEAD
     "description": "以純淨、細緻的貴腐甜白酒聞名，家族經營歷史悠久。",
     "image": "/images/chateaux/Sauternais/doisy_daene.jpg"
+=======
+    "description": "以純淨、細緻的貴腐甜白酒聞名，家族經營歷史悠久。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Doisy-Védrines",
@@ -36,8 +48,12 @@
       44.5859
     ],
     "rank": "二級酒莊 (Deuxième Cru Classé)",
+<<<<<<< HEAD
     "description": "Barsac 面積最大的二級酒莊，酒體濃郁，陳年潛力佳。",
     "image": "/images/chateaux/Sauternais/doisy_vedrines.jpg"
+=======
+    "description": "Barsac 面積最大的二級酒莊，酒體濃郁，陳年潛力佳。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Nairac",
@@ -46,8 +62,12 @@
       44.6115
     ],
     "rank": "二級酒莊 (Deuxième Cru Classé)",
+<<<<<<< HEAD
     "description": "以優雅、細膩的甜白酒著稱，具備良好陳年能力。",
     "image": "/images/chateaux/Sauternais/nairac.jpg"
+=======
+    "description": "以優雅、細膩的甜白酒著稱，具備良好陳年能力。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château de Myrat",
@@ -56,8 +76,12 @@
       44.59724
     ],
     "rank": "二級酒莊 (Deuxième Cru Classé)",
+<<<<<<< HEAD
     "description": "家族經營的二級酒莊，風格清新細緻，甜度適中。",
     "image": "/images/chateaux/Sauternais/de_myrat.jpg"
+=======
+    "description": "家族經營的二級酒莊，風格清新細緻，甜度適中。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Caillou",
@@ -66,8 +90,12 @@
       44.596
     ],
     "rank": "二級酒莊 (Deuxième Cru Classé)",
+<<<<<<< HEAD
     "description": "以傳統工藝釀造，展現Barsac產區典型的優雅與新鮮感。",
     "image": "/images/chateaux/Sauternais/caillou.jpg"
+=======
+    "description": "以傳統工藝釀造，展現Barsac產區典型的優雅與新鮮感。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Simon",
@@ -76,7 +104,11 @@
       44.598
     ],
     "rank": "Barsac 地區優質酒莊",
+<<<<<<< HEAD
     "description": "家族經營，產量不大但品質穩定，甜白酒風格純淨。",
     "image": "/images/chateaux/Sauternais/simon.jpg"
+=======
+    "description": "家族經營，產量不大但品質穩定，甜白酒風格純淨。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   }
 ]

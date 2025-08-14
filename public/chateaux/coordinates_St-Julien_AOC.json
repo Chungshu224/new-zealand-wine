@@ -6,8 +6,12 @@
       45.16371
     ],
     "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "聖朱利安最具代表性的二級酒莊，風格嚴謹、陳年潛力極佳，常被譽為“超一級”。",
     "image": "/images/chateaux/LeftBank/Medoc/leoville_las_cases.jpg"
+=======
+    "description": "聖朱利安最具代表性的二級酒莊，風格嚴謹、陳年潛力極佳，常被譽為“超一級”。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Léoville Barton",
@@ -16,8 +20,12 @@
       45.15739
     ],
     "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以傳統釀造與穩定品質著稱，風格經典、結構感強。",
     "image": "/images/chateaux/LeftBank/Medoc/leoville_barton.jpg"
+=======
+    "description": "以傳統釀造與穩定品質著稱，風格經典、結構感強。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Léoville Poyferré",
@@ -26,8 +34,12 @@
       45.16409
     ],
     "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以濃郁果香和柔順單寧著稱，近年品質大幅提升。",
     "image": "/images/chateaux/LeftBank/Medoc/leoville_poyferre.jpg"
+=======
+    "description": "以濃郁果香和柔順單寧著稱，近年品質大幅提升。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Ducru-Beaucaillou",
@@ -36,8 +48,12 @@
       45.14912
     ],
     "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以礫石土壤和優雅風格聞名，酒體細緻、陳年潛力佳。",
     "image": "/images/chateaux/LeftBank/Medoc/ducru_beaucaillou.jpg"
+=======
+    "description": "以礫石土壤和優雅風格聞名，酒體細緻、陳年潛力佳。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Gruaud Larose",
@@ -46,8 +62,12 @@
       45.14444
     ],
     "rank": "二級酒莊 (Deuxième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "風格濃郁、結構感強，適合長期陳年。",
     "image": "/images/chateaux/LeftBank/Medoc/gruaud_larose.jpg"
+=======
+    "description": "風格濃郁、結構感強，適合長期陳年。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Lagrange",
@@ -56,8 +76,12 @@
       45.14947
     ],
     "rank": "三級酒莊 (Troisième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以均衡風格和穩定品質著稱，性價比高。",
     "image": "/images/chateaux/LeftBank/Medoc/lagrange.jpg"
+=======
+    "description": "以均衡風格和穩定品質著稱，性價比高。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Talbot",
@@ -66,8 +90,12 @@
       45.1593
     ],
     "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "聖朱利安最大酒莊之一，風格圓潤、果香明顯。",
     "image": "/images/chateaux/LeftBank/Medoc/talbot.jpg"
+=======
+    "description": "聖朱利安最大酒莊之一，風格圓潤、果香明顯。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Branaire-Ducru",
@@ -76,8 +104,12 @@
       45.146
     ],
     "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以細膩果香和優雅風格著稱，近年品質穩定提升。",
     "image": "/images/chateaux/LeftBank/Medoc/branaire_ducru.jpg"
+=======
+    "description": "以細膩果香和優雅風格著稱，近年品質穩定提升。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Beychevelle",
@@ -86,7 +118,11 @@
       45.145
     ],
     "rank": "四級酒莊 (Quatrième Grand Cru Classé 1855)",
+<<<<<<< HEAD
     "description": "以帆船酒標著稱，風格柔順、易飲，深受市場歡迎。",
     "image": "/images/chateaux/LeftBank/Medoc/beychevelle.jpg"
+=======
+    "description": "以帆船酒標著稱，風格柔順、易飲，深受市場歡迎。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   }
 ]

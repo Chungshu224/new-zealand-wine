@@ -6,8 +6,12 @@
       44.8167
     ],
     "rank": "一級酒莊 (Premier Grand Cru Classé, Graves)",
+<<<<<<< HEAD
     "description": "波爾多五大酒莊之一，唯一同時列名於1855年分級與Graves分級的頂級酒莊，紅白酒皆享譽國際。",
     "image": "/images/chateaux/LeftBank/Graves/haut_brion.jpg"
+=======
+    "description": "波爾多五大酒莊之一，唯一同時列名於1855年分級與Graves分級的頂級酒莊，紅白酒皆享譽國際。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Pape Clément",
@@ -16,8 +20,12 @@
       44.80571
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "歷史可追溯至13世紀，紅白酒均極具代表性，風格濃郁且具陳年潛力。",
     "image": "/images/chateaux/LeftBank/Graves/pape_clement.jpg"
+=======
+    "description": "歷史可追溯至13世紀，紅白酒均極具代表性，風格濃郁且具陳年潛力。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château La Mission Haut-Brion",
@@ -26,8 +34,12 @@
       44.81539
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "與Haut-Brion齊名的頂級酒莊，紅酒以濃郁與複雜著稱，白酒產量稀少。",
     "image": "/images/chateaux/LeftBank/Graves/la_mission_haut_brion.jpg"
+=======
+    "description": "與Haut-Brion齊名的頂級酒莊，紅酒以濃郁與複雜著稱，白酒產量稀少。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Carbonnieux",
@@ -36,8 +48,12 @@
       44.74533
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "同時以紅、白酒聞名，白酒清新優雅，紅酒結構良好。",
     "image": "/images/chateaux/LeftBank/Graves/carbonnieux.jpg"
+=======
+    "description": "同時以紅、白酒聞名，白酒清新優雅，紅酒結構良好。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Smith Haut Lafitte",
@@ -46,8 +62,12 @@
       44.73251
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "現代化管理下品質大幅提升，紅白酒均具國際聲譽。",
     "image": "/images/chateaux/LeftBank/Graves/smith_haut_lafitte.jpg"
+=======
+    "description": "現代化管理下品質大幅提升，紅白酒均具國際聲譽。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Malartic-Lagravière",
@@ -56,8 +76,12 @@
       44.7223
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "少數紅白酒皆獲分級的酒莊，白酒以清新細緻著稱。",
     "image": "/images/chateaux/LeftBank/Graves/malartic_lagraviere.jpg"
+=======
+    "description": "少數紅白酒皆獲分級的酒莊，白酒以清新細緻著稱。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Olivier",
@@ -66,18 +90,29 @@
       44.74791
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "同時生產紅、白酒，白酒表現尤為出色，風格優雅。",
     "image": "/images/chateaux/LeftBank/Graves/olivier.jpg"
   },
   {
     "name": "tour-MaChâteau Lartillac",
+=======
+    "description": "同時生產紅、白酒，白酒表現尤為出色，風格優雅。"
+  },
+  {
+    "name": "Château Latour-Martillac",
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
     "coordinates": [
       -0.53931,
       44.71156
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "紅白酒皆具代表性，白酒以花香與礦石感著稱。",
     "image": "/images/chateaux/LeftBank/Graves/latour_martillac.jpg"
+=======
+    "description": "紅白酒皆具代表性，白酒以花香與礦石感著稱。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   },
   {
     "name": "Château Bouscaut",
@@ -86,7 +121,11 @@
       44.7468
     ],
     "rank": "Graves 分級酒莊 (Grand Cru Classé de Graves)",
+<<<<<<< HEAD
     "description": "紅白酒皆獲分級，白酒圓潤飽滿，紅酒結構紮實。",
     "image": "/images/chateaux/LeftBank/Graves/bouscaut.jpg"
+=======
+    "description": "紅白酒皆獲分級，白酒圓潤飽滿，紅酒結構紮實。"
+>>>>>>> 9847b3d3b7b371cb4094a360f2c32d0dd114bc8b
   }
 ]
