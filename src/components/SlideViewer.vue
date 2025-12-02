@@ -21,6 +21,11 @@
           <div v-for="(item, index) in currentSlide.content" :key="index">
             <p v-if="item.type === 'text'" class="text-content">{{ item.text }}</p>
             
+            <!-- Map -->
+            <div v-if="item.type === 'map'" class="map-container" :style="{ height: item.height || '500px' }">
+              <NewZealandMap :showAllRegions="item.showAllRegions !== false" />
+            </div>
+            
             <!-- Stats Grid -->
             <div v-if="item.type === 'stats'" class="stats-grid">
               <div v-for="(stat, idx) in item.items" :key="idx" class="stat-card">
@@ -37,6 +42,21 @@
           <div v-if="currentSlide.reviewQuiz" class="review-wrapper">
             <ReviewQuiz :config="currentSlide.reviewQuiz" />
           </div>
+      </div>
+
+      <!-- Content with Map Slide -->
+      <div v-else-if="currentSlide.type === 'content-with-map'" class="slide slide-content-with-map">
+        <div class="slide-header">
+          <span class="slide-icon">{{ currentSlide.icon }}</span>
+          <h2>{{ currentSlide.title }}</h2>
+        </div>
+        <div class="content-map-layout">
+          <div class="content-text">
+            <p>{{ currentSlide.text }}</p>
+          </div>
+          <div class="content-map" ref="embeddedMapContainer">
+          </div>
+        </div>
       </div>
 
       <!-- Timeline Slide -->
@@ -260,9 +280,11 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref, onMounted, watch, nextTick } from 'vue'
+import mapboxgl from 'mapbox-gl'
 import QuizViewer from './QuizViewer.vue'
 import ReviewQuiz from './ReviewQuiz.vue'
+import NewZealandMap from './NewZealandMap.vue'
 
 const props = defineProps({
   slides: {
@@ -276,6 +298,8 @@ const props = defineProps({
 })
 
 const currentSlide = computed(() => props.slides[props.currentIndex] || null)
+const embeddedMapContainer = ref(null)
+let embeddedMap = null
 
 const getRiskClass = (risk) => {
   if (risk.includes('極高')) return 'risk-critical'
@@ -283,6 +307,89 @@ const getRiskClass = (risk) => {
   if (risk.includes('中')) return 'risk-medium'
   return 'risk-low'
 }
+
+// Initialize embedded map for content-with-map slides
+const initEmbeddedMap = async () => {
+  if (!embeddedMapContainer.value) return
+  
+  if (embeddedMap) {
+    embeddedMap.remove()
+    embeddedMap = null
+  }
+  
+  await nextTick()
+  
+  try {
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2h1bmdzaHVsZWUiLCJhIjoiY21kcTZqbHU1MDNnODJsczZ5NXBtNms2NCJ9.UThWFp3_47qETAMZWhdrTg'
+    
+    embeddedMap = new mapboxgl.Map({
+      container: embeddedMapContainer.value,
+      style: 'mapbox://styles/mapbox/satellite-streets-v12',
+      center: [174.886, -40.9006],
+      zoom: 5,
+      pitch: 0,
+      bearing: 0
+    })
+    
+    embeddedMap.on('load', async () => {
+      embeddedMap.addControl(new mapboxgl.NavigationControl(), 'top-right')
+      
+      // Load and display all NZ wine regions
+      const regionsToLoad = [
+        'Auckland', 'Bannockburn', 'Central_Hawkes_Bay', 'Central_Otago', 
+        'Gisborne', 'Gladstone', 'Hawkes_Bay', 'Kumeu', 'Marlborough', 
+        'Martinborough', 'Matakana', 'Nelson', 'North_Canterbury', 
+        'Northland', 'Waiheke_Island', 'Waipara_Valley', 'Waitaki_Valley_North_Otago'
+      ]
+      
+      for (const region of regionsToLoad) {
+        try {
+          const response = await fetch(`/geojson/NewZealand/${region}.geojson`)
+          const geojson = await response.json()
+          
+          embeddedMap.addSource(`region-${region}`, {
+            type: 'geojson',
+            data: geojson
+          })
+          
+          embeddedMap.addLayer({
+            id: `fill-${region}`,
+            type: 'fill',
+            source: `region-${region}`,
+            paint: {
+              'fill-color': '#006400',
+              'fill-opacity': 0.4
+            }
+          })
+          
+          embeddedMap.addLayer({
+            id: `outline-${region}`,
+            type: 'line',
+            source: `region-${region}`,
+            paint: {
+              'line-color': '#004d00',
+              'line-width': 2
+            }
+          })
+        } catch (error) {
+          console.warn(`無法載入 ${region}:`, error)
+        }
+      }
+    })
+  } catch (error) {
+    console.error('地圖初始化失敗:', error)
+  }
+}
+
+// Watch for slide changes
+watch(() => currentSlide.value?.type, (newType) => {
+  if (newType === 'content-with-map') {
+    nextTick(() => initEmbeddedMap())
+  } else if (embeddedMap) {
+    embeddedMap.remove()
+    embeddedMap = null
+  }
+}, { immediate: true })
 </script>
 
 <style scoped>
@@ -357,6 +464,42 @@ const getRiskClass = (risk) => {
   margin: 0;
 }
 
+/* Content with Map Layout */
+.slide-content-with-map {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-map-layout {
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+  flex: 1;
+}
+
+.content-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+.content-text p {
+  margin: 0;
+}
+
+.content-map {
+  flex: 1;
+  min-height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #f8f9fa;
+}
+
 /* Slide Header */
 .slide-header {
   display: flex;
@@ -394,6 +537,16 @@ const getRiskClass = (risk) => {
 
 .text-content {
   margin: 0 0 24px 0;
+}
+
+/* Map Container */
+.map-container {
+  width: 100%;
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
 }
 
 /* Stats Grid */
