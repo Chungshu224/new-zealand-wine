@@ -1,0 +1,98 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Martinborough 的風土與氣候特性",
+      "subtitle": "理解地形、土壤與氣候如何塑造精品 Pinot Noir",
+      "icon": "🌄",
+      "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "地理位置與地形",
+      "content": [
+        { "type": "text", "text": "Martinborough 位於北島南端，三面環山形成天然屏障，受庫克海峽影響，氣候相對乾燥且日夜溫差顯著。葡萄園多位於平緩台地與緩坡上。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "氣候特徵",
+      "icon": "🌤️",
+      "features": [
+        { "title": "冷涼海洋性氣候", "description": "生長季溫暖但不炎熱，有利於緩慢成熟與風味發展。", "icon": "🌊" },
+        { "title": "日夜溫差大", "description": "白天溫暖促進糖分累積，夜晚涼爽保留酸度與香氣。", "icon": "🌡️" },
+        { "title": "低降雨量", "description": "年降雨量約 600-700mm，降低病害壓力。", "icon": "☀️" }
+      ],
+      "quiz": {
+        "question": "Martinborough 的日夜溫差對 Pinot Noir 有何主要幫助？",
+        "options": ["促進過度成熟", "保留酸度並增強香氣", "增加糖分殘留", "降低單寧濃度"],
+        "correct": 1,
+        "explanation": "大日夜溫差可以在白天累積糖分，在夜間保留酸度與香氣，讓 Pinot Noir 發展出更好的平衡與層次。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "土壤類型與特性",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "古河床礫石", "value": "排水極佳，促進根系深入與風味集中", "icon": "🪨" },
+          { "label": "砂質壤土", "value": "質地輕盈，產出優雅細膩的葡萄酒", "icon": "🏖️" },
+          { "label": "黏土混合", "value": "部分地塊含黏土，增加保水性與結構感", "icon": "🌱" }
+        ] }
+      ],
+      "icon": "🧱",
+      "quiz": {
+        "question": "古河床礫石土壤對葡萄有何影響？",
+        "options": ["提高保水性", "促進排水並集中風味", "增加酸度", "降低糖分累積"],
+        "correct": 1,
+        "explanation": "古河床礫石土壤排水良好，促使葡萄根系深入尋找水分，通常帶來果實風味集中與較佳的結構。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "生長季關鍵階段",
+      "subtitle": "從發芽到採收的風土影響",
+      "items": [
+        { "year": "春季（9-11月）", "text": "發芽與開花，霜害風險管理至關重要。" },
+        { "year": "夏季（12-2月）", "text": "緩慢成熟期，日照充足但溫度適中。" },
+        { "year": "秋季（3-4月）", "text": "採收期，冷涼天氣保持酸度與香氣平衡。" }
+      ],
+      "icon": "🌾"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "風土對葡萄酒風格的影響",
+      "icon": "🍷",
+      "features": [
+        { "title": "優雅與細膩", "description": "冷涼氣候造就細緻單寧與純淨果香。", "icon": "✨" },
+        { "title": "良好酸度", "description": "日夜溫差保留清新酸度，增加活力與陳年潛力。", "icon": "🍋" },
+        { "title": "礦石感", "description": "礫石土壤賦予微妙的礦物質特徵。", "icon": "💎" }
+      ],
+      "quiz": {
+        "question": "Martinborough Pinot Noir 的典型風格不包括下列哪一項？",
+        "options": ["優雅細緻", "高糖甜型", "良好酸度", "礦石感"],
+        "correct": 1,
+        "explanation": "Martinborough 的 Pinot Noir 以優雅、細緻與良好酸度著稱，並非以高糖甜型為特色，因此高糖甜型不是其典型風格。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "summary",
+      "title": "本課重點整理",
+      "icon": "🔑",
+      "points": [
+        "Martinborough 的冷涼氣候與大日夜溫差是品質關鍵",
+        "古河床礫石土壤促進排水與風味集中",
+        "低降雨量與乾燥氣候適合有機栽培",
+        "風土特性造就優雅、細膩與高酸度的 Pinot Noir"
+      ]
+    }
+  ]
+}

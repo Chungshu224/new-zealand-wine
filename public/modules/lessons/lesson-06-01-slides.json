@@ -1,0 +1,111 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "WSET 系統化品酒法",
+      "subtitle": "系統化觀察、聞香與品嚐；建立精準的酒評習慣",
+      "icon": "🥂",
+      "background": "linear-gradient(135deg,#ffd89b 0%, #19547b 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "WSET 品酒法概述",
+      "content": [
+        { "type": "text", "text": "WSET（Wine & Spirit Education Trust）的系統化品酒法以三大面向為核心：外觀（Appearance）、香氣（Nose）與口感（Palate）。透過結構化的檢視步驟，可以提高描述準確度並系統化評估品質。" }
+      ],
+      "icon": "📚"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "品酒三大步驟速覽",
+      "icon": "🔎",
+      "features": [
+        { "title": "外觀（Appearance）", "description": "色澤、清澈度與濃淡提供品齡與製程線索。", "icon": "👁️" },
+        { "title": "香氣（Nose）", "description": "辨認強度與香味類別（果香、花香、香料、桶香等）。", "icon": "👃" },
+        { "title": "口感（Palate）", "description": "評估甜度、酸度、單寧、酒體、酒精、風味強度與餘韻。", "icon": "👅" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "外觀（Appearance）細節",
+      "content": [
+        { "type": "text", "text": "觀察酒液顏色、深淺與透明度：白酒顏色可提示成熟度或氧化；紅酒顏色深淺與邊緣色（rim）可提示年齡與濃度。" },
+        { "type": "stats", "items": [
+          { "label": "色澤提示", "value": "淺色可能代表年輕或低色素，橙色/褐色可能提示氧化或陳年。" }
+        ] }
+      ],
+      "icon": "👁️"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "香氣（Nose）細分：強度與特徵",
+      "content": [
+        { "type": "text", "text": "先判斷香氣強度（淡、中、強），再分類香氣類別（果香、花香、草本、香料、發酵/陳年香、礦物/動物香等）。記錄特定描述詞與可能的來源（葡萄品種、釀造或陳年）。" }
+      ],
+      "icon": "👃"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "口感（Palate）關鍵要素",
+      "icon": "⚖️",
+      "features": [
+        { "title": "甜度", "description": "判斷酒的甜度等級（乾/半乾/甜）。", "icon": "🍬" },
+        { "title": "酸度", "description": "酸度影響清爽感與結構，描述為高/中/低。", "icon": "🍋" },
+        { "title": "單寧", "description": "（紅酒）單寧口感可描述為柔順、粉感或澀感。", "icon": "🌿" },
+        { "title": "酒體", "description": "輕/中/重，與酒精和 glycerol 有關。", "icon": "🏋️" },
+        { "title": "風味強度與餘韻", "description": "風味強度（淡/中/濃）與餘韻長短是品質指標之一。", "icon": "⏳" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "timeline",
+      "title": "系統化品酒步驟（快速流程）",
+      "subtitle": "實務上可作為品飲筆記的順序",
+      "items": [
+        { "year": "觀察", "text": "外觀：顏色、清澈、黏度。" },
+        { "year": "聞香 - 初聞", "text": "先不搖杯，判斷初步香氣強度。" },
+        { "year": "聞香 - 深聞", "text": "搖杯後再次聞香，尋找細節與次級香氣。" },
+        { "year": "試飲", "text": "入口、在口中滾動，評估甜度、酸度、單寧、酒體與餘韻。" },
+        { "year": "綜合評估", "text": "根據觀察與判斷寫出品質評語與適飲期建議。" }
+      ],
+      "icon": "📝"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "評估品質的提示",
+      "icon": "🏅",
+      "features": [
+        { "title": "平衡", "description": "酸度、甜度、單寧與酒體彼此支撐，不會一項過度主導。" },
+        { "title": "複雜度", "description": "隨著時間展開出多層次香氣與味道。" },
+        { "title": "持久性（餘韻）", "description": "餘韻越長，通常代表品質越高（視類型而定）。" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "實作範例：簡短品飲筆記範本",
+      "content": [
+        { "type": "text", "text": "Appearance: 整潔、淺稻草色\nNose: 中強度，檸檬、蘋果、輕微花香\nPalate: 乾型，中高酸，輕盈酒體，餘韻中等；整體平衡良好，適飲期：現在至 3 年內。" }
+      ],
+      "icon": "✍️"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "採用固定順序（Appearance → Nose → Palate）能提升描述一致性與比較能力。",
+        "記錄香氣類別、風味強度與口感要素，有助於判斷品質與最適飲期。",
+        "多練習與參考範例（及品種/產區的典型描述）可加速建立判讀能力。"
+      ]
+    }
+  ]
+}

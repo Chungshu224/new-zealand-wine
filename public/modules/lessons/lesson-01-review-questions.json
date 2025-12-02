@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "紐西蘭最知名的白葡萄品種是哪一種？",
+      "options": ["Chardonnay", "Sauvignon Blanc", "Riesling", "Gewürztraminer"],
+      "correct": 1,
+      "explanation": "Sauvignon Blanc 是紐西蘭最具代表性的白葡萄品種，特別以 Marlborough 的風格聞名國際。"
+    },
+    {
+      "id": "q2",
+      "question": "哪一個產區以 Pinot Noir 最為著名？",
+      "options": ["Marlborough", "Hawke's Bay", "Central Otago", "Nelson"],
+      "correct": 2,
+      "explanation": "Central Otago 以生產高品質的 Pinot Noir 而聞名，該地氣候涼爽並具有大幅日夜溫差。"
+    },
+    {
+      "id": "q3",
+      "question": "紐西蘭葡萄園普遍採用哪種環境政策或認證以強調可持續？",
+      "options": ["Organic NZ", "Sustainable Winegrowing New Zealand (SWNZ)", "GlobalGAP", "Fairtrade"],
+      "correct": 1,
+      "explanation": "Sustainable Winegrowing New Zealand (SWNZ) 是紐西蘭常見的永續葡萄栽培認證，許多葡萄園採用此標準。"
+    },
+    {
+      "id": "q4",
+      "question": "紐西蘭的葡萄種植最早可追溯到哪一年？",
+      "options": ["1819", "1851", "1900", "1973"],
+      "correct": 0,
+      "explanation": "1819 年傳教士 Samuel Marsden 在北島 Kerikeri 種下第一批葡萄藤，標誌著紐西蘭葡萄栽培的起點。"
+    },
+    {
+      "id": "q5",
+      "question": "哪種土壤在 Central Otago 常被提及，帶來礦物感？",
+      "options": ["沖積土", "火山土", "頁岩與石灰岩", "黏土"],
+      "correct": 2,
+      "explanation": "頁岩與石灰岩在 Central Otago 及部分南島地區有時會出現，能帶來獨特的礦物感。"
+    },
+    {
+      "id": "q6",
+      "question": "造成紐西蘭葡萄酒清新風格的主要氣候因素是？",
+      "options": ["高溫乾燥", "海洋性氣候與日夜溫差", "熱帶氣候", "長期霜凍"],
+      "correct": 1,
+      "explanation": "海洋性氣候與顯著的日夜溫差能保留酸度並平衡糖分，造就紐西蘭葡萄酒清新而明亮的風格。"
+    },
+    {
+      "id": "q7",
+      "question": "若標示酒標上的單一品種（varietal），通常在紐西蘭需達到約多少比例？",
+      "options": ["50%", "75%", "85%", "100%"],
+      "correct": 2,
+      "explanation": "若酒標標示單一品種，通常需至少 85% 來自該品種，以確保標示的可信性。"
+    },
+    {
+      "id": "q8",
+      "question": "Marlborough 最出名的葡萄酒風格是哪一種？",
+      "options": ["香檳式起泡酒", "Sauvignon Blanc 清新草香風格", "濃郁的赤霞珠", "甜型冰酒"],
+      "correct": 1,
+      "explanation": "Marlborough 以清新且具草本/熱帶水果香氣的 Sauvignon Blanc 風格聞名。"
+    },
+    {
+      "id": "q9",
+      "question": "紐西蘭大多數葡萄園為何不需要嫁接根株？",
+      "options": ["土壤太貧瘠", "當地法規禁止嫁接", "多數區域未遭受根瘤蚜蟲(Phylloxera)感染", "嫁接會降低品質"],
+      "correct": 2,
+      "explanation": "由於地理隔離，紐西蘭多數地區未遭受根瘤蚜蟲侵害，因此許多葡萄藤可以不經嫁接而保留原生根株。"
+    },
+    {
+      "id": "q10",
+      "question": "Pinot Noir 的成熟期與下列哪一項最相關？",
+      "options": ["高溫發酵", "土壤 pH", "成熟時的日照和溫差", "酒精度"],
+      "correct": 2,
+      "explanation": "Pinot Noir 對生長季的日照與日夜溫差非常敏感，影響成熟與風味發展。"
+    },
+    {
+      "id": "q11",
+      "question": "紐西蘭的主要出口市場通常包含下列哪一個國家？",
+      "options": ["俄羅斯", "美國", "蒙古", "巴西"],
+      "correct": 1,
+      "explanation": "紐西蘭葡萄酒的主要出口市場包含英國、美國、澳洲等，美國為重要市場之一。"
+    },
+    {
+      "id": "q12",
+      "question": "在哪種釀造手法下，Sauvignon Blanc 常呈現更清新的果酸與香氣？",
+      "options": ["新橡木桶熟成", "不鏽鋼低溫發酵", "長時間陳年於瓶中", "混合葡萄皮發酵"],
+      "correct": 1,
+      "explanation": "不鏽鋼低溫發酵能保留新鮮果香與明亮酸度，是許多 Sauvignon Blanc 的製程選擇。"
+    },
+    {
+      "id": "q13",
+      "question": "哪種酒評指標最能迅速反映葡萄酒的酸度與結構？",
+      "options": ["酒精度", "甜度指標", "酸度與餘味長度", "標籤顏色"],
+      "correct": 2,
+      "explanation": "酸度與餘味長度（以及整體平衡）是評估葡萄酒結構與飲用潛力的重要指標。"
+    },
+    {
+      "id": "q14",
+      "question": "Central Otago 的地理特徵對葡萄釀造有何影響？",
+      "options": ["熱帶低海拔", "大幅日夜溫差與山谷地形", "沿海高濕度", "土壤鹽分高"],
+      "correct": 1,
+      "explanation": "Central Otago 有顯著的日夜溫差與山谷地形，利於 Pinot Noir 等品種發展集中的風味。"
+    },
+    {
+      "id": "q15",
+      "question": "若希望酒款呈現奶油與乳化口感，釀造師常使用下列哪種手法？",
+      "options": ["高溫發酵", "橡木桶發酵或進行乳酸菌發酵(MLF)", "瞬間過濾", "添加糖"],
+      "correct": 1,
+      "explanation": "橡木桶發酵與乳酸菌發酵 (Malolactic fermentation) 常被用來帶出奶油、乳化的口感與更柔和的酸度。"
+    },
+    {
+      "id": "q16",
+      "question": "哪項不是 Marlborough Sauvignon Blanc 常見的味覺描述？",
+      "options": ["青椒/青草氣息", "熱帶水果香氣", "高酸度", "重度單寧"],
+      "correct": 3,
+      "explanation": "Sauvignon Blanc 通常酸度高且有草本或熱帶水果風格，但並不以重度單寧為特徵。"
+    },
+    {
+      "id": "q17",
+      "question": "紐西蘭葡萄酒在國際上的成功，主要以哪一種風格打開市場？",
+      "options": ["濃郁橡木風格 Chardonnay", "清新果香型 Sauvignon Blanc", "高甜冰酒", "天然低酸葡萄酒"],
+      "correct": 1,
+      "explanation": "清新果香型的 Sauvignon Blanc 是早期讓紐西蘭打開國際市場的代表風格。"
+    },
+    {
+      "id": "q18",
+      "question": "哪一項管理做法可減少春季霜凍對葡萄園的損害？",
+      "options": ["延後採收", "使用風扇或暖爐防霜", "增加灌溉", "增加施肥"],
+      "correct": 1,
+      "explanation": "在有霜風險的地區（如 Central Otago），農民會使用風扇、暖爐或其他方法來降低霜害。"
+    },
+    {
+      "id": "q19",
+      "question": "紐西蘭的出口導向型產業意味著什麼？",
+      "options": ["主要生產內需市場", "大部分生產銷往海外市場", "只生產精品酒不出口", "以葡萄汁出口為主"],
+      "correct": 1,
+      "explanation": "紐西蘭葡萄酒以出口為導向，約90% 的產量銷往海外市場，重視國際品牌與品質。"
+    },
+    {
+      "id": "q20",
+      "question": "若要延展葡萄酒的陳年潛力，下面哪項作法最常見？",
+      "options": ["降低單寧", "增加酸度並使用合適的橡木桶陳年", "大幅提升糖度", "立即過濾後上市"],
+      "correct": 1,
+      "explanation": "保持良好的酸度與結構、以及使用橡木桶陳年（視酒款）可延長陳年潛力。"
+    },
+    {
+      "id": "q21",
+      "question": "哪一項是品酒筆記中常記錄的要素？",
+      "options": ["瓶蓋顏色", "香氣、口感、餘味與平衡", "進口商名稱", "條形碼"],
+      "correct": 1,
+      "explanation": "品酒筆記通常記錄香氣、口感結構、餘味、平衡與整體品質等要素。"
+    },
+    {
+      "id": "q22",
+      "question": "在餐酒搭配中，哪個原則最重要？",
+      "options": ["價格相近", "風味強度相匹配", "顏色配對", "酒標設計配食物擺盤"],
+      "correct": 1,
+      "explanation": "餐酒搭配的關鍵是強度與風味相匹配，例如濃郁菜餚搭配較飽滿的酒款。"
+    },
+    {
+      "id": "q23",
+      "question": "哪一種葡萄酒最適合搭配油膩食物？",
+      "options": ["高酸白酒", "甜型葡萄酒", "重型紅酒", "加烈酒"],
+      "correct": 0,
+      "explanation": "高酸度的白酒有助於切脂，能平衡油膩食物的油膩感。"
+    },
+    {
+      "id": "q24",
+      "question": "在評估一款酒是否平衡時，你會考量下列哪兩項主要元素？",
+      "options": ["酒標與瓶形", "酸度與單寧/甜度/酒精等元素的協調", "釀造年份與產區", "瓶塞種類與生產者"],
+      "correct": 1,
+      "explanation": "平衡是指酸度、單寧、酒精與果味（或甜度）等元素彼此協調，不讓某一項過於突出。"
+    },
+    {
+      "id": "q25",
+      "question": "何謂 Malolactic Fermentation (MLF) 的主要效果？",
+      "options": ["將酒精轉化為糖", "將蘋果酸轉為乳酸，降低尖銳酸度並增加圓潤感", "產生二氧化碳使酒起泡", "去除單寧"],
+      "correct": 1,
+      "explanation": "MLF 會將較尖銳的蘋果酸轉成較柔和的乳酸，使酒款口感更圓潤、柔和。"
+    },
+    {
+      "id": "q26",
+      "question": "哪一項可被視為葡萄酒品質的長期指標？",
+      "options": ["瓶蓋重量", "酸度、單寧與結構的平衡", "價格標籤", "酒標字體大小"],
+      "correct": 1,
+      "explanation": "酸度、單寧與整體結構的平衡常被用來評估一款酒的陳年與品質潛力。"
+    },
+    {
+      "id": "q27",
+      "question": "哪個產區以 Sauvignon Blanc 的草本與熱帶水果香氣著稱？",
+      "options": ["Hawke's Bay", "Marlborough", "Central Otago", "Nelson"],
+      "correct": 1,
+      "explanation": "Marlborough 的 Sauvignon Blanc 以草本、青草與熱帶水果香氣聞名。"
+    },
+    {
+      "id": "q28",
+      "question": "在葡萄園管理中，何者有助於控制產量並提升品質？",
+      "options": ["過度施肥", "果串修剪與產量控制", "延長灌溉時間", "增加採收人力"],
+      "correct": 1,
+      "explanation": "通過修剪與控制每株的產量，葡萄藤能把養分集中於較少的果實，提升品質。"
+    },
+    {
+      "id": "q29",
+      "question": "哪一個事件被視為將紐西蘭葡萄酒推向國際市場的重要契機？",
+      "options": [
+        "Cloudy Bay 在 1990 年代成為國際知名品牌",
+        "根瘤蚜蟲 (Phylloxera) 在紐西蘭大規模爆發",
+        "Central Otago 在 1800 年代大量出口 Pinot Noir",
+        "政府禁止葡萄酒出口到英國"
+      ],
+      "correct": 0,
+      "explanation": "Cloudy Bay 在 1990 年代成為國際市場上的標誌性品牌，尤其以 Marlborough 的 Sauvignon Blanc 成名，是推動紐西蘭葡萄酒進入國際舞台的重要事件。"
+    },
+    {
+      "id": "q30",
+      "question": "在品酒與餐酒搭配中，葡萄酒的酸度最直接影響下列哪一項？",
+      "options": [
+        "酒標上的酒精標示",
+        "與食物搭配時的切脂與清新感",
+        "葡萄品種名稱的拼寫",
+        "瓶塞的材質選擇"
+      ],
+      "correct": 1,
+      "explanation": "酸度會影響葡萄酒的清新感及與油膩食物搭配時的切脂效果，因此在餐酒搭配上是非常重要的感官層面。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Waitaki Valley — 河谷風土與品質之鑰",
+      "subtitle": "探索 North Otago 的 Waitaki 河谷：氣候、土壤與風格特色",
+      "icon": "🏞️",
+      "background": "linear-gradient(135deg,#89f7fe 0%,#66a6ff 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "產區位置與地形",
+      "content": [
+        { "type": "text", "text": "Waitaki Valley 位於南島東岸的 North Otago 區域，河谷地形與良好的排水使其成為兼具白酒與紅酒潛力的產地。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "氣候與生長條件",
+      "icon": "🌤️",
+      "features": [
+        { "title": "溫和日照與涼爽夜晚", "description": "日夜溫差有助於保留酸度，同時促進風味複雜度。", "icon": "🌡️" },
+        { "title": "河谷排水良好", "description": "排水性佳的土壤減少病害，同時促進根系發展與風味集中。", "icon": "🪨" }
+      ],
+      "quiz": {
+        "question": "Waitaki Valley 河谷排水良好對葡萄栽培的好處是？",
+        "options": ["增加病害風險", "減少病害並促進根系發展", "提高土壤鹽分", "使葡萄過度水化"],
+        "correct": 1,
+        "explanation": "排水良好的土壤能減少積水與病害，同時促進根系更深發展，帶來更集中的風味表現。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "代表性土壤與地塊差異",
+      "content": [
+        { "type": "text", "text": "從沖積砂礫到黏土混合土壤皆有，地塊差異明顯，直接影響葡萄的酸度、果香與結構。" }
+      ],
+      "icon": "🧱"
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "主要葡萄品種與風格傾向",
+      "icon": "🍇",
+      "features": [
+        { "title": "Riesling", "description": "在部分冷涼地塊能展現優雅酸度與礦物感，適合長期保存。", "icon": "🍋" },
+        { "title": "Pinot Noir", "description": "在較冷涼的地塊能表現細緻果香與優雅結構。", "icon": "🍒" },
+        { "title": "Chardonnay", "description": "在良好日照的地塊能產出平衡的白酒，口感從清新到豐滿皆有。", "icon": "🥂" }
+      ],
+      "quiz": {
+        "question": "下列哪個品種在 Waitaki Valley 的冷涼地塊特別能展現優雅酸度與礦物感？",
+        "options": ["Riesling", "Shiraz", "Muscadet", "Zinfandel"],
+        "correct": 0,
+        "explanation": "Riesling 在較冷涼的地塊能展現優雅的酸度與礦物感，適合長期保存，是 Waitaki Valley 的重要白酒選擇。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "timeline",
+      "title": "栽培與釀造重點",
+      "subtitle": "哪些管理決策會影響最終風格？",
+      "items": [
+        { "year": "園位選擇", "text": "選擇高點或坡向以減少霜害風險並增加日照累積。" },
+        { "year": "水分管理", "text": "依土壤保水性調整灌溉，平衡果實成熟與酸度保存。" },
+        { "year": "釀造手段", "text": "低溫發酵與精細的橡木使用可保留果香與細緻度。" }
+      ],
+      "icon": "⚙️",
+      "quiz": {
+        "question": "在 Waitaki Valley, 水分管理的主要目的是？",
+        "options": ["讓葡萄浸水更久", "平衡果實成熟與酸度保存", "增加病害風險", "提高酒精含量"],
+        "correct": 1,
+        "explanation": "水分管理用以平衡葡萄的成熟速度與酸度保存，避免過度水分造成品質下降，並依土壤特性調整灌溉策略。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品鑑提示與食物搭配",
+      "content": [
+        { "type": "text", "text": "Riesling 與清爽白酒適合貝類與清淡亞洲料理；Pinot Noir 與稍重的烤肉或蘑菇料理為佳。留意酸度與酒體的配合。" }
+      ],
+      "icon": "🍽️"
+    },
+    {
+      "id": 8,
+      "type": "summary",
+      "title": "本課重點總結",
+      "icon": "🔑",
+      "points": [
+        "Waitaki Valley 的河谷地形與土壤多樣性造就不同地塊的風味表現",
+        "冷涼因素與排水良好的土壤有利於高品質的白酒（Riesling/Chardonnay）與優雅的 Pinot Noir",
+        "園位選擇、灌溉管理與釀造手法是決定風格的關鍵"
+      ]
+    }
+  ]
+}

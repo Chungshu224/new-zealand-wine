@@ -1,0 +1,661 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "有機葡萄栽培",
+      "subtitle": "紐西蘭有機葡萄酒的原則、實踐與認證",
+      "icon": "🌿",
+      "background": "linear-gradient(135deg, #38a169 0%, #2f855a 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將深入探討" },
+        { "type": "text", "text": "• 有機農業的哲學與核心原則" },
+        { "type": "text", "text": "• 有機認證標準與轉換流程" },
+        { "type": "text", "text": "• 有機病蟲害管理策略" },
+        { "type": "text", "text": "• 土壤健康與養分管理" },
+        { "type": "text", "text": "• 雜草控制與覆蓋作物" },
+        { "type": "text", "text": "• 紐西蘭有機酒莊案例" },
+        { "type": "text", "text": "• 挑戰、成本與市場機會" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "有機農業的哲學基礎",
+      "content": [
+        { "type": "heading", "text": "四大核心原則（IFOAM）" },
+        { "type": "text", "text": "1. 健康原則（Health）" },
+        { "type": "text", "text": "   • 土壤、植物、動物、人類健康的整體性" },
+        { "type": "text", "text": "2. 生態原則（Ecology）" },
+        { "type": "text", "text": "   • 與自然生態系統共生，模仿自然過程" },
+        { "type": "text", "text": "3. 公平原則（Fairness）" },
+        { "type": "text", "text": "   • 對環境與生命的公平對待" },
+        { "type": "text", "text": "4. 關懷原則（Care）" },
+        { "type": "text", "text": "   • 預防性管理，保護當代與後代福祉" }
+      ],
+      "icon": "🌍"
+    },
+    {
+      "id": 4,
+      "type": "comparison",
+      "title": "有機 vs 永續 vs 慣行栽培",
+      "comparisonData": {
+        "title": "三種栽培方式的差異",
+        "left": {
+          "label": "有機栽培（Organic）",
+          "color": "#38a169",
+          "icon": "🌿",
+          "items": [
+            "禁止合成化學品",
+            "允許銅、硫磺等天然製劑",
+            "需 3 年轉換期認證",
+            "強調土壤生命力",
+            "較高勞動成本",
+            "溢價銷售（+20-40%）",
+            "利基市場定位"
+          ]
+        },
+        "right": {
+          "label": "永續栽培（SWNZ）",
+          "color": "#48bb78",
+          "icon": "♻️",
+          "items": [
+            "允許合理使用化學品",
+            "強調 IPM 策略",
+            "三年重新認證",
+            "平衡環境與經濟",
+            "中等成本",
+            "產業標準（96% 採用）",
+            "主流市場"
+          ]
+        }
+      },
+      "regionComparison": [
+        { 
+          "region": "慣行栽培（Conventional）", 
+          "mechanization": "少數", 
+          "reason": "依賴化學品，較少環境考量，成本最低但市場接受度下降" 
+        }
+      ],
+      "summary": "有機是最嚴格的標準，永續是產業主流，慣行逐漸式微",
+      "icon": "⚖️"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "有機葡萄栽培核心原則",
+      "content": [
+        { "type": "heading", "text": "禁止事項" },
+        { "type": "text", "text": "✗ 合成化學肥料（NPK 化肥）" },
+        { "type": "text", "text": "✗ 合成農藥（除草劑、殺蟲劑、殺菌劑）" },
+        { "type": "text", "text": "✗ 基因改造生物（GMO）" },
+        { "type": "text", "text": "✗ 化學生長調節劑" },
+        { "type": "divider" },
+        { "type": "heading", "text": "允許使用的資材" },
+        { "type": "text", "text": "✓ 銅製劑（波爾多液）：控制霜霉病（有用量限制）" },
+        { "type": "text", "text": "✓ 硫磺：控制白粉病" },
+        { "type": "text", "text": "✓ 植物提取物：印楝油、除蟲菊精" },
+        { "type": "text", "text": "✓ 微生物製劑：益生菌、拮抗菌" },
+        { "type": "text", "text": "✓ 有機肥料：堆肥、動物糞肥、綠肥" }
+      ],
+      "icon": "📜",
+      "quiz": {
+        "question": "有機葡萄栽培需要多久的轉換期才能獲得認證？",
+        "options": [
+          "1 年",
+          "2 年",
+          "3 年",
+          "5 年"
+        ],
+        "correct": 2,
+        "explanation": "有機認證通常需要 3 年的轉換期。在這段期間，葡萄園必須遵守有機規範，但產品尚不能標示為有機。這段時間讓土壤微生物恢復、化學殘留消散，葡萄藤也需適應新的管理方式。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "紐西蘭有機認證體系",
+      "content": [
+        { "type": "heading", "text": "主要認證機構" },
+        { "type": "text", "text": "BioGro New Zealand：" },
+        { "type": "text", "text": "  • 紐西蘭最大有機認證機構" },
+        { "type": "text", "text": "  • 符合 IFOAM 國際標準" },
+        { "type": "divider" },
+        { "type": "text", "text": "AsureQuality Organic：" },
+        { "type": "text", "text": "  • 政府認可的認證機構" },
+        { "type": "text", "text": "  • 涵蓋食品、農業、林業" },
+        { "type": "divider" },
+        { "type": "heading", "text": "認證流程" },
+        { "type": "text", "text": "1. 提交申請與農場計畫" },
+        { "type": "text", "text": "2. 開始 3 年轉換期" },
+        { "type": "text", "text": "3. 年度審核與檢查" },
+        { "type": "text", "text": "4. 轉換期結束後獲得正式認證" },
+        { "type": "text", "text": "5. 持續年度審核與記錄維護" }
+      ],
+      "icon": "🏅"
+    },
+    {
+      "id": 7,
+      "type": "chart",
+      "title": "有機轉換的三年歷程",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "第一年",
+          "months": "Year 1",
+          "phase": "轉換開始",
+          "tasks": [
+            "停止使用化學品",
+            "建立堆肥系統",
+            "種植覆蓋作物",
+            "病蟲害壓力上升",
+            "產量可能下降 10-20%"
+          ],
+          "risk": "高",
+          "color": "#e53e3e"
+        },
+        {
+          "season": "第二年",
+          "months": "Year 2",
+          "phase": "適應期",
+          "tasks": [
+            "土壤微生物恢復",
+            "天敵族群建立",
+            "有機防治策略優化",
+            "產量仍低於慣行",
+            "成本仍然較高"
+          ],
+          "risk": "中-高",
+          "color": "#ed8936"
+        },
+        {
+          "season": "第三年",
+          "months": "Year 3",
+          "phase": "轉換完成",
+          "tasks": [
+            "土壤健康顯著改善",
+            "葡萄藤適應有機管理",
+            "產量開始回升",
+            "獲得有機認證",
+            "可標示為有機產品"
+          ],
+          "risk": "中",
+          "color": "#f6ad55"
+        },
+        {
+          "season": "第四年+",
+          "months": "Year 4+",
+          "phase": "穩定期",
+          "tasks": [
+            "生態系統平衡",
+            "產量接近轉換前水準",
+            "品質提升（風土表達）",
+            "溢價銷售",
+            "持續年度認證"
+          ],
+          "risk": "低-中",
+          "color": "#38a169"
+        }
+      ],
+      "icon": "📅"
+    },
+    {
+      "id": 8,
+      "type": "table",
+      "title": "有機病蟲害管理策略",
+      "tableData": {
+        "headers": ["病害/蟲害", "症狀", "有機防治方法", "預防措施", "效果"],
+        "rows": [
+          {
+            "disease": "霜霉病",
+            "condition": "葉片油漬狀斑點",
+            "symptom": "銅製劑（波爾多液）、通風管理",
+            "prevention": "冠層管理、避免過度灌溉",
+            "risk": "中"
+          },
+          {
+            "disease": "白粉病",
+            "condition": "葉片白色粉狀物",
+            "symptom": "硫磺噴灑、小蘇打溶液",
+            "prevention": "陽光照射、空氣流通",
+            "risk": "中"
+          },
+          {
+            "disease": "灰黴病",
+            "condition": "果實灰色黴菌",
+            "symptom": "生物製劑（Bacillus）、去葉",
+            "prevention": "降低濕度、疏果",
+            "risk": "中-高"
+          },
+          {
+            "disease": "葉蟬",
+            "condition": "吸食汁液",
+            "symptom": "除蟲菊、印楝油、天敵保護",
+            "prevention": "保留棲息地吸引天敵",
+            "risk": "低-中"
+          },
+          {
+            "disease": "蚜蟲",
+            "condition": "嫩芽聚集",
+            "symptom": "瓢蟲、草蛉等天敵、肥皂水",
+            "prevention": "生物多樣性、避免過度施氮",
+            "risk": "低"
+          }
+        ]
+      },
+      "note": "銅製劑使用受限（歐盟：6kg/ha/年），需謹慎管理",
+      "icon": "🐛"
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "土壤健康與養分管理",
+      "content": [
+        { "type": "heading", "text": "有機土壤管理目標" },
+        { "type": "text", "text": "• 提升土壤有機質（目標 >3%）" },
+        { "type": "text", "text": "• 增強微生物活性與多樣性" },
+        { "type": "text", "text": "• 改善土壤結構與保水力" },
+        { "type": "text", "text": "• 促進營養循環" },
+        { "type": "divider" },
+        { "type": "heading", "text": "有機養分來源" },
+        { "type": "text", "text": "堆肥：均衡營養、改善土壤結構" },
+        { "type": "text", "text": "綠肥：豆科植物固氮、增加有機質" },
+        { "type": "text", "text": "動物糞肥：快速釋放養分（需充分腐熟）" },
+        { "type": "text", "text": "骨粉/血粉：提供磷、氮元素" },
+        { "type": "text", "text": "海藻提取物：微量元素與生長刺激物質" }
+      ],
+      "icon": "🪱"
+    },
+    {
+      "id": 10,
+      "type": "infographic",
+      "title": "覆蓋作物的多重功能",
+      "infographicData": {
+        "context": "覆蓋作物是有機葡萄園管理的核心工具",
+        "challenge": {
+          "title": "覆蓋作物的效益",
+          "items": [
+            "固氮：豆科植物（三葉草、紫雲英）每年可固氮 100-200 kg/ha",
+            "有機質：翻入土壤後增加有機質 1-3%",
+            "雜草抑制：密集生長競爭空間，減少雜草 50-70%",
+            "侵蝕控制：根系穩固土壤，減少流失 80%+"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "豆科覆蓋作物",
+            "cost": "中",
+            "effectiveness": "固氮",
+            "coverage": "春-夏",
+            "detail": "三葉草、紫雲英、蠶豆"
+          },
+          {
+            "method": "禾本科覆蓋作物",
+            "cost": "低",
+            "effectiveness": "生物量",
+            "coverage": "秋-冬",
+            "detail": "黑麥、燕麥、大麥"
+          },
+          {
+            "method": "十字花科覆蓋",
+            "cost": "中",
+            "effectiveness": "病害抑制",
+            "coverage": "全年",
+            "detail": "芥菜、油菜（生物薰蒸）"
+          },
+          {
+            "method": "混合覆蓋",
+            "cost": "中-高",
+            "effectiveness": "綜合效益",
+            "coverage": "全年",
+            "detail": "3-5 種植物混種"
+          }
+        ],
+        "result": "覆蓋作物可減少外部投入，提升土壤健康與生態平衡"
+      },
+      "icon": "🌾"
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "雜草管理挑戰",
+      "content": [
+        { "type": "heading", "text": "有機雜草控制方法" },
+        { "type": "text", "text": "1. 機械除草：" },
+        { "type": "text", "text": "   • 拖拉機中耕：行間除草" },
+        { "type": "text", "text": "   • 旋轉式除草機：接近藤蔓" },
+        { "type": "text", "text": "   • 成本高、需多次作業" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 手工除草：" },
+        { "type": "text", "text": "   • 藤蔓下方與根部區域" },
+        { "type": "text", "text": "   • 勞動密集、成本最高" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 覆蓋與抑制：" },
+        { "type": "text", "text": "   • 覆蓋作物競爭" },
+        { "type": "text", "text": "   • 有機覆蓋物（稻草、木屑）" },
+        { "type": "text", "text": "   • 活體地被植物" }
+      ],
+      "icon": "🌾",
+      "quiz": {
+        "question": "有機葡萄栽培中，哪種資材主要用於控制霜霉病？",
+        "options": [
+          "硫磺",
+          "銅製劑（波爾多液）",
+          "印楝油",
+          "除蟲菊"
+        ],
+        "correct": 1,
+        "explanation": "銅製劑（如波爾多液）是有機栽培中控制霜霉病的主要工具。硫磺主要用於白粉病，印楝油和除蟲菊用於蟲害。需注意銅的使用量受限（歐盟標準 6kg/ha/年），過量會累積在土壤中。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "comparison",
+      "title": "有機栽培的挑戰與對策",
+      "comparisonData": {
+        "title": "常見挑戰與解決方案",
+        "left": {
+          "label": "主要挑戰",
+          "color": "#e53e3e",
+          "icon": "⚠️",
+          "items": [
+            "病害壓力增加（防治選項有限）",
+            "雜草管理勞力密集",
+            "轉換期產量下降 10-30%",
+            "養分管理較複雜",
+            "認證成本與文書工作",
+            "氣候風險（多雨年份）",
+            "更高的營運成本"
+          ]
+        },
+        "right": {
+          "label": "應對策略",
+          "color": "#38a169",
+          "icon": "✓",
+          "items": [
+            "預防性冠層管理、生物製劑",
+            "覆蓋作物、機械化除草",
+            "漸進轉換、改善土壤緩衝",
+            "堆肥、綠肥、土壤測試",
+            "加入認證群組、分享經驗",
+            "選擇適合有機的品種/產區",
+            "溢價銷售彌補（+20-40%）"
+          ]
+        }
+      },
+      "summary": "有機轉換需要耐心、投資與管理技能，但長期回報豐厚",
+      "icon": "💡"
+    },
+    {
+      "id": 13,
+      "type": "content",
+      "title": "紐西蘭有機酒莊案例：Seresin Estate",
+      "content": [
+        { "type": "heading", "text": "Marlborough 有機先驅" },
+        { "type": "text", "text": "背景：" },
+        { "type": "text", "text": "  • 電影攝影師 Michael Seresin 於 1992 年創立" },
+        { "type": "text", "text": "  • 1990 年代後期開始有機轉換" },
+        { "type": "text", "text": "  • 2000 年代轉向生物動力法" },
+        { "type": "divider" },
+        { "type": "heading", "text": "有機實踐" },
+        { "type": "text", "text": "✓ 100 公頃葡萄園，完全有機與生物動力認證" },
+        { "type": "text", "text": "✓ 保留 90 公頃原生林地與濕地" },
+        { "type": "text", "text": "✓ 廣泛使用覆蓋作物（30+ 種）" },
+        { "type": "text", "text": "✓ 堆肥製作與農場循環" },
+        { "type": "text", "text": "✓ 生物多樣性保護（鳥類、昆蟲、羊群）" },
+        { "type": "divider" },
+        { "type": "text", "text": "成果：高品質 Sauvignon Blanc、Pinot Noir，展現純淨風土" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 14,
+      "type": "content",
+      "title": "紐西蘭有機酒莊案例：Felton Road",
+      "content": [
+        { "type": "heading", "text": "Central Otago 生物動力名莊" },
+        { "type": "text", "text": "背景：" },
+        { "type": "text", "text": "  • 1991 年由 Stewart Elms 創立" },
+        { "type": "text", "text": "  • 從一開始就採用有機實踐" },
+        { "type": "text", "text": "  • 2002 年獲 Demeter 生物動力認證" },
+        { "type": "divider" },
+        { "type": "heading", "text": "哲學" },
+        { "type": "text", "text": "「我們相信最偉大的葡萄酒來自健康、有活力的土壤」" },
+        { "type": "divider" },
+        { "type": "heading", "text": "實踐" },
+        { "type": "text", "text": "✓ 完全手工採收與細緻葡萄園管理" },
+        { "type": "text", "text": "✓ 極低產量（<3 噸/公頃）" },
+        { "type": "text", "text": "✓ 生物動力製劑與天文曆法" },
+        { "type": "text", "text": "✓ 單一園表達與風土純粹性" },
+        { "type": "divider" },
+        { "type": "text", "text": "成果：紐西蘭最頂級的 Pinot Noir 生產者之一" }
+      ],
+      "icon": "🌟"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "紐西蘭有機酒莊案例：Millton Vineyards",
+      "content": [
+        { "type": "heading", "text": "Gisborne 生物動力先驅（1984）" },
+        { "type": "text", "text": "背景：" },
+        { "type": "text", "text": "  • James 與 Annie Millton 夫婦創立" },
+        { "type": "text", "text": "  • 紐西蘭最早採用生物動力法的酒莊之一" },
+        { "type": "text", "text": "  • 1989 年獲有機認證" },
+        { "type": "divider" },
+        { "type": "heading", "text": "整體農場方法" },
+        { "type": "text", "text": "✓ 葡萄園、橄欖園、蔬菜園、牧場整合" },
+        { "type": "text", "text": "✓ 動物（羊、雞）參與農場循環" },
+        { "type": "text", "text": "✓ 自製生物動力製劑" },
+        { "type": "text", "text": "✓ 教育與推廣生物動力理念" },
+        { "type": "divider" },
+        { "type": "heading", "text": "酒款" },
+        { "type": "text", "text": "• Chenin Blanc、Viognier、Chardonnay" },
+        { "type": "text", "text": "• 以「Te Arai」系列展現單一園特色" },
+        { "type": "text", "text": "• 強調純淨、優雅與礦物質感" }
+      ],
+      "icon": "🌾",
+      "quiz": {
+        "question": "Felton Road 酒莊位於紐西蘭哪個產區？",
+        "options": [
+          "Marlborough",
+          "Hawke's Bay",
+          "Central Otago",
+          "Gisborne"
+        ],
+        "correct": 2,
+        "explanation": "Felton Road 位於 Central Otago，是該產區最頂級的 Pinot Noir 生產者之一。酒莊從創立之初就採用有機實踐，並於 2002 年獲得 Demeter 生物動力認證，以極低產量和單一園表達聞名。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "table",
+      "title": "有機栽培的成本與收益分析",
+      "tableData": {
+        "headers": ["項目", "成本變化", "原因", "時間框架", "備註"],
+        "rows": [
+          {
+            "disease": "勞動力",
+            "condition": "+30-50%",
+            "symptom": "手工除草、精細管理",
+            "prevention": "持續",
+            "risk": "高"
+          },
+          {
+            "disease": "資材投入",
+            "condition": "+20-30%",
+            "symptom": "有機肥料、生物製劑較貴",
+            "prevention": "持續",
+            "risk": "中"
+          },
+          {
+            "disease": "認證費用",
+            "condition": "+$2-5k/年",
+            "symptom": "審核、檢驗、年費",
+            "prevention": "持續",
+            "risk": "中"
+          },
+          {
+            "disease": "產量損失",
+            "condition": "-10-30%",
+            "symptom": "轉換期與病害壓力",
+            "prevention": "轉換期",
+            "risk": "高"
+          },
+          {
+            "disease": "溢價收入",
+            "condition": "+20-40%",
+            "symptom": "有機產品售價更高",
+            "prevention": "認證後",
+            "risk": "低"
+          }
+        ]
+      },
+      "note": "淨利潤通常在轉換完成 3-5 年後開始超越慣行栽培",
+      "icon": "💰"
+    },
+    {
+      "id": 17,
+      "type": "content",
+      "title": "有機葡萄酒的市場機會",
+      "content": [
+        { "type": "heading", "text": "全球市場趨勢" },
+        { "type": "text", "text": "• 有機葡萄酒市場年增長率 10-15%" },
+        { "type": "text", "text": "• 歐洲、北美對有機產品需求強勁" },
+        { "type": "text", "text": "• 千禧世代與 Z 世代消費者偏好" },
+        { "type": "divider" },
+        { "type": "heading", "text": "市場定位" },
+        { "type": "text", "text": "✓ 健康意識消費者" },
+        { "type": "text", "text": "✓ 環保與永續價值觀" },
+        { "type": "text", "text": "✓ 高端餐飲與專業通路" },
+        { "type": "text", "text": "✓ 品質與風土表達" },
+        { "type": "divider" },
+        { "type": "heading", "text": "紐西蘭優勢" },
+        { "type": "text", "text": "• 乾淨、綠色的國家形象" },
+        { "type": "text", "text": "• 相對乾燥的氣候（東岸產區）" },
+        { "type": "text", "text": "• 已有成功案例與聲譽" }
+      ],
+      "icon": "📈"
+    },
+    {
+      "id": 18,
+      "type": "comparison",
+      "title": "何時適合轉換有機？",
+      "comparisonData": {
+        "title": "有利與不利因素評估",
+        "left": {
+          "label": "有利條件",
+          "color": "#38a169",
+          "icon": "✓",
+          "items": [
+            "乾燥氣候（病害壓力低）",
+            "土壤已健康（有機質 >2%）",
+            "有市場通路與溢價機會",
+            "擁有生態管理知識與經驗",
+            "長期視野與承諾",
+            "財務緩衝（度過轉換期）",
+            "勞動力充足"
+          ]
+        },
+        "right": {
+          "label": "挑戰因素",
+          "color": "#e53e3e",
+          "icon": "⚠",
+          "items": [
+            "多雨潮濕氣候（病害高壓）",
+            "土壤貧瘠或退化",
+            "缺乏有機市場溢價",
+            "管理經驗不足",
+            "短期財務壓力",
+            "無法承受產量波動",
+            "勞動力短缺"
+          ]
+        }
+      },
+      "summary": "東岸乾燥產區（Marlborough, Central Otago）較西岸更適合有機栽培",
+      "icon": "🤔"
+    },
+    {
+      "id": 19,
+      "type": "content",
+      "title": "有機葡萄酒的品質表現",
+      "content": [
+        { "type": "heading", "text": "品質潛力" },
+        { "type": "text", "text": "支持者觀點：" },
+        { "type": "text", "text": "  ✓ 更純淨的風土表達" },
+        { "type": "text", "text": "  ✓ 活躍的土壤微生物提升礦物質吸收" },
+        { "type": "text", "text": "  ✓ 較低產量導致更濃縮風味" },
+        { "type": "text", "text": "  ✓ 許多頂級酒莊採用有機/生物動力" },
+        { "type": "divider" },
+        { "type": "text", "text": "務實觀點：" },
+        { "type": "text", "text": "  • 有機本身不保證品質" },
+        { "type": "text", "text": "  • 品質取決於整體葡萄園管理" },
+        { "type": "text", "text": "  • 有機酒莊往往極度用心（選擇偏差）" },
+        { "type": "text", "text": "  • 在適合的氣候與土壤條件下，有機可達最高品質" }
+      ],
+      "icon": "🍷"
+    },
+    {
+      "id": 20,
+      "type": "content",
+      "title": "紐西蘭有機葡萄酒統計",
+      "content": [
+        { "type": "heading", "text": "產業現狀" },
+        { "type": "text", "text": "• 約 5-10% 葡萄園採用有機或生物動力法" },
+        { "type": "text", "text": "• 主要集中在 Marlborough、Central Otago、Gisborne" },
+        { "type": "text", "text": "• 精品酒莊比例較高" },
+        { "type": "divider" },
+        { "type": "heading", "text": "增長趨勢" },
+        { "type": "text", "text": "✓ 有機認證面積穩定增長（年增 5-10%）" },
+        { "type": "text", "text": "✓ 消費者需求推動" },
+        { "type": "text", "text": "✓ 部分酒莊採用有機實踐但不尋求認證（成本考量）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "未來展望" },
+        { "type": "text", "text": "• 預計 2030 年有機面積達 15-20%" },
+        { "type": "text", "text": "• 與 SWNZ 永續認證並行發展" },
+        { "type": "text", "text": "• 頂級酒莊持續引領趨勢" }
+      ],
+      "icon": "📊"
+    },
+    {
+      "id": 21,
+      "type": "timeline",
+      "title": "紐西蘭有機葡萄酒發展時間軸",
+      "subtitle": "從先驅者到產業趨勢",
+      "items": [
+        { "year": "1984", "text": "Millton Vineyards 開始生物動力實踐" },
+        { "year": "1989", "text": "首批有機認證葡萄園出現" },
+        { "year": "1990s", "text": "Seresin Estate 開始有機轉換" },
+        { "year": "2002", "text": "Felton Road 獲 Demeter 生物動力認證" },
+        { "year": "2010s", "text": "有機葡萄酒市場快速增長" },
+        { "year": "2020", "text": "約 5% 葡萄園面積為有機認證" },
+        { "year": "2023", "text": "持續增長，頂級酒莊引領趨勢" }
+      ],
+      "icon": "📅"
+    },
+    {
+      "id": 22,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "有機農業基於健康、生態、公平、關懷四大原則",
+        "禁止合成化學品，允許銅、硫磺等天然製劑",
+        "需要 3 年轉換期，期間土壤恢復與葡萄藤適應",
+        "病蟲害管理依賴預防、生物製劑與天敵",
+        "土壤健康是核心：堆肥、綠肥、覆蓋作物",
+        "雜草管理是主要挑戰，需機械與手工結合",
+        "Seresin、Felton Road、Millton 是紐西蘭有機先驅",
+        "轉換期成本高、產量降，但溢價銷售可彌補（+20-40%）",
+        "乾燥氣候產區（Marlborough, Central Otago）較適合有機栽培",
+        "有機市場持續增長，品質潛力與風土表達是核心價值"
+      ],
+      "icon": "✅"
+    }
+  ]
+}

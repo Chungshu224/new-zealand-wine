@@ -1,0 +1,84 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Hawke's Bay 的紅酒風格與釀造實務",
+      "subtitle": "從葡萄到酒杯：技術決策如何定義風味與結構",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg,#fbc2eb 0%,#a6c1ee 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "主要栽培品種（紅）",
+      "content": [
+        { "type": "text", "text": "Hawke's Bay 著重 Cabernet Sauvignon、Merlot、Syrah 與 Bordeaux blend 的混釀風格；部分地塊也種植 Cabernet Franc 與其他品種。" }
+      ],
+      "icon": "🍇"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "釀造選項與風格結果",
+      "icon": "🏺",
+      "features": [
+        { "title": "較高酒精與成熟單寧", "description": "溫暖氣候促進糖度累積,帶來飽滿酒體與成熟單寧。", "icon": "🔥" },
+        { "title": "橡木桶陳年", "description": "新桶使用會增加香草與烘烤香氣,混合使用提升複雜性。", "icon": "🪵" },
+        { "title": "混釀策略", "description": "以 Cabernet 為骨架、Merlot 提供圓潤與早期飲用友善性、Syrah 提供香料與色澤。", "icon": "⚖️" }
+      ],
+      "quiz": {
+        "question": "在 Hawke's Bay 的波爾多式混釀中,Merlot 的主要作用是什麼?",
+        "options": ["增加酸度與淡化顏色", "提供圓潤感與早期飲用友善性", "增加香料與胡椒感", "增強單寧結構"],
+        "correct": 1,
+        "explanation": "在 Hawke's Bay 的波爾多式混釀中,Cabernet Sauvignon 提供結構與骨架,而 Merlot 的主要作用是提供圓潤的口感與早期飲用的友善性,平衡 Cabernet 的單寧結構。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "timeline",
+      "title": "從收穫到瓶陳的關鍵釀造步驟",
+      "items": [
+        { "year": "破碎 / 去棗", "text": "廠家會依風格選擇去棗比例以控制萎取與結構。" },
+        { "year": "發酵管理", "text": "溫控、浸皮時長與頻繁下壓影響顏色與單寧萎取。" },
+        { "year": "橡木與陳年", "text": "新桶比例與陳年時間決定酒體與香氣調性。" }
+      ],
+      "icon": "⚙️",
+      "quiz": {
+        "question": "發酵管理階段中,浸皮時長和頻繁下壓主要影響什麼?",
+        "options": ["酒精度與糖分", "顏色與單寧萎取", "酸度與 pH 值", "香氣的清爽度"],
+        "correct": 1,
+        "explanation": "發酵管理階段中,浸皮時長（果皮與果汁接觸時間）和頻繁下壓（將果帽壓入果汁）主要影響葡萄酒的顏色深度和單寧萎取量,這兩個因素對紅酒的風格與結構至關重要。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "釀造實務的品質信號",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "高品質指標", "value": "均衡酸度、精緻單寧、層次感與長尾韻" },
+          { "label": "釀造建議", "value": "適度橡木、良好果實濃縮與適切的採收時機" }
+        ] }
+      ],
+      "icon": "🔬",
+      "quiz": {
+        "question": "高品質 Hawke's Bay 紅酒的指標不包括下列哪項?",
+        "options": ["均衡酸度", "精緻單寧", "高糖分殘留", "層次感與長尾韻"],
+        "correct": 2,
+        "explanation": "高品質 Hawke's Bay 紅酒的指標包括均衡酸度、精緻單寧、層次感與長尾韻。高糖分殘留通常出現在甜酒中，不是乾型紅酒的品質指標，適切的採收時機和良好的果實濃縮才是重點。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "summary",
+      "title": "本課重點整理",
+      "points": [
+        "Hawke's Bay 的紅酒常呈現飽滿酒體與成熟單寧",
+        "混釀與橡木處理是該產區重要的風格塑造工具",
+        "採收時機與果實品質直接影響最終酒款的細緻度"
+      ],
+      "icon": "🔑"
+    }
+  ]
+}

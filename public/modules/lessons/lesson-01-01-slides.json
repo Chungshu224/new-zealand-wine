@@ -1,0 +1,198 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "紐西蘭葡萄酒簡史",
+      "subtitle": "從1819年到現代的發展歷程",
+      "icon": "🍇",
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "紐西蘭葡萄酒產業的起源",
+      "content": [
+        {
+          "type": "text",
+          "text": "紐西蘭的葡萄酒歷史雖然相對年輕,但發展迅速且充滿活力。葡萄種植可以追溯到1819年,當時來自澳洲新南威爾斯的傳教士Samuel Marsden在北島的凱里凱里(Kerikeri)種下了第一批葡萄藤。"
+        }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 3,
+      "type": "timeline",
+      "title": "早期發展 (1819-1960s)",
+      "items": [
+        {
+          "year": "1819年",
+          "text": "Samuel Marsden在Kerikeri種植第一批葡萄"
+        },
+        {
+          "year": "1851年",
+          "text": "James Busby在Waitangi建立了第一個商業葡萄園"
+        },
+        {
+          "year": "1895年",
+          "text": "克羅埃西亞移民在Auckland和Northland地區開始種植葡萄"
+        },
+        {
+          "year": "早期20世紀",
+          "text": "主要生產加烈葡萄酒,品質普通"
+        }
+      ],
+      "icon": "🌱",
+      "quiz": {
+        "question": "誰在1819年於紐西蘭種下了第一批葡萄藤？",
+        "options": [
+          "James Busby",
+          "Samuel Marsden",
+          "Montana酒莊",
+          "克羅埃西亞移民"
+        ],
+        "correct": 1,
+        "explanation": "Samuel Marsden是來自澳洲新南威爾斯的傳教士，他在1819年於北島的凱里凱里(Kerikeri)種下了紐西蘭的第一批葡萄藤，標誌著紐西蘭葡萄酒歷史的開端。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "timeline",
+      "title": "現代化轉型 (1970s-1980s)",
+      "subtitle": "1970年代是紐西蘭葡萄酒產業的轉折點",
+      "items": [
+        {
+          "year": "1973年",
+          "text": "Montana酒莊(現Brancott Estate)在Marlborough種下第一批葡萄藤"
+        },
+        {
+          "year": "1979年",
+          "text": "Montana推出第一款Marlborough Sauvignon Blanc"
+        },
+        {
+          "year": "1980年代",
+          "text": "國際葡萄酒專家開始關注紐西蘭葡萄酒,特別是Sauvignon Blanc"
+        },
+        {
+          "year": "品質革命",
+          "text": "從大量生產轉向精品質量"
+        }
+      ],
+      "icon": "🚀",
+      "quiz": {
+        "question": "哪個年代是紐西蘭葡萄酒產業的重要轉折點？",
+        "options": [
+          "1850年代",
+          "1970年代",
+          "1990年代",
+          "2000年代"
+        ],
+        "correct": 1,
+        "explanation": "1970年代是紐西蘭葡萄酒產業的轉折點。1973年Montana酒莊在Marlborough種下第一批葡萄藤，1979年推出第一款Marlborough Sauvignon Blanc，開啟了現代化的精品葡萄酒時代。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "國際突破 (1990s-2000s)",
+      "items": [
+        {
+          "year": "1990年",
+          "text": "Cloudy Bay成為國際市場上的標誌性品牌"
+        },
+        {
+          "year": "出口增長",
+          "text": "紐西蘭葡萄酒開始大量出口到英國、美國、澳洲等市場"
+        },
+        {
+          "year": "產區多元化",
+          "text": "Central Otago、Hawke's Bay等產區嶄露頭角"
+        },
+        {
+          "year": "品種發展",
+          "text": "Pinot Noir成為繼Sauvignon Blanc之後的另一個成功品種"
+        }
+      ],
+      "icon": "🌍"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "當代成就 (2010s-現在)",
+      "content": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "label": "全球認可",
+              "value": "紐西蘭Sauvignon Blanc被視為世界標竿",
+              "icon": "🏆"
+            },
+            {
+              "label": "年產量",
+              "value": "約3.5億公升",
+              "icon": "🍾"
+            },
+            {
+              "label": "出口價值",
+              "value": "超過20億紐幣",
+              "icon": "💰"
+            },
+            {
+              "label": "永續發展",
+              "value": "96%的葡萄園採用永續栽培認證",
+              "icon": "♻️"
+            }
+          ]
+        }
+      ],
+      "icon": "⭐",
+      "quiz": {
+        "question": "紐西蘭葡萄園採用永續栽培認證的比例約為多少？",
+        "options": [
+          "約50%",
+          "約70%",
+          "約85%",
+          "約96%"
+        ],
+        "correct": 3,
+        "explanation": "紐西蘭有96%的葡萄園採用永續栽培認證(Sustainable Winegrowing New Zealand, SWNZ)，使其成為世界上環境保護意識最強的葡萄酒產國之一。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "feature",
+      "title": "產業特色",
+      "icon": "💡",
+      "features": [
+        {
+          "title": "小而精",
+          "description": "紐西蘭葡萄酒產業雖然規模不大(全球產量佔比僅1%),但以品質和創新著稱。平均每公升葡萄酒的出口價格在全球排名前列。",
+          "icon": "💎"
+        },
+        {
+          "title": "永續先驅",
+          "description": "紐西蘭是世界上第一個推出全國性永續葡萄栽培計畫(Sustainable Winegrowing New Zealand, SWNZ)的國家,展現了對環境保護的承諾。",
+          "icon": "🌿"
+        },
+        {
+          "title": "品種專精",
+          "description": "與許多葡萄酒產國不同,紐西蘭專注於少數品種的卓越表現,特別是Sauvignon Blanc和Pinot Noir,而非追求品種多樣性。",
+          "icon": "🎯"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "紐西蘭葡萄酒歷史始於1819年,但真正的現代化發展從1970年代開始",
+        "Marlborough Sauvignon Blanc在1980年代的成功奠定了紐西蘭在國際市場的地位",
+        "產業特點:小規模、高品質、永續發展、創新精神",
+        "出口導向型產業,約90%的葡萄酒銷往海外"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "釀造技術與風格",
+      "subtitle": "紐西蘭葡萄酒的釀造工藝與風格塑造",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #c94b4b 0%, #4b134f 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將探討" },
+        { "type": "text", "text": "• 葡萄採收與分選技術" },
+        { "type": "text", "text": "• 白葡萄酒釀造流程與技術" },
+        { "type": "text", "text": "• 紅葡萄酒釀造流程與技術" },
+        { "type": "text", "text": "• 酵母選擇與發酵管理" },
+        { "type": "text", "text": "• 蘋果酸-乳酸發酵（MLF）" },
+        { "type": "text", "text": "• 酒泥接觸與攪桶" },
+        { "type": "text", "text": "• 澄清、穩定與裝瓶" },
+        { "type": "text", "text": "• 紐西蘭釀酒師的創新技術" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "葡萄採收時機與方式",
+      "content": [
+        { "type": "heading", "text": "採收時機決定因素" },
+        { "type": "text", "text": "• 糖度（Brix）：目標甜度達標" },
+        { "type": "text", "text": "• 酸度：保持清爽與平衡" },
+        { "type": "text", "text": "• pH 值：影響穩定性與口感" },
+        { "type": "text", "text": "• 酚類成熟度：單寧與顏色（紅葡萄）" },
+        { "type": "text", "text": "• 風味發展：果香與複雜度" },
+        { "type": "text", "text": "• 天氣預報：避開降雨" },
+        { "type": "divider" },
+        { "type": "heading", "text": "採收方式" },
+        { "type": "text", "text": "手工採收：精品酒莊首選，可即時分選" },
+        { "type": "text", "text": "機械採收：效率高、成本低，適合大產量" },
+        { "type": "text", "text": "夜間採收：保持葡萄低溫，避免氧化" }
+      ],
+      "icon": "🍇"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "葡萄分選與處理",
+      "content": [
+        { "type": "heading", "text": "分選技術" },
+        { "type": "text", "text": "1. 手工分選台：" },
+        { "type": "text", "text": "   • 人工挑除不成熟、腐爛、葉片" },
+        { "type": "text", "text": "   • 最細緻但勞力密集" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 光學分選機：" },
+        { "type": "text", "text": "   • 使用攝影機與感應器自動篩選" },
+        { "type": "text", "text": "   • 快速準確，高端酒莊採用" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 振動分選台：" },
+        { "type": "text", "text": "   • 利用重量與尺寸差異分離" },
+        { "type": "divider" },
+        { "type": "heading", "text": "去梗與破皮" },
+        { "type": "text", "text": "白葡萄：通常整串壓榨，或輕柔破皮" },
+        { "type": "text", "text": "紅葡萄：去梗後破皮，少數整串發酵" }
+      ],
+      "icon": "🔍"
+    },
+    {
+      "id": 5,
+      "type": "chart",
+      "title": "白葡萄酒釀造流程",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "1. 採收與分選",
+          "months": "Harvest & Sorting",
+          "phase": "準備階段",
+          "tasks": [
+            "手工或機械採收",
+            "去除雜質與不良葡萄",
+            "保持低溫（避免氧化）",
+            "快速運送至酒廠"
+          ],
+          "risk": "低",
+          "color": "#48bb78"
+        },
+        {
+          "season": "2. 壓榨與澄清",
+          "months": "Pressing & Settling",
+          "phase": "取汁階段",
+          "tasks": [
+            "輕柔壓榨（整串或破皮）",
+            "自流汁（Free Run）vs 壓榨汁",
+            "靜置澄清 12-24 小時",
+            "去除粗大雜質"
+          ],
+          "risk": "中",
+          "color": "#ecc94b"
+        },
+        {
+          "season": "3. 發酵",
+          "months": "Fermentation",
+          "phase": "核心階段",
+          "tasks": [
+            "接種酵母或自然發酵",
+            "控溫 12-18°C（保留果香）",
+            "不鏽鋼桶或橡木桶",
+            "發酵 10-30 天"
+          ],
+          "risk": "中",
+          "color": "#ed8936"
+        },
+        {
+          "season": "4. 熟成與裝瓶",
+          "months": "Aging & Bottling",
+          "phase": "完成階段",
+          "tasks": [
+            "酒泥接觸（Sur lie）",
+            "蘋果酸-乳酸發酵（可選）",
+            "澄清與過濾",
+            "裝瓶"
+          ],
+          "risk": "低",
+          "color": "#9f7aea"
+        }
+      ],
+      "icon": "⚪"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "白葡萄酒釀造：關鍵技術",
+      "content": [
+        { "type": "heading", "text": "壓榨技術" },
+        { "type": "text", "text": "• 氣囊式壓榨機：輕柔、保護果汁" },
+        { "type": "text", "text": "• 整串壓榨：減少酚類萃取，果汁純淨" },
+        { "type": "text", "text": "• 自流汁 vs 壓榨汁：品質與產量平衡" },
+        { "type": "divider" },
+        { "type": "heading", "text": "冷浸漬（Cold Soak）" },
+        { "type": "text", "text": "• 低溫（5-10°C）浸泡葡萄皮數小時" },
+        { "type": "text", "text": "• 萃取芳香化合物與前驅物質" },
+        { "type": "text", "text": "• 提升果香強度（Sauvignon Blanc 常用）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "控溫發酵" },
+        { "type": "text", "text": "• 12-18°C：保留果香與清新感" },
+        { "type": "text", "text": "• 不鏽鋼桶：控溫精準，展現純淨果味" },
+        { "type": "text", "text": "• 橡木桶：增加複雜度與質地" }
+      ],
+      "icon": "❄️",
+      "quiz": {
+        "question": "白葡萄酒發酵時，通常控制在什麼溫度範圍以保留果香？",
+        "options": [
+          "5-10°C",
+          "12-18°C",
+          "20-25°C",
+          "28-32°C"
+        ],
+        "correct": 1,
+        "explanation": "白葡萄酒發酵通常控制在 12-18°C，這個較低的溫度能有效保留葡萄的果香與清新感。過低溫度（5-10°C）發酵會過慢，過高溫度（20°C 以上）則會損失揮發性香氣。紅葡萄酒則需要較高溫度（25-30°C）以萃取顏色與單寧。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "chart",
+      "title": "紅葡萄酒釀造流程",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "1. 採收與破皮",
+          "months": "Harvest & Crushing",
+          "phase": "準備階段",
+          "tasks": [
+            "採收與分選",
+            "去梗（或整串發酵）",
+            "輕柔破皮",
+            "進入發酵槽"
+          ],
+          "risk": "低",
+          "color": "#c53030"
+        },
+        {
+          "season": "2. 浸皮發酵",
+          "months": "Maceration",
+          "phase": "萃取階段",
+          "tasks": [
+            "酒精發酵與浸皮同時進行",
+            "溫度 25-30°C",
+            "淋汁或壓帽",
+            "萃取顏色、單寧、風味"
+          ],
+          "risk": "高",
+          "color": "#9b2c2c"
+        },
+        {
+          "season": "3. 壓榨與熟成",
+          "months": "Pressing & Aging",
+          "phase": "培養階段",
+          "tasks": [
+            "壓榨分離酒液與果渣",
+            "蘋果酸-乳酸發酵（MLF）",
+            "橡木桶或不鏽鋼桶熟成",
+            "數月至數年"
+          ],
+          "risk": "中",
+          "color": "#742a2a"
+        },
+        {
+          "season": "4. 調配與裝瓶",
+          "months": "Blending & Bottling",
+          "phase": "完成階段",
+          "tasks": [
+            "品評與調配",
+            "澄清與穩定",
+            "裝瓶",
+            "瓶中熟成"
+          ],
+          "risk": "低",
+          "color": "#63171b"
+        }
+      ],
+      "icon": "🔴"
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "title": "紅葡萄酒釀造：浸皮與萃取",
+      "content": [
+        { "type": "heading", "text": "浸皮時間" },
+        { "type": "text", "text": "輕盈風格：5-10 天（少單寧、果香為主）" },
+        { "type": "text", "text": "中等風格：10-20 天（平衡）" },
+        { "type": "text", "text": "濃郁風格：20-30+ 天（高萃取）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "萃取技術" },
+        { "type": "text", "text": "1. 淋汁（Pump-over）：" },
+        { "type": "text", "text": "   • 將底部酒液抽出，從上方淋下" },
+        { "type": "text", "text": "   • 輕柔萃取，適合優雅風格" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 壓帽（Punch-down）：" },
+        { "type": "text", "text": "   • 手工或機械將浮起的果皮壓回酒液" },
+        { "type": "text", "text": "   • 強力萃取，傳統方法" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 循環攪拌（Rack & Return）：" },
+        { "type": "text", "text": "   • 排空發酵槽再倒回，強烈攪拌" }
+      ],
+      "icon": "🔄"
+    },
+    {
+      "id": 9,
+      "type": "table",
+      "title": "整串發酵 vs 去梗發酵",
+      "tableData": {
+        "headers": ["特性", "整串發酵", "去梗發酵", "適用品種", "風格"],
+        "rows": [
+          {
+            "disease": "單寧質地",
+            "condition": "更細緻、絲滑",
+            "symptom": "較粗獷（取決於成熟度）",
+            "prevention": "Pinot Noir",
+            "risk": "優雅"
+          },
+          {
+            "disease": "果香表現",
+            "condition": "紅色水果、花香",
+            "symptom": "深色水果、果醬",
+            "prevention": "Syrah",
+            "risk": "濃郁"
+          },
+          {
+            "disease": "香料與草本",
+            "condition": "顯著（梗的貢獻）",
+            "symptom": "較少",
+            "prevention": "Gamay",
+            "risk": "清新"
+          },
+          {
+            "disease": "顏色",
+            "condition": "較淺（萃取較少）",
+            "symptom": "較深",
+            "prevention": "Cabernet",
+            "risk": "結構"
+          },
+          {
+            "disease": "要求",
+            "condition": "梗必須完全成熟",
+            "symptom": "無特殊要求",
+            "prevention": "所有品種",
+            "risk": "標準"
+          }
+        ]
+      },
+      "note": "紐西蘭許多頂級 Pinot Noir 生產者採用部分整串發酵（10-50%）",
+      "icon": "🍇"
+    },
+    {
+      "id": 10,
+      "type": "content",
+      "title": "酵母選擇與發酵管理",
+      "content": [
+        { "type": "heading", "text": "商業酵母 vs 野生酵母" },
+        { "type": "text", "text": "商業酵母（Cultured Yeast）：" },
+        { "type": "text", "text": "  ✓ 發酵可靠、可預測" },
+        { "type": "text", "text": "  ✓ 特定風味特徵（果香、酯類）" },
+        { "type": "text", "text": "  ✓ 降低風險" },
+        { "type": "divider" },
+        { "type": "text", "text": "野生酵母/自然發酵（Wild/Native Yeast）：" },
+        { "type": "text", "text": "  ✓ 複雜度與風土表達" },
+        { "type": "text", "text": "  ✓ 不可預測性" },
+        { "type": "text", "text": "  ⚠ 風險較高（停滯、異味）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "混合策略" },
+        { "type": "text", "text": "• 自然發酵啟動，後期加入商業酵母保險" },
+        { "type": "text", "text": "• 部分批次自然發酵，部分商業酵母" },
+        { "type": "text", "text": "• 選擇低干預的中性商業酵母" }
+      ],
+      "icon": "🦠",
+      "quiz": {
+        "question": "紅葡萄酒浸皮發酵時，「淋汁」（Pump-over）技術的主要作用是？",
+        "options": [
+          "增加發酵溫度",
+          "讓酒液與果皮接觸以萃取顏色與單寧",
+          "去除二氧化碳",
+          "加速蘋果酸-乳酸發酵"
+        ],
+        "correct": 1,
+        "explanation": "淋汁（Pump-over）是將底部的酒液抽出，從上方淋在浮起的果皮（酒帽）上，使酒液充分接觸果皮，萃取顏色、單寧與風味物質。這是紅葡萄酒釀造中最常用的萃取技術之一，相較於壓帽較為輕柔。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "蘋果酸-乳酸發酵（MLF）",
+      "content": [
+        { "type": "heading", "text": "什麼是 MLF？" },
+        { "type": "text", "text": "• 乳酸菌將尖銳的蘋果酸轉化為柔和的乳酸" },
+        { "type": "text", "text": "• 降低酸度，增加圓潤口感" },
+        { "type": "text", "text": "• 產生奶油、黃油風味（雙乙酰）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "白葡萄酒的 MLF 策略" },
+        { "type": "text", "text": "完全 MLF：Chardonnay（勃艮第風格）" },
+        { "type": "text", "text": "  → 圓潤、奶油質地" },
+        { "type": "text", "text": "部分 MLF：平衡酸度與複雜度" },
+        { "type": "text", "text": "阻止 MLF：Sauvignon Blanc、Riesling" },
+        { "type": "text", "text": "  → 保持清爽、果香純淨" },
+        { "type": "divider" },
+        { "type": "heading", "text": "紅葡萄酒的 MLF" },
+        { "type": "text", "text": "• 幾乎所有紅酒都進行 MLF" },
+        { "type": "text", "text": "• 柔化酸度，提升和諧度" },
+        { "type": "text", "text": "• 增加微生物穩定性" }
+      ],
+      "icon": "🧪"
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "酒泥接觸（Sur Lie）與攪桶",
+      "content": [
+        { "type": "heading", "text": "酒泥接觸" },
+        { "type": "text", "text": "• 發酵後讓酒液與死亡酵母（酒泥）接觸" },
+        { "type": "text", "text": "• 時間：數週至數月" },
+        { "type": "text", "text": "• 效果：" },
+        { "type": "text", "text": "  ✓ 增加酒體與質地（口感豐滿）" },
+        { "type": "text", "text": "  ✓ 奶油、麵包、酵母風味" },
+        { "type": "text", "text": "  ✓ 保護酒液避免氧化" },
+        { "type": "text", "text": "  ✓ 整合酸度" },
+        { "type": "divider" },
+        { "type": "heading", "text": "攪桶（Bâtonnage）" },
+        { "type": "text", "text": "• 定期攪拌酒泥，增強接觸" },
+        { "type": "text", "text": "• 頻率：每週至每月" },
+        { "type": "text", "text": "• 提升酒泥風味強度與質地" },
+        { "type": "text", "text": "• Chardonnay 常用技術" }
+      ],
+      "icon": "🥄"
+    },
+    {
+      "id": 13,
+      "type": "comparison",
+      "title": "紐西蘭 Sauvignon Blanc 釀造風格",
+      "comparisonData": {
+        "title": "兩種主要釀造路徑",
+        "left": {
+          "label": "清新果香型（Marlborough）",
+          "color": "#48bb78",
+          "icon": "🌿",
+          "items": [
+            "不鏽鋼桶發酵",
+            "低溫 12-15°C",
+            "阻止 MLF",
+            "短時間酒泥接觸（1-3 個月）",
+            "早裝瓶（保留果香）",
+            "風味：西番蓮果、醋栗、青椒",
+            "市場：大眾、出口主力"
+          ]
+        },
+        "right": {
+          "label": "複雜質地型（精品酒莊）",
+          "color": "#ecc94b",
+          "icon": "🏆",
+          "items": [
+            "橡木桶或混合發酵",
+            "部分野生酵母",
+            "部分或完全 MLF",
+            "長時間酒泥接觸（6-12 個月）",
+            "攪桶增加質地",
+            "風味：核果、柑橘、礦物、煙燻",
+            "市場：高端、餐飲"
+          ]
+        }
+      },
+      "summary": "紐西蘭 Sauvignon Blanc 展現從清新到複雜的多樣風格",
+      "icon": "🍾"
+    },
+    {
+      "id": 14,
+      "type": "comparison",
+      "title": "紐西蘭 Pinot Noir 釀造風格",
+      "comparisonData": {
+        "title": "Central Otago vs Martinborough",
+        "left": {
+          "label": "Central Otago 風格",
+          "color": "#c53030",
+          "icon": "🏔️",
+          "items": [
+            "較長浸皮（14-21 天）",
+            "部分整串發酵（10-30%）",
+            "新橡木桶比例高（30-50%）",
+            "萃取較充分",
+            "風味：深色櫻桃、李子、香料",
+            "酒體：中等-飽滿",
+            "特色：果味濃郁、結構強"
+          ]
+        },
+        "right": {
+          "label": "Martinborough 風格",
+          "color": "#9b2c2c",
+          "icon": "🌸",
+          "items": [
+            "較短浸皮（10-14 天）",
+            "整串發酵比例變化大",
+            "新橡木桶比例適中（20-40%）",
+            "輕柔萃取",
+            "風味：紅櫻桃、草莓、玫瑰",
+            "酒體：中等",
+            "特色：優雅、細緻、土壤礦物"
+          ]
+        }
+      },
+      "summary": "不同產區的 Pinot Noir 反映風土與釀酒哲學的差異",
+      "icon": "🍷"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "澄清與穩定技術",
+      "content": [
+        { "type": "heading", "text": "澄清方法" },
+        { "type": "text", "text": "1. 自然沉降：時間換取純淨" },
+        { "type": "text", "text": "2. 下膠（Fining）：" },
+        { "type": "text", "text": "   • 蛋白（紅酒）：軟化單寧" },
+        { "type": "text", "text": "   • 膨潤土（白酒）：去除蛋白質" },
+        { "type": "text", "text": "   • 酪蛋白、明膠、魚膠等" },
+        { "type": "text", "text": "3. 過濾：" },
+        { "type": "text", "text": "   • 粗濾：去除大顆粒" },
+        { "type": "text", "text": "   • 精細過濾：去除微生物" },
+        { "type": "text", "text": "   • 無過濾：保留質地與複雜度（趨勢）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "穩定處理" },
+        { "type": "text", "text": "• 冷穩定：去除酒石酸結晶" },
+        { "type": "text", "text": "• 蛋白質穩定：防止白葡萄酒混濁" },
+        { "type": "text", "text": "• 二氧化硫添加：抗氧化與防腐" }
+      ],
+      "icon": "💎",
+      "quiz": {
+        "question": "蘋果酸-乳酸發酵（MLF）的主要作用是？",
+        "options": [
+          "提高酒精濃度",
+          "將尖銳的蘋果酸轉化為柔和的乳酸",
+          "增加果香強度",
+          "去除酒石酸結晶"
+        ],
+        "correct": 1,
+        "explanation": "MLF 是乳酸菌將尖銳的蘋果酸轉化為柔和的乳酸，降低總酸度並增加圓潤口感，同時產生奶油、黃油風味。幾乎所有紅葡萄酒都會進行 MLF，白葡萄酒則視風格決定（Chardonnay 常做，Sauvignon Blanc 多數避免）。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "infographic",
+      "title": "紐西蘭釀酒師的創新技術",
+      "infographicData": {
+        "context": "紐西蘭釀酒業以創新與實驗精神聞名",
+        "challenge": {
+          "title": "近年創新趨勢",
+          "items": [
+            "野生酵母發酵：追求風土表達與複雜度（Felton Road, Burn Cottage）",
+            "混凝土蛋形發酵罐：微氧化與自然對流（多家精品酒莊採用）",
+            "陶罐發酵（Amphora）：古老技術復興，增加質地（Pyramid Valley）",
+            "無添加 SO₂ 或極低添加：自然酒運動影響（小眾但增長中）"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "整串壓榨白葡萄",
+            "cost": "中",
+            "effectiveness": "質地提升",
+            "coverage": "精品酒莊",
+            "detail": "Chardonnay、Pinot Gris"
+          },
+          {
+            "method": "延長酒泥接觸",
+            "cost": "低",
+            "effectiveness": "複雜度",
+            "coverage": "廣泛",
+            "detail": "12-24 個月"
+          },
+          {
+            "method": "皮渣發酵白葡萄酒",
+            "cost": "中",
+            "effectiveness": "結構與單寧",
+            "coverage": "實驗性",
+            "detail": "Orange Wine 風格"
+          },
+          {
+            "method": "精確溫度控制",
+            "cost": "高",
+            "effectiveness": "風格一致性",
+            "coverage": "產業標準",
+            "detail": "不鏽鋼桶技術"
+          }
+        ],
+        "result": "紐西蘭釀酒師平衡傳統與創新，塑造獨特的新世界風格"
+      },
+      "icon": "💡"
+    },
+    {
+      "id": 17,
+      "type": "content",
+      "title": "裝瓶與封瓶選擇",
+      "content": [
+        { "type": "heading", "text": "封瓶方式" },
+        { "type": "text", "text": "1. 天然軟木塞：" },
+        { "type": "text", "text": "   • 傳統、高級形象" },
+        { "type": "text", "text": "   • 微氧化有利陳年" },
+        { "type": "text", "text": "   ⚠ 軟木塞污染風險（TCA）2-5%" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 螺旋蓋（Stelvin）：" },
+        { "type": "text", "text": "   ✓ 紐西蘭先驅且廣泛採用（>90%）" },
+        { "type": "text", "text": "   ✓ 無 TCA 污染" },
+        { "type": "text", "text": "   ✓ 保持果香清新" },
+        { "type": "text", "text": "   ✓ 方便開啟" },
+        { "type": "text", "text": "   • 陳年能力：技術改進已可長期陳年" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 合成塞：少數使用" }
+      ],
+      "icon": "🍾"
+    },
+    {
+      "id": 18,
+      "type": "content",
+      "title": "紐西蘭螺旋蓋革命",
+      "content": [
+        { "type": "heading", "text": "先驅地位" },
+        { "type": "text", "text": "• 2000 年代初期，紐西蘭釀酒師率先大規模採用螺旋蓋" },
+        { "type": "text", "text": "• 目前超過 90% 的紐西蘭葡萄酒使用螺旋蓋" },
+        { "type": "text", "text": "• 世界領先，影響澳洲及其他新世界國家" },
+        { "type": "divider" },
+        { "type": "heading", "text": "優勢" },
+        { "type": "text", "text": "✓ 消除軟木塞污染（全球每年損失數億美元）" },
+        { "type": "text", "text": "✓ 一致性：每瓶酒品質穩定" },
+        { "type": "text", "text": "✓ 保護果香：適合 Sauvignon Blanc" },
+        { "type": "text", "text": "✓ 環保：可回收" },
+        { "type": "divider" },
+        { "type": "heading", "text": "挑戰" },
+        { "type": "text", "text": "• 傳統市場接受度（歐洲、亞洲逐漸改變）" },
+        { "type": "text", "text": "• 高端酒款形象（已被頂級酒莊證明可行）" },
+        { "type": "text", "text": "• 不同內襯技術影響氧氣透過率" }
+      ],
+      "icon": "🔄"
+    },
+    {
+      "id": 19,
+      "type": "table",
+      "title": "不同發酵容器的特性",
+      "tableData": {
+        "headers": ["容器", "優點", "缺點", "適用酒款", "成本"],
+        "rows": [
+          {
+            "disease": "不鏽鋼桶",
+            "condition": "控溫精準、易清潔、中性",
+            "symptom": "無風味貢獻",
+            "prevention": "Sauvignon Blanc, Pinot Gris",
+            "risk": "中"
+          },
+          {
+            "disease": "橡木桶",
+            "condition": "增加複雜度、質地、風味",
+            "symptom": "成本高、需維護",
+            "prevention": "Chardonnay, Pinot Noir",
+            "risk": "高"
+          },
+          {
+            "disease": "混凝土蛋/槽",
+            "condition": "微氧化、自然對流、中性",
+            "symptom": "成本高、難清潔",
+            "prevention": "高端白酒與紅酒",
+            "risk": "高"
+          },
+          {
+            "disease": "陶罐（Amphora）",
+            "condition": "質地提升、微氧化、傳統",
+            "symptom": "多孔、難清潔、昂貴",
+            "prevention": "實驗性酒款",
+            "risk": "很高"
+          },
+          {
+            "disease": "玻璃纖維桶",
+            "condition": "便宜、輕量、中性",
+            "symptom": "無風味貢獻",
+            "prevention": "大產量基本款",
+            "risk": "低"
+          }
+        ]
+      },
+      "note": "許多酒莊混合使用不同容器，在調配時創造複雜度",
+      "icon": "🏺"
+    },
+    {
+      "id": 20,
+      "type": "content",
+      "title": "品質控制與分析",
+      "content": [
+        { "type": "heading", "text": "關鍵檢測項目" },
+        { "type": "text", "text": "• 糖度（Brix）：發酵前後" },
+        { "type": "text", "text": "• 酒精度：ABV%" },
+        { "type": "text", "text": "• pH 值：影響穩定性與口感（目標 3.0-3.6）" },
+        { "type": "text", "text": "• 總酸度（TA）：平衡感" },
+        { "type": "text", "text": "• 揮發酸（VA）：醋酸，過高為缺陷" },
+        { "type": "text", "text": "• 游離/總 SO₂：保護作用" },
+        { "type": "text", "text": "• 殘糖：干型 vs 甜型" },
+        { "type": "divider" },
+        { "type": "heading", "text": "感官評估" },
+        { "type": "text", "text": "• 釀酒團隊定期品評" },
+        { "type": "text", "text": "• 追蹤發酵與熟成進程" },
+        { "type": "text", "text": "• 調配前評估各批次特性" },
+        { "type": "text", "text": "• 裝瓶前最終確認" }
+      ],
+      "icon": "🔬"
+    },
+    {
+      "id": 21,
+      "type": "content",
+      "title": "可持續釀造實踐",
+      "content": [
+        { "type": "heading", "text": "水資源管理" },
+        { "type": "text", "text": "• 清洗水回收再利用" },
+        { "type": "text", "text": "• 高效清潔技術（CIP 系統）" },
+        { "type": "text", "text": "• 廢水處理與淨化" },
+        { "type": "divider" },
+        { "type": "heading", "text": "能源效率" },
+        { "type": "text", "text": "• 太陽能電板（許多酒廠採用）" },
+        { "type": "text", "text": "• 熱交換系統（發酵熱回收）" },
+        { "type": "text", "text": "• 重力流動設計（減少泵浦）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "廢棄物管理" },
+        { "type": "text", "text": "• 果渣堆肥化" },
+        { "type": "text", "text": "• 酒泥作為肥料" },
+        { "type": "text", "text": "• 輕量化玻璃瓶（減少碳足跡）" },
+        { "type": "text", "text": "• 紙箱包裝使用回收材料" }
+      ],
+      "icon": "♻️"
+    },
+    {
+      "id": 22,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "採收時機與方式影響葡萄品質：糖度、酸度、酚類成熟度",
+        "白葡萄酒：低溫發酵（12-18°C）保留果香，酒泥接觸增質地",
+        "紅葡萄酒：浸皮發酵（25-30°C）萃取顏色與單寧，技術多樣",
+        "整串發酵提升細緻度與香料感（需梗完全成熟）",
+        "酵母選擇：商業酵母可靠，野生酵母增複雜度",
+        "MLF：紅酒必做，白酒視風格（Chardonnay 做，SB 避免）",
+        "酒泥接觸與攪桶：增加酒體、質地與複雜度",
+        "紐西蘭螺旋蓋革命：>90% 採用，消除軟木塞污染",
+        "發酵容器多樣：不鏽鋼、橡木桶、混凝土、陶罐各有特色",
+        "永續釀造：水回收、太陽能、廢棄物管理成為產業標準"
+      ],
+      "icon": "✅"
+    }
+  ]
+}

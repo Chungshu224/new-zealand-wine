@@ -1,0 +1,141 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "紐西蘭葡萄酒風格分析",
+      "subtitle": "從氣候到釀造：理解產區、品種與風格關係",
+      "icon": "🧭",
+      "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程目標",
+      "content": [
+        { "type": "text", "text": "本課將分析紐西蘭主要產區、典型品種的風格特徵，並說明氣候、土壤與釀造如何共同塑造最終酒款。學完後能根據風味判斷來源與釀造處理。" }
+      ],
+      "icon": "🎯"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "關鍵因素：氣候與地形",
+      "icon": "⛰️",
+      "features": [
+        { "title": "日夜溫差", "description": "尤其在南島 Central Otago，日夜溫差大，有利於保存酸度與發展香氣層次。" },
+        { "title": "沿海與內陸差異", "description": "沿海產區如 Marlborough 因涼爽海風，產生清新果香；內陸地塊傾向成熟度更高。" },
+        { "title": "坡度與土壤", "description": "坡地排水良好、礫石與碎岩土壤常帶來礦物感與更集中風味。" }
+      ],
+      "quiz": {
+        "question": "Central Otago 產區的大日夜溫差對葡萄酒風格有何主要影響？",
+        "options": [
+          "增加葡萄的含糖量，使酒精度顯著提高",
+          "保存酸度並發展出更豐富的香氣層次",
+          "減少葡萄的成熟度，使果香更清淡",
+          "增加單寧含量，使酒體更厚重"
+        ],
+        "correct": 1,
+        "explanation": "Central Otago 的大日夜溫差是其葡萄酒風格的關鍵特徵。白天充足的陽光促進葡萄成熟和風味發展，而夜晚的涼爽溫度則能保持葡萄的天然酸度，並且延長香氣化合物的累積時間，使最終的酒款既有成熟的果味，又保持清新的酸度和複雜的香氣層次。這種平衡是該產區 Pinot Noir 等品種成功的重要因素。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "主要品種之風格譜系（概覽）",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Sauvignon Blanc", "value": "草本、熱帶果、鮮明酸度（Marlborough 的標誌）" },
+          { "label": "Pinot Noir", "value": "紅果、泥土與細緻單寧，表現土地差異性強（Central Otago, Martinborough）" },
+          { "label": "Chardonnay", "value": "從清新礦物到豐富奶油風格，取決於發酵與桶陳處理" }
+        ] }
+      ],
+      "icon": "📊"
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "產區→品種→風格 的示意流程",
+      "subtitle": "理解從地理到風味的因果鏈",
+      "items": [
+        { "year": "氣候（冷/溫/熱）", "text": "決定成熟速率、酸度保留與果香輪廓。" },
+        { "year": "土壤與排水", "text": "影響根系表現與礦物感呈現。" },
+        { "year": "栽培管理", "text": "產量控制與採收時機直接影響濃度與風格。" },
+        { "year": "釀造選擇", "text": "發酵溫度、容器與橡木處理改變香氣與口感。" }
+      ],
+      "icon": "🔗"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "釀造決策與風格範例",
+      "icon": "⚗️",
+      "features": [
+        { "title": "低溫不鏽鋼發酵", "description": "保留鮮明果香與高酸，常見於 Sauvignon Blanc 的清新款。" },
+        { "title": "橡木桶發酵/陳年", "description": "帶來香草、奶油與烘烤感，增加酒體與陳年潛力（部分 Chardonnay 與 Pinot 混合風格）。" },
+        { "title": "野生酵母與延長皮接觸", "description": "可增加複雜度與結構，但風味更不可預測。" }
+      ],
+      "quiz": {
+        "question": "如果一款紐西蘭 Sauvignon Blanc 採用低溫不鏽鋼發酵，其風格特徵最可能是？",
+        "options": [
+          "帶有明顯的香草和奶油香氣，酒體豐滿",
+          "鮮明的果香、高酸度和清新風格",
+          "複雜的氧化香氣和堅果風味",
+          "濃郁的烘烤香氣和厚重口感"
+        ],
+        "correct": 1,
+        "explanation": "低溫不鏽鋼發酵是紐西蘭 Sauvignon Blanc 最常用的釀造方式，這種方法的目的是保護和突出葡萄本身的新鮮果香。低溫（通常在 12-16°C）可以減緩發酵速度，防止揮發性香氣化合物流失，同時不鏽鋼容器不會添加任何額外的風味（如橡木桶會帶來的香草、奶油或烘烤香氣）。這種釀造方式產生的酒款具有百香果、番石榴等熱帶水果香氣，伴隨著高酸度和清新的口感，完美展現 Marlborough 等產區的典型風格。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品飲練習：判讀風格的步驟",
+      "content": [
+        { "type": "text", "text": "1) 先定位品種特徵（若熟悉） 2) 留意酸度與酒體的搭配 3) 判斷是否有桶香或乳酸發酵特徵 4) 將線索映射回可能的產區或釀造方式" }
+      ],
+      "icon": "🧠"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "經典對比示例",
+      "icon": "⚖️",
+      "features": [
+        { "title": "Marlborough SB vs Nelson SB", "description": "前者更濃郁熱帶果與草本，後者更細緻花香與礦物感。" },
+        { "title": "Central Otago PN vs Martinborough PN", "description": "Central Otago 通常更濃郁果實與高酸，Martinborough 偏優雅與地表氣息。" }
+      ],
+      "quiz": {
+        "question": "比較 Marlborough 與 Nelson 產區的 Sauvignon Blanc，兩者風格差異的主要原因是？",
+        "options": [
+          "Nelson 使用橡木桶陳年，而 Marlborough 使用不鏽鋼發酵",
+          "Marlborough 的氣候更溫暖潮濕，Nelson 更乾燥涼爽",
+          "兩產區的微氣候、土壤和地形差異影響葡萄成熟度和風味表現",
+          "Nelson 產區禁止使用商業酵母，只能使用野生酵母發酵"
+        ],
+        "correct": 2,
+        "explanation": "Marlborough 和 Nelson 雖然地理位置相近，但微氣候和土壤條件有顯著差異。Marlborough 的 Wairau Valley 和 Awatere Valley 擁有較涼爽的海洋性氣候、充足的日照和礫石土壤，這些條件造就了濃郁的熱帶水果香氣（百香果、番石榴）和明顯的草本特徵。而 Nelson 產區的氣候較為溫和，土壤類型更多樣（包括黏土），加上降雨量較多，使得這裡的 Sauvignon Blanc 風格更細緻，展現更多花香、柑橘類水果和礦物感，整體更優雅而不那麼張揚。這是 terroir（風土）對風格影響的經典例子。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "應用：為何這些差異重要？",
+      "content": [
+        { "type": "text", "text": "理解風格有助於：選酒（依場合與菜餚）、品評（精準描述）、以及教學或推廣（向消費者解釋風格差異）。" }
+      ],
+      "icon": "💡"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "風格由氣候→土壤→栽培→釀造多重因子共同塑造",
+        "區域比較與釀造指標能幫助快速判斷酒款來源與處理方式",
+        "練習對比同品種不同子產區的樣本，提升判讀能力"
+      ]
+    }
+  ]
+}

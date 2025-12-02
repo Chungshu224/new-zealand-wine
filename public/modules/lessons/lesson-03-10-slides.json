@@ -1,0 +1,119 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Pinot Noir 在 Martinborough 的表現",
+      "subtitle": "深入了解品種特性、釀造技術與風格表現",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "為何 Pinot Noir 在此成功？",
+      "content": [
+        { "type": "text", "text": "Martinborough 的冷涼氣候、適度日照與礫石土壤，完美匹配 Pinot Noir 對風土的敏感性，造就出優雅細膩、層次豐富的酒款。" }
+      ],
+      "icon": "🎯"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "Martinborough Pinot Noir 典型風格",
+      "icon": "🍇",
+      "features": [
+        { "title": "果香表現", "description": "櫻桃、紅莓、蔓越莓等紅色水果，純淨而集中。", "icon": "🍒" },
+        { "title": "香料與複雜度", "description": "肉桂、丁香、乾燥草本與微妙的泥土氣息。", "icon": "🌿" },
+        { "title": "質地與結構", "description": "絲滑細緻的單寧，活潑的酸度，中等酒體。", "icon": "✨" }
+      ],
+      "quiz": {
+        "question": "以下哪一項最能描述 Martinborough Pinot Noir 的質地與結構？",
+        "options": ["厚重且極高單寧", "絲滑細緻的單寧與活潑酸度", "非常甜且低酸", "幾乎無果香"],
+        "correct": 1,
+        "explanation": "Martinborough Pinot Noir 通常表現為絲滑細緻的單寧與活潑的酸度，中等酒體且果香純淨。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "葡萄園管理實踐",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "低產量控制", "value": "每公頃產量控制在 4-6 噸，確保風味集中", "icon": "📉" },
+          { "label": "手工採收", "value": "精選成熟度一致的果串，避免機械傷害", "icon": "✋" },
+          { "label": "有機栽培", "value": "乾燥氣候適合有機管理，許多酒莊已獲認證", "icon": "🌱" }
+        ] }
+      ],
+      "icon": "🌾",
+      "quiz": {
+        "question": "為何 Martinborough 的酒莊常採用手工採收？",
+        "options": ["成本更低", "能精選成熟度一致的果串以提升品質", "機械無法運作在地區", "手工採收使酒款更甜"],
+        "correct": 1,
+        "explanation": "手工採收可以挑選成熟度一致的果串，避免機械採收時混入未成熟或過熟果實，進而提升釀造品質。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "釀造流程與風格塑造",
+      "subtitle": "從葡萄到酒瓶的關鍵決策",
+      "items": [
+        { "year": "採收與分選", "text": "嚴格篩選，只使用完美成熟的果實。" },
+        { "year": "冷浸漬", "text": "低溫浸皮萃取顏色與香氣，避免過度萃取單寧。" },
+        { "year": "天然酵母發酵", "text": "許多酒莊使用野生酵母，增加複雜度與風土表現。" },
+        { "year": "橡木桶陳年", "text": "法國橡木桶為主，新桶比例 20-40%，陳年 10-18 個月。" }
+      ],
+      "icon": "⚙️",
+      "quiz": {
+        "question": "釀造中使用天然酵母（野生酵母）通常會帶來什麼效果？",
+        "options": ["完全相同的風味每年不變", "增加複雜度與風土表現的可能性", "減少發酵時間到極短", "去除所有果香"],
+        "correct": 1,
+        "explanation": "天然酵母能帶來更多微生物多樣性，可能增加香氣複雜度並強化風土表現，但結果較不易標準化。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "不同地塊的風格差異",
+      "icon": "🎨",
+      "features": [
+        { "title": "礫石主導地塊", "description": "風格更集中、礦物感明顯、結構緊實。", "icon": "🪨" },
+        { "title": "砂質土壤地塊", "description": "更優雅輕盈、果香純淨、易飲性高。", "icon": "🏖️" },
+        { "title": "黏土混合地塊", "description": "酒體稍豐滿、單寧更明顯、陳年潛力強。", "icon": "🌱" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "陳年潛力與適飲期",
+      "content": [
+        { "type": "text", "text": "Martinborough Pinot Noir 通常在釀造後 2-3 年進入適飲期，優質酒款可陳年 8-15 年，發展出更多次級香氣如皮革、香菇與乾果。" }
+      ],
+      "icon": "🕰️"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "品鑑要點",
+      "icon": "🥂",
+      "features": [
+        { "title": "觀色", "description": "寶石紅至石榴紅，透明度高，邊緣呈現磚紅色（陳年款）。", "icon": "👁️" },
+        { "title": "聞香", "description": "尋找紅色水果、香料、花香與泥土氣息的平衡。", "icon": "👃" },
+        { "title": "品飲", "description": "注意酸度的活潑度、單寧的絲滑感與尾韻的持久性。", "icon": "😋" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Martinborough 的風土條件完美匹配 Pinot Noir 的需求",
+        "風格強調優雅、純淨果香、細緻單寧與活潑酸度",
+        "低產量控制與精細釀造是品質保證",
+        "優質酒款具備 8-15 年陳年潛力，發展豐富次級香氣"
+      ]
+    }
+  ]
+}

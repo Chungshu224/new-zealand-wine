@@ -1,0 +1,146 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Pinot Noir — 優雅的紅色珍寶",
+      "subtitle": "探索紐西蘭的 Pinot Noir：風土、風格與品鑑技巧",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "品種起源與在紐西蘭的發展",
+      "content": [
+        { "type": "text", "text": "Pinot Noir 原產於法國勃艮第，是公認最具表現土地差異性的紅葡萄品種之一。紐西蘭自 1980s 起開始栽植，南島 Central Otago 與北島的部分涼爽斜坡產生了非常有代表性的風格。" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "典型香氣與風味特徵",
+      "icon": "👃",
+      "features": [
+        { "title": "紅果與漿果", "description": "櫻桃、紅莓、覆盆子等清爽紅果香。", "icon": "🍒" },
+        { "title": "植物與地表氣息", "description": "乾燥葉片、香料、微妙的泥土或礦物感。", "icon": "🌱" },
+        { "title": "陳年後的次級香氣", "description": "隨著時間出現皮革、香菇或乾果等複雜層次。", "icon": "🕰️" }
+      ],
+      "quiz": {
+        "question": "Pinot Noir 葡萄酒在陳年後會發展出哪些次級香氣？",
+        "options": [
+          "百香果與青草",
+          "皮革、香菇與乾果",
+          "黑醋栗與橡木",
+          "玫瑰花瓣與荔枝"
+        ],
+        "correct": 1,
+        "explanation": "Pinot Noir 是一個非常適合陳年的品種。年輕時以櫻桃、紅莓、覆盆子等紅果香為主，隨著時間推移，會發展出複雜的次級香氣，包括皮革、香菇、乾果、森林地表等氣息，這些變化使得陳年的 Pinot Noir 更加複雜迷人。百香果與青草是 Sauvignon Blanc 的特徵，而黑醋栗則更常見於 Cabernet Sauvignon。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "主要產區與風土比較",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Central Otago", "value": "氣候大幅日夜溫差，產出濃郁而鮮明的 Pinot Noir", "icon": "🏔️" },
+          { "label": "Martinborough / Wairarapa", "value": "坡地冷涼風格，酒體優雅且細緻", "icon": "🌾" },
+          { "label": "Marlborough (部分地塊)", "value": "也出產果香豐富、易飲風格的 Pinot", "icon": "🌿" }
+        ] }
+      ],
+      "icon": "🗺️",
+      "quiz": {
+        "question": "Central Otago 產區能產出濃郁鮮明的 Pinot Noir 的主要原因是什麼？",
+        "options": [
+          "該產區土壤含有大量石灰岩",
+          "大幅的日夜溫差有利於風味物質積累",
+          "該產區降雨量特別豐富",
+          "該產區全年氣溫穩定溫暖"
+        ],
+        "correct": 1,
+        "explanation": "Central Otago 位於紐西蘭南島，是世界上最南端的葡萄酒產區之一。其大陸性氣候特徵帶來顯著的日夜溫差，白天充足的陽光促進葡萄成熟和糖分積累，夜晚的涼爽則保留酸度和風味物質，這種條件使得 Central Otago 的 Pinot Noir 既濃郁又鮮明，果香集中且結構良好。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "栽培到裝瓶：影響 Pinot 風格的關鍵",
+      "subtitle": "田間處理、採收時機與釀造決策的影響",
+      "items": [
+        { "year": "修剪與產量控制", "text": "低產量傾向帶來更集中風味與更高品質原料。" },
+        { "year": "採收時機", "text": "稍早採成保留酸度與鮮明果香；晚採有助於酒體與成熟香氣。" },
+        { "year": "發酵與陳年", "text": "全果或部分去梗、開放式發酵槽、法國橡木桶提升結構與複雜度。" },
+        { "year": "瓶陳與整合", "text": "短中期瓶陳可柔化單寧並發展次級香氣。" }
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "釀造選項與對風格的影響",
+      "icon": "🏺",
+      "features": [
+        { "title": "全果發酵 vs 去梗", "description": "去梗降低青味與粗澀；保留部分彩梗可增加結構與香料感。", "icon": "⚖️" },
+        { "title": "橡木使用", "description": "新桶帶來香草、香料與結構；老桶則保留果香並提供柔和度。", "icon": "🪵" },
+        { "title": "溫和萃取", "description": "Pinot 較脆弱，常用較溫和的萃取手法以保留精緻性。", "icon": "💧" }
+      ],
+      "quiz": {
+        "question": "在 Pinot Noir 釀造中，保留部分葡萄梗進行發酵會帶來什麼影響？",
+        "options": [
+          "會使葡萄酒失去所有果香",
+          "可以增加酒體結構與香料感",
+          "會導致葡萄酒過度氧化",
+          "會使單寧變得過於柔軟"
+        ],
+        "correct": 1,
+        "explanation": "在 Pinot Noir 釀造中，是否去梗是一個重要的決策。完全去梗可以降低青澀味與粗糙單寧，使酒體更加柔順。但保留部分葡萄梗（通常5-30%）進行發酵，可以增加酒體的結構性、單寧的骨架感，並帶來額外的香料氣息（如白胡椒、丁香），使葡萄酒更具複雜度和陳年潛力。這是一種平衡的藝術，需要根據年份和葡萄成熟度來調整。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品鑑指南：如何品嚐 Pinot Noir",
+      "content": [
+        { "type": "text", "text": "觀察酒色（淺至中等紅），聞香辨識紅果、花朵、香料與次級氣味；入口感受單寧、酸度與酒體的平衡。" },
+        { "type": "stats", "items": [
+          { "label": "建議溫度", "value": "14-16°C", "icon": "🌡️" },
+          { "label": "醒酒", "value": "視年輕度/結構，輕度醒酒有助於打開香氣", "icon": "⏳" }
+        ] }
+      ],
+      "icon": "🥂"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "經典搭配與食物建議",
+      "icon": "🍽️",
+      "features": [
+        { "title": "烤鴨與家禽", "description": "脂香與烤製風味與 Pinot 的酸度與果香互補。", "icon": "🦆" },
+        { "title": "蘑菇料理與地味菜餚", "description": "地表與根莖風味與陳年 Pinot 的次級香氣呼應。", "icon": "🍄" },
+        { "title": "輕度調味的紅肉", "description": "嫩煎牛小排、羊排等較不需要濃烈單寧的搭配。", "icon": "🥩" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "推薦酒莊與入門款式",
+      "content": [
+        { "type": "text", "text": "建議從 Central Otago 的代表酒莊與 Martinborough 的經典小莊開始，嘗試不同子產區與橡木處理的差異。" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Pinot Noir 在紐西蘭能展現從鮮明紅果到複雜陳年風格的寬廣譜系",
+        "田間管理、採收時機與溫和釀造決定其精緻度與結構",
+        "搭配蘑菇、家禽與細緻紅肉能最佳化品飲體驗"
+      ]
+    }
+  ]
+}

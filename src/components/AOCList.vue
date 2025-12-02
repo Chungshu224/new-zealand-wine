@@ -1,6 +1,6 @@
 <template>
   <div class="aoc-list">
-    <h2>波爾多產區清單</h2>
+    <h2>紐西蘭產區清單</h2>
     
     <input
       type="text"
@@ -9,63 +9,97 @@
       v-model="searchModel"
     />
     
-    <div v-for="(aocs, group) in filteredGroups" :key="group" class="aoc-group">
-      <div class="group-header" @click="toggleGroup(group)">
-        <span class="group-icon">{{ expandedGroups[group] ? '▼' : '►' }}</span>
-        <span class="group-name" :style="{ color: aocColor(group) }">
-          {{ formatGroupName(group) }}
-        </span>
+  <div v-for="(regions, island) in sortedIslands" :key="island" class="aoc-group island-group">
+      <div class="group-header island-header" @click="toggleIsland(island)">
+        <span class="group-icon">{{ expandedIslands[island] ? '▼' : '►' }}</span>
+        <span class="group-name">{{ island }}</span>
       </div>
       
-      <div v-show="expandedGroups[group]" class="group-content">
-        <div
-          v-for="aoc in aocs"
-          :key="aoc"
-          class="aoc-item"
-          :class="{ active: isActive(group, aoc) }"
-          @click="$emit('selectAOC', group, aoc)"
-        >
-          <span class="aoc-dot" :style="{ background: aocColor(group) }"></span>
-          <span>{{ formatAOCName(aoc) }}</span>
+      <div v-show="expandedIslands[island]" class="group-content island-content">
+        <div v-for="(aocs, region) in regions" :key="region" class="aoc-group region-group">
+          <div class="group-header region-header" @click="toggleRegion(region)">
+            <span class="group-icon">{{ expandedRegions[region] ? '▼' : '►' }}</span>
+            <span class="group-name">{{ region }}</span>
+          </div>
+
+          <div v-show="expandedRegions[region]" class="group-content region-content">
+            <div
+              v-for="aoc in aocs"
+              :key="aoc"
+              class="aoc-item"
+              :class="{ active: isActive(island, aoc) }"
+              @click="$emit('selectAOC', island, aoc)"
+            >
+              <span class="aoc-dot" :style="{ background: aocColor(island) }"></span>
+              <span>{{ formatAOCName(aoc) }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 
+
 <script setup>
 import { computed } from 'vue'
 
+
 const props = defineProps({
   search: String,
-  filteredGroups: Object,
-  expandedGroups: Object,
-  toggleGroup: Function,
+  aocGroups: Object,
+  expandedIslands: Object,
+  expandedRegions: Object,
+  toggleIsland: Function,
+  toggleRegion: Function,
   activeAOC: Object,
   aocColor: Function
 })
 
+// 紐西蘭由北到南的主要產區順序
+const regionOrder = [
+  'Northland',
+  'Auckland',
+  'Kumeu',
+  'Gisborne',
+  "Hawke's Bay",
+  'Wairarapa',
+  'Nelson',
+  'Marlborough',
+  'North Canterbury',
+  'Waitaki Valley North Otago',
+  'Central Otago'
+]
+
+function sortRegions(regions) {
+  // regions: { regionName: [...] }
+  const ordered = {}
+  regionOrder.forEach(region => {
+    if (regions[region]) ordered[region] = regions[region]
+  })
+  // 其他未列名的產區放最後
+  Object.keys(regions).forEach(region => {
+    if (!ordered[region]) ordered[region] = regions[region]
+  })
+  return ordered
+}
+
+const sortedIslands = computed(() => {
+  // aocGroups: { island: { region: [...] } }
+  const result = {}
+  Object.entries(props.aocGroups).forEach(([island, regions]) => {
+    result[island] = sortRegions(regions)
+  })
+  return result
+})
+
 const emit = defineEmits(['update:search', 'selectAOC'])
 
-// 處理搜尋輸入雙向綁定
 const searchModel = computed({
   get: () => props.search,
   set: (val) => emit('update:search', val)
 })
 
-// 格式化群組名稱
-const formatGroupName = (group) => {
-  if (group.includes('LeftBank-Medoc')) return '左岸 - 梅多克'
-  if (group.includes('LeftBank-Graves')) return '左岸 - 格拉夫'
-  if (group.includes('RightBank-Libournais')) return '右岸 - 利布爾內'
-  if (group.includes('RightBank-Blaye')) return '右岸 - 布萊'
-  if (group === 'Entre-Deux-Mers') return '兩河之間'
-  if (group === 'Sauternais') return '索甜地區'
-  if (group === 'Regional') return '區域級'
-  return group
-}
-
-// 格式化 AOC 名稱
 const formatAOCName = (aoc) => {
   return aoc
     .replace('.geojson', '')
@@ -73,7 +107,6 @@ const formatAOCName = (aoc) => {
     .replace(/-/g, ' ')
 }
 
-// 檢查是否為當前選中項
 const isActive = (group, aoc) => {
   return props.activeAOC?.group === group && props.activeAOC?.aoc === aoc
 }
@@ -81,7 +114,7 @@ const isActive = (group, aoc) => {
 
 <style scoped>
 .aoc-list {
-  flex: 0 0 320px; /* 固定寬度但不會縮小 */
+  flex: 0 0 320px;
   height: 100%;
   overflow-y: auto;
   background: #f8f8f8;
@@ -93,7 +126,7 @@ const isActive = (group, aoc) => {
 h2 {
   margin-top: 0;
   margin-bottom: 15px;
-  color: #8B0000;
+  color: #006400; /* DarkGreen for NZ */
   letter-spacing: 1px;
 }
 
@@ -108,11 +141,7 @@ h2 {
 
 .aoc-search:focus {
   outline: none;
-  border-color: #4169E1;
-}
-
-.aoc-group {
-  margin-bottom: 12px;
+  border-color: #006400;
 }
 
 .group-header {
@@ -127,18 +156,33 @@ h2 {
   background: rgba(0, 0, 0, 0.05);
 }
 
+.island-header .group-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.region-header .group-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .group-icon {
   font-size: 0.7rem;
   margin-right: 8px;
+  width: 10px;
 }
 
-.group-name {
-  font-weight: 600;
+.island-content {
+  margin-left: 10px;
 }
 
-.group-content {
-  margin-left: 15px;
-  margin-top: 5px;
+.region-group {
+  margin-left: 10px;
+}
+
+.region-content {
+  margin-left: 20px;
 }
 
 .aoc-item {
@@ -156,7 +200,7 @@ h2 {
 }
 
 .aoc-item.active {
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(0, 100, 0, 0.1);
   font-weight: 500;
 }
 
@@ -168,7 +212,6 @@ h2 {
   flex-shrink: 0;
 }
 
-/* 響應式設計 */
 @media (max-width: 768px) {
   .aoc-list {
     width: 100%;

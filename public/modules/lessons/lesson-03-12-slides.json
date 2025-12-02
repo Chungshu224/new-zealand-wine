@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Wairarapa 葡萄酒品評與餐酒配對",
+      "subtitle": "實踐品鑑技巧並探索完美搭配",
+      "icon": "🍽️",
+      "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Wairarapa 葡萄酒品評重點",
+      "content": [
+        { "type": "text", "text": "品評 Martinborough Pinot Noir 時，應特別注意其優雅的果香、細緻的單寧、活潑的酸度與礦物感。白葡萄酒則展現純淨度與清新感。" }
+      ],
+      "icon": "🥂"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "系統化品評步驟",
+      "icon": "📋",
+      "features": [
+        { "title": "觀色", "description": "Pinot Noir 呈淺至中等寶石紅，白酒呈淺檸檬黃至金黃色。", "icon": "👁️" },
+        { "title": "聞香", "description": "尋找紅色水果、香料、花香（紅酒）或柑橘、礦石（白酒）。", "icon": "👃" },
+        { "title": "品飲", "description": "評估酸度、單寧、酒體、風味強度與尾韻長度。", "icon": "😋" }
+      ],
+      "quiz": {
+        "question": "品評時第 1 步通常是？",
+        "options": ["聞香", "品飲", "觀色", "搭配食物"],
+        "correct": 2,
+        "explanation": "品評通常從觀色開始（觀察顏色與澲度），接著聞香再品飲。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "Pinot Noir 的品鑑要點",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "香氣辨識", "value": "櫻桃、紅莓、紫羅蘭、肉桂、泥土", "icon": "👃" },
+          { "label": "口感評估", "value": "絲滑單寧、活潑酸度、中等酒體", "icon": "😋" },
+          { "label": "尾韻判斷", "value": "中長尾韻，帶有香料與礦物回味", "icon": "⏱️" }
+        ] }
+      ],
+      "icon": "🍷",
+      "quiz": {
+        "question": "下列何者不是常見的 Pinot Noir 香氣？",
+        "options": ["櫻桃", "肉桂", "椰子奶油味", "泥土氣息"],
+        "correct": 2,
+        "explanation": "椰子奶油味較接近強烈橡木影響或某些 Chardonnay 的奶油感，並非 Pinot Noir 的典型香氣。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "餐酒配對原則",
+      "subtitle": "如何選擇最佳搭配",
+      "items": [
+        { "year": "重量匹配", "text": "酒體與菜餚重量相當，避免一方壓過另一方。" },
+        { "year": "風味互補", "text": "尋找共同的風味元素，如泥土氣息配蘑菇。" },
+        { "year": "酸度平衡", "text": "高酸度葡萄酒能中和油脂與清爽口腔。" },
+        { "year": "單寧考量", "text": "單寧與蛋白質結合，適合搭配肉類料理。" }
+      ],
+      "icon": "🍽️",
+      "quiz": {
+        "question": "配對時若酒款單寧豐富，最佳搭配是？",
+        "options": ["清淡沙拉", "帶有油脂的烤肉或牛排", "甜點", "清蒸魚"],
+        "correct": 1,
+        "explanation": "單寧豐富的酒款可與油脂豐富的肉類（如烤牛排、烤羊）搭配，油脂能軟化單寧，讓口感更平衡。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "Martinborough Pinot Noir 經典配對",
+      "icon": "🦆",
+      "features": [
+        { "title": "烤鴨胸", "description": "鴨肉的油脂與 Pinot 的酸度完美平衡，果香與肉香互補。", "icon": "🦆" },
+        { "title": "野菇料理", "description": "泥土氣息與蘑菇風味相呼應，展現風土特性。", "icon": "🍄" },
+        { "title": "煙燻鮭魚", "description": "細膩的 Pinot 能搭配魚類，煙燻味增加複雜度。", "icon": "🐟" },
+        { "title": "軟質起司", "description": "Brie、Camembert 等奶油質地與絲滑單寧和諧。", "icon": "🧀" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "紐西蘭在地料理搭配",
+      "content": [
+        { "type": "text", "text": "Martinborough Pinot Noir 與紐西蘭羊肉、野味（如鹿肉）、當地起司都有絕佳搭配。白酒則適合生蠔、綠唇貽貝與白肉魚。" }
+      ],
+      "icon": "🇳🇿"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "品評練習建議",
+      "icon": "📝",
+      "features": [
+        { "title": "比較品鑑", "description": "同時品嚐不同酒莊或年份，對比風格差異。", "icon": "🔄" },
+        { "title": "記錄筆記", "description": "詳細記錄香氣、口感與個人評價，建立味覺記憶。", "icon": "✍️" },
+        { "title": "搭配實驗", "description": "嘗試不同料理搭配，發現個人偏好組合。", "icon": "🧪" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Martinborough Pinot Noir 以優雅、細膩與活潑酸度為品評重點",
+        "烤鴨、野菇、煙燻鮭魚是經典搭配選擇",
+        "系統化品評與記錄能建立味覺記憶庫",
+        "實際搭配實驗是學習餐酒配對的最佳方式"
+      ]
+    }
+  ]
+}

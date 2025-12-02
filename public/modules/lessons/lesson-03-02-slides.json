@@ -1,0 +1,129 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Wairarapa/Martinborough — Pinot 的優雅之地",
+      "subtitle": "探索紐西蘭精品 Pinot Noir 的搖籃：精緻、細膩與風土表現",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Wairarapa 與 Martinborough 產區概覽",
+      "content": [
+        { "type": "text", "text": "Wairarapa 位於北島東南端，包含 Martinborough、Gladstone 等子產區。Martinborough 以冷涼氣候與精緻 Pinot Noir 聞名，被譽為紐西蘭的「小勃艮第」。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "產區核心特色",
+      "icon": "⭐",
+      "features": [
+        { "title": "冷涼氣候", "description": "受南方海風與山脈影響,氣候冷涼且日夜溫差大,適合 Pinot Noir 展現細膩度。", "icon": "🌬️" },
+        { "title": "礫石與砂質土壤", "description": "排水良好的古河床礫石土壤,促進根系深入與風味集中。", "icon": "🪨" },
+        { "title": "小規模精品酒莊", "description": "以家族式小型酒莊為主,注重品質與手工釀造。", "icon": "🏡" }
+      ],
+      "quiz": {
+        "question": "Martinborough 被譽為紐西蘭的什麼地方?",
+        "options": ["小波爾多", "小勃艮第", "小香檳區", "小隆河區"],
+        "correct": 1,
+        "explanation": "Martinborough 以冷涼氣候與精緻 Pinot Noir 聞名,風格細膩優雅,與法國勃艮第的 Pinot Noir 風格相似,因此被譽為紐西蘭的『小勃艮第』。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "主要葡萄品種",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Pinot Noir", "value": "產區招牌，風格優雅、單寧細緻、果香純淨", "icon": "🍇" },
+          { "label": "Pinot Gris", "value": "白葡萄品種，帶有豐富質地與微妙香料感", "icon": "🥂" },
+          { "label": "Sauvignon Blanc", "value": "相較 Marlborough 更為收斂與礦石感", "icon": "🍋" },
+          { "label": "Riesling", "value": "少量種植，展現優雅酸度與陳年潛力", "icon": "✨" }
+        ] }
+      ],
+      "icon": "🍇"
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "Martinborough 的葡萄酒歷史",
+      "subtitle": "從實驗到國際認可",
+      "items": [
+        { "year": "1979年", "text": "首批現代葡萄園建立，開啟精品酒莊時代。" },
+        { "year": "1980年代", "text": "Pinot Noir 表現受到注目，確立產區定位。" },
+        { "year": "1990年代", "text": "多家酒莊獲得國際獎項，Martinborough Pinot 聲名遠播。" },
+        { "year": "2000年至今", "text": "成為紐西蘭精品 Pinot Noir 代名詞，吸引全球收藏家。" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "Martinborough 的風土優勢",
+      "icon": "🌄",
+      "features": [
+        { "title": "日夜溫差", "description": "白天溫暖促進成熟,夜晚涼爽保留酸度與香氣。", "icon": "🌡️" },
+        { "title": "低降雨量", "description": "乾燥氣候降低病害風險,有利於有機栽培。", "icon": "☀️" },
+        { "title": "風土多樣性", "description": "不同地塊的微氣候與土壤差異創造豐富風格。", "icon": "🎨" }
+      ],
+      "quiz": {
+        "question": "Martinborough 的乾燥氣候特別有利於哪種栽培方式?",
+        "options": ["密集灌溉栽培", "有機與生物動力法栽培", "大規模機械化栽培", "溫室栽培"],
+        "correct": 1,
+        "explanation": "Martinborough 的低降雨量與乾燥氣候能降低病害風險,非常適合採用有機與生物動力法栽培,許多酒莊因此能實踐低干預的自然釀造方式。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "Pinot Noir 風格特徵",
+      "content": [
+        { "type": "text", "text": "Martinborough 的 Pinot Noir 以優雅、細緻與純淨果香著稱，帶有櫻桃、紅莓、香料與微妙的泥土氣息，單寧絲滑、酸度活潑，具備良好陳年潛力。" }
+      ],
+      "icon": "🍷"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "品鑑與搭配建議",
+      "icon": "🥂",
+      "features": [
+        { "title": "適飲溫度", "description": "14-16°C,能完整展現細膩香氣與質地。", "icon": "🌡️" },
+        { "title": "醒酒建議", "description": "年輕酒款建議醒酒 20-30 分鐘,陳年酒款可直接品飲。", "icon": "⏳" },
+        { "title": "搭配料理", "description": "烤鴨、鮭魚、蘑菇料理、軟質起司等精緻料理。", "icon": "🦆" }
+      ],
+      "quiz": {
+        "question": "品飲 Martinborough Pinot Noir 的建議適飲溫度是?",
+        "options": ["8-10°C", "14-16°C", "18-20°C", "22-24°C"],
+        "correct": 1,
+        "explanation": "Martinborough Pinot Noir 建議在 14-16°C 品飲,這個溫度能完整展現其細膩的香氣、絲滑的單寧與優雅的質地,溫度過低會壓抑香氣,過高則會突顯酒精感。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "永續與有機實踐",
+      "content": [
+        { "type": "text", "text": "Martinborough 的乾燥氣候適合有機與生物動力法栽培，許多酒莊採用低干預釀造，強調自然風土表現與環境保護。" }
+      ],
+      "icon": "🌿"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Martinborough 以冷涼氣候與礫石土壤產出精緻 Pinot Noir",
+        "風格強調優雅、細膩與純淨果香，具備良好陳年潛力",
+        "小型精品酒莊為主，注重手工釀造與風土表現",
+        "被譽為紐西蘭的「小勃艮第」，是 Pinot Noir 愛好者必訪產區"
+      ]
+    }
+  ]
+}

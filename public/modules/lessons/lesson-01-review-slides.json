@@ -1,0 +1,29 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Level 1 — 複習測驗",
+      "subtitle": "隨機抽題 10 題，80% 通過，通過後可進階 Level 2",
+      "icon": "📝",
+      "background": "linear-gradient(135deg,#30cfd0 0%,#330867 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "複習測驗說明",
+      "content": [
+        {
+          "type": "text",
+          "text": "題庫包含約 30 題單選題，系統會隨機抽 10 題進行測驗。答對 80% (8/10) 或以上為通過。通過測驗後，可直接前往 Level 2 閱讀進階內容。"
+        }
+      ],
+      "icon": "ℹ️",
+      "reviewQuiz": {
+        "bankPath": "/modules/lessons/lesson-01-review-questions.json",
+        "numQuestions": 10,
+        "passingScore": 80
+      }
+    }
+  ]
+}

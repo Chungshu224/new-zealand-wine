@@ -1,0 +1,644 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "橡木桶使用與陳年",
+      "subtitle": "橡木桶的藝術與科學",
+      "icon": "🛢️",
+      "background": "linear-gradient(135deg, #8b4513 0%, #654321 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將探討" },
+        { "type": "text", "text": "• 橡木桶的歷史與演變" },
+        { "type": "text", "text": "• 橡木桶的製作工藝" },
+        { "type": "text", "text": "• 橡木種類與產地差異" },
+        { "type": "text", "text": "• 橡木桶對葡萄酒的影響" },
+        { "type": "text", "text": "• 新桶 vs 舊桶使用策略" },
+        { "type": "text", "text": "• 烘烤程度與風味" },
+        { "type": "text", "text": "• 橡木桶替代品" },
+        { "type": "text", "text": "• 紐西蘭酒莊的橡木桶策略" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "橡木桶的歷史",
+      "content": [
+        { "type": "heading", "text": "從運輸工具到釀造藝術" },
+        { "type": "text", "text": "古代：" },
+        { "type": "text", "text": "  • 羅馬時代使用陶罐（Amphora）運輸葡萄酒" },
+        { "type": "text", "text": "  • 高盧人（現法國）發明木桶用於啤酒" },
+        { "type": "divider" },
+        { "type": "text", "text": "中世紀：" },
+        { "type": "text", "text": "  • 橡木桶成為葡萄酒運輸標準容器" },
+        { "type": "text", "text": "  • 發現橡木桶改善酒質與風味" },
+        { "type": "divider" },
+        { "type": "text", "text": "近代：" },
+        { "type": "text", "text": "  • 19-20 世紀：不鏽鋼桶發明" },
+        { "type": "text", "text": "  • 橡木桶從必需品變為風味工具" },
+        { "type": "text", "text": "  • 釀酒師開始精確控制橡木桶使用" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "橡木桶製作工藝",
+      "content": [
+        { "type": "heading", "text": "傳統制桶流程" },
+        { "type": "text", "text": "1. 木材選擇與準備：" },
+        { "type": "text", "text": "   • 選擇樹齡 80-200 年的橡木" },
+        { "type": "text", "text": "   • 沿木紋劈裂（而非鋸開）" },
+        { "type": "text", "text": "   • 保持木材結構完整，減少滲漏" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 風乾陳化（Seasoning）：" },
+        { "type": "text", "text": "   • 戶外堆放 2-3 年" },
+        { "type": "text", "text": "   • 雨水沖刷苦澀單寧" },
+        { "type": "text", "text": "   • 微生物分解粗糙化合物" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 組裝與塑形：" },
+        { "type": "text", "text": "   • 將木板（Staves）排列成桶形" },
+        { "type": "text", "text": "   • 用火加熱彎曲成型" },
+        { "type": "text", "text": "   • 金屬箍固定" }
+      ],
+      "icon": "🔨"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "烘烤（Toasting）過程",
+      "content": [
+        { "type": "heading", "text": "關鍵工序" },
+        { "type": "text", "text": "• 在組裝後，將桶內部用火焰烘烤" },
+        { "type": "text", "text": "• 時間：5-60 分鐘" },
+        { "type": "text", "text": "• 溫度：120-200°C" },
+        { "type": "divider" },
+        { "type": "heading", "text": "烘烤程度分類" },
+        { "type": "text", "text": "輕度烘烤（Light Toast）：" },
+        { "type": "text", "text": "  • 椰子、香草、細緻香料" },
+        { "type": "text", "text": "  • 保留較多橡木本身風味" },
+        { "type": "divider" },
+        { "type": "text", "text": "中度烘烤（Medium Toast）：" },
+        { "type": "text", "text": "  • 焦糖、太妃糖、烤麵包" },
+        { "type": "text", "text": "  • 最常用，平衡度佳" },
+        { "type": "divider" },
+        { "type": "text", "text": "重度烘烤（Heavy Toast）：" },
+        { "type": "text", "text": "  • 咖啡、巧克力、煙燻、焦炭" },
+        { "type": "text", "text": "  • 強烈風味，少數酒款適合" }
+      ],
+      "icon": "🔥"
+    },
+    {
+      "id": 6,
+      "type": "table",
+      "title": "橡木種類與產地差異",
+      "tableData": {
+        "headers": ["橡木類型", "主要產地", "特性", "風味貢獻", "適用酒款"],
+        "rows": [
+          {
+            "disease": "法國橡木",
+            "condition": "法國中部、東部",
+            "symptom": "細密紋理、慢生長",
+            "prevention": "細緻、優雅、香料",
+            "risk": "Pinot Noir, Chardonnay"
+          },
+          {
+            "disease": "美國橡木",
+            "condition": "美國東部、中西部",
+            "symptom": "粗糙紋理、快生長",
+            "prevention": "椰子、奶油、香草、甜",
+            "risk": "強勁紅酒、Rioja"
+          },
+          {
+            "disease": "東歐橡木",
+            "condition": "匈牙利、俄羅斯",
+            "symptom": "介於法美之間",
+            "prevention": "香料、適度甜感",
+            "risk": "平衡型酒款"
+          },
+          {
+            "disease": "斯拉沃尼亞橡木",
+            "condition": "克羅埃西亞",
+            "symptom": "大型桶、中性",
+            "prevention": "微妙、礦物",
+            "risk": "義大利 Barolo, Brunello"
+          }
+        ]
+      },
+      "note": "紐西蘭酒莊多數使用法國橡木桶，少數高端酒款混用美國橡木",
+      "icon": "🌳",
+      "quiz": {
+        "question": "法國橡木桶相較於美國橡木桶，通常提供什麼樣的風味特徵？",
+        "options": [
+          "強烈的椰子與奶油香氣",
+          "細緻、優雅、香料感",
+          "煙燻與焦炭風味",
+          "青草與草本香氣"
+        ],
+        "correct": 1,
+        "explanation": "法國橡木桶因細密的木質紋理和慢生長特性，通常提供細緻、優雅的香料感（如丁香、肉桂）以及微妙的香草風味。相對的，美國橡木桶紋理較粗，提供更強烈的椰子、奶油和甜美香草香氣。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "infographic",
+      "title": "橡木桶對葡萄酒的六大影響",
+      "infographicData": {
+        "context": "橡木桶不僅是容器，更是塑造葡萄酒風格的工具",
+        "challenge": {
+          "title": "橡木桶的作用",
+          "items": [
+            "風味添加：香草、椰子、香料、煙燻、焦糖等化合物",
+            "微氧化：透過木材孔隙緩慢進入氧氣，柔化單寧",
+            "質地提升：多酚與蛋白質交互作用，增加酒體",
+            "顏色穩定：單寧與花青素結合，深化紅酒顏色"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "酒石酸結晶",
+            "cost": "低",
+            "effectiveness": "穩定性",
+            "coverage": "自然",
+            "detail": "橡木桶溫度變化促進結晶"
+          },
+          {
+            "method": "複雜度提升",
+            "cost": "中",
+            "effectiveness": "層次感",
+            "coverage": "整體",
+            "detail": "時間、氧氣、木材共同作用"
+          }
+        ],
+        "result": "橡木桶是葡萄酒陳年的經典工具，影響深遠且多維度"
+      },
+      "icon": "🎯"
+    },
+    {
+      "id": 8,
+      "type": "comparison",
+      "title": "新橡木桶 vs 舊橡木桶",
+      "comparisonData": {
+        "title": "使用年限的影響",
+        "left": {
+          "label": "新桶（1st Use）",
+          "color": "#d69e2e",
+          "icon": "🆕",
+          "items": [
+            "風味貢獻最強",
+            "香草、椰子、香料明顯",
+            "單寧萃取較多",
+            "微氧化速度較快",
+            "需謹慎使用避免過橡木",
+            "成本最高（$800-2000/桶）",
+            "適合：濃郁、結構型酒款"
+          ]
+        },
+        "right": {
+          "label": "舊桶（2nd-5th Use）",
+          "color": "#975a16",
+          "icon": "♻️",
+          "items": [
+            "風味貢獻遞減",
+            "2-3 年桶：適度風味",
+            "4-5 年桶：接近中性",
+            "微氧化更溫和、可控",
+            "質地與複雜度提升為主",
+            "成本效益高",
+            "適合：細緻、風土表達型酒款"
+          ]
+        }
+      },
+      "summary": "多數酒莊混用不同年份的橡木桶，調配出理想的橡木影響強度",
+      "icon": "⚖️"
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "橡木桶使用策略",
+      "content": [
+        { "type": "heading", "text": "新桶比例決策" },
+        { "type": "text", "text": "0% 新桶：" },
+        { "type": "text", "text": "  • 純粹風土表達" },
+        { "type": "text", "text": "  • 部分頂級 Pinot Noir（Felton Road 某些園區）" },
+        { "type": "divider" },
+        { "type": "text", "text": "20-40% 新桶：" },
+        { "type": "text", "text": "  • 平衡橡木與果味" },
+        { "type": "text", "text": "  • 紐西蘭 Chardonnay 與 Pinot Noir 常見比例" },
+        { "type": "divider" },
+        { "type": "text", "text": "50-100% 新桶：" },
+        { "type": "text", "text": "  • 強調結構與複雜度" },
+        { "type": "text", "text": "  • 國際風格、濃郁型紅酒" },
+        { "type": "text", "text": "  • 需要強大果味支撐" },
+        { "type": "divider" },
+        { "type": "heading", "text": "批次管理" },
+        { "type": "text", "text": "• 不同批次在不同年份桶中發酵/陳年" },
+        { "type": "text", "text": "• 調配時決定最終橡木影響" }
+      ],
+      "icon": "📊"
+    },
+    {
+      "id": 10,
+      "type": "content",
+      "title": "橡木桶尺寸的影響",
+      "content": [
+        { "type": "heading", "text": "常見尺寸" },
+        { "type": "text", "text": "Barrique（225 公升）：" },
+        { "type": "text", "text": "  • 波爾多標準" },
+        { "type": "text", "text": "  • 最常用於紐西蘭" },
+        { "type": "text", "text": "  • 表面積/體積比高，橡木影響強" },
+        { "type": "divider" },
+        { "type": "text", "text": "Pièce（228 公升）：" },
+        { "type": "text", "text": "  • 勃艮第標準" },
+        { "type": "text", "text": "  • 與 Barrique 相近" },
+        { "type": "divider" },
+        { "type": "text", "text": "Hogshead（300 公升）：" },
+        { "type": "text", "text": "  • 較溫和的橡木影響" },
+        { "type": "divider" },
+        { "type": "text", "text": "Puncheon（500 公升）：" },
+        { "type": "text", "text": "  • 更中性，微氧化為主" },
+        { "type": "divider" },
+        { "type": "text", "text": "大型橡木桶（1000-5000 公升）：" },
+        { "type": "text", "text": "  • 極少風味貢獻" },
+        { "type": "text", "text": "  • 緩慢微氧化與穩定作用" }
+      ],
+      "icon": "📏",
+      "quiz": {
+        "question": "新橡木桶通常可以使用幾次才會變得相對中性？",
+        "options": [
+          "1-2 次",
+          "3-4 次",
+          "4-5 次",
+          "6-8 次"
+        ],
+        "correct": 2,
+        "explanation": "橡木桶使用 4-5 次後會變得相對中性，風味貢獻大幅減少。第一次使用時風味最強，第二、三次仍有適度貢獻，之後主要提供微氧化與質地提升作用。許多酒莊會在 5-6 年後將舊桶轉售或重新刨削內壁。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "陳年時間決策",
+      "content": [
+        { "type": "heading", "text": "白葡萄酒" },
+        { "type": "text", "text": "不過桶：Sauvignon Blanc 主流風格" },
+        { "type": "text", "text": "3-6 個月：部分 Sauvignon Blanc、Pinot Gris" },
+        { "type": "text", "text": "6-12 個月：Chardonnay 標準" },
+        { "type": "text", "text": "12-18 個月：高端 Chardonnay" },
+        { "type": "divider" },
+        { "type": "heading", "text": "紅葡萄酒" },
+        { "type": "text", "text": "6-10 個月：輕盈 Pinot Noir" },
+        { "type": "text", "text": "10-16 個月：標準 Pinot Noir" },
+        { "type": "text", "text": "16-24 個月：濃郁型紅酒、頂級 Pinot" },
+        { "type": "text", "text": "24+ 個月：國際風格、波爾多混釀" },
+        { "type": "divider" },
+        { "type": "heading", "text": "考量因素" },
+        { "type": "text", "text": "• 果味濃縮度與結構" },
+        { "type": "text", "text": "• 目標風格定位" },
+        { "type": "text", "text": "• 成本與倉儲壓力" }
+      ],
+      "icon": "⏱️"
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "橡木桶發酵 vs 陳年",
+      "content": [
+        { "type": "heading", "text": "橡木桶發酵" },
+        { "type": "text", "text": "• 在橡木桶中進行酒精發酵" },
+        { "type": "text", "text": "• 優點：" },
+        { "type": "text", "text": "  ✓ 橡木風味更整合、自然" },
+        { "type": "text", "text": "  ✓ 發酵熱促進橡木化合物萃取" },
+        { "type": "text", "text": "  ✓ 質地更豐富、綿密" },
+        { "type": "text", "text": "• 挑戰：" },
+        { "type": "text", "text": "  ⚠ 溫控困難" },
+        { "type": "text", "text": "  ⚠ 清潔與管理複雜" },
+        { "type": "text", "text": "  ⚠ 風險較高" },
+        { "type": "text", "text": "• 適合：高端 Chardonnay" },
+        { "type": "divider" },
+        { "type": "heading", "text": "橡木桶陳年" },
+        { "type": "text", "text": "• 發酵後轉入橡木桶" },
+        { "type": "text", "text": "• 優點：風險低、可控性高" },
+        { "type": "text", "text": "• 適合：大部分橡木桶使用情境" }
+      ],
+      "icon": "🔄"
+    },
+    {
+      "id": 13,
+      "type": "comparison",
+      "title": "紐西蘭 Chardonnay 橡木桶策略",
+      "comparisonData": {
+        "title": "兩種典型風格",
+        "left": {
+          "label": "勃艮第風格",
+          "color": "#d69e2e",
+          "icon": "🇫🇷",
+          "items": [
+            "法國橡木桶發酵",
+            "30-50% 新桶",
+            "10-14 個月陳年",
+            "酒泥接觸 + 攪桶",
+            "完全 MLF",
+            "複雜、質地豐富、烤杏仁",
+            "代表：Kumeu River, Felton Road"
+          ]
+        },
+        "right": {
+          "label": "清新果香型",
+          "color": "#48bb78",
+          "icon": "🍏",
+          "items": [
+            "部分不鏽鋼、部分舊桶",
+            "0-20% 新桶",
+            "6-10 個月陳年",
+            "酒泥接觸但少攪桶",
+            "部分或無 MLF",
+            "果香明顯、清新、礦物",
+            "代表：多數 Marlborough 酒莊"
+          ]
+        }
+      },
+      "summary": "紐西蘭 Chardonnay 風格多元，橡木桶使用反映釀酒師的哲學",
+      "icon": "🍷"
+    },
+    {
+      "id": 14,
+      "type": "comparison",
+      "title": "紐西蘭 Pinot Noir 橡木桶策略",
+      "comparisonData": {
+        "title": "產區與風格差異",
+        "left": {
+          "label": "Central Otago",
+          "color": "#c53030",
+          "icon": "🏔️",
+          "items": [
+            "25-40% 新法國橡木桶",
+            "12-16 個月陳年",
+            "225L Barrique",
+            "中度烘烤為主",
+            "強化果味與結構",
+            "濃郁、成熟果味",
+            "國際市場接受度高"
+          ]
+        },
+        "right": {
+          "label": "Martinborough",
+          "color": "#9b2c2c",
+          "icon": "🌸",
+          "items": [
+            "20-35% 新法國橡木桶",
+            "10-14 個月陳年",
+            "225L Barrique",
+            "輕-中度烘烤",
+            "保留優雅與細緻",
+            "紅色水果、泥土、花香",
+            "勃艮第風格追隨者偏好"
+          ]
+        }
+      },
+      "summary": "Central Otago 較強勁，Martinborough 較優雅，橡木桶使用反映此差異",
+      "icon": "🍇"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "橡木桶替代品",
+      "content": [
+        { "type": "heading", "text": "成本考量下的選擇" },
+        { "type": "text", "text": "1. 橡木片（Oak Chips）：" },
+        { "type": "text", "text": "   • 將橡木片加入不鏽鋼桶中" },
+        { "type": "text", "text": "   • 提供橡木風味但無微氧化" },
+        { "type": "text", "text": "   • 成本極低" },
+        { "type": "text", "text": "   ⚠ 風味較粗糙、不整合" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 橡木條/橡木塊（Oak Staves/Blocks）：" },
+        { "type": "text", "text": "   • 懸掛在桶內或置於桶底" },
+        { "type": "text", "text": "   • 比橡木片質感稍好" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 橡木粉末：" },
+        { "type": "text", "text": "   • 快速萃取但風味最粗糙" },
+        { "type": "divider" },
+        { "type": "heading", "text": "使用情境" },
+        { "type": "text", "text": "• 低價位葡萄酒（<$15）" },
+        { "type": "text", "text": "• 大產量酒款" },
+        { "type": "text", "text": "• 在紐西蘭精品酒莊極少使用" }
+      ],
+      "icon": "🪵",
+      "quiz": {
+        "question": "橡木桶對葡萄酒的主要影響不包括下列哪一項？",
+        "options": [
+          "提供香草、椰子等風味化合物",
+          "透過微氧化柔化單寧",
+          "增加酒精濃度",
+          "提升酒體與質地"
+        ],
+        "correct": 2,
+        "explanation": "橡木桶不會增加酒精濃度，酒精是發酵過程中酵母轉化糖分產生的。橡木桶的主要作用包括：提供風味化合物（香草、椰子、香料等）、透過木材孔隙進行微氧化（柔化單寧）、提升酒體與質地、穩定顏色等。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "content",
+      "title": "橡木桶的維護與管理",
+      "content": [
+        { "type": "heading", "text": "使用後清潔" },
+        { "type": "text", "text": "1. 沖洗與消毒：" },
+        { "type": "text", "text": "   • 高壓水沖洗" },
+        { "type": "text", "text": "   • 臭氧或蒸汽消毒" },
+        { "type": "text", "text": "   • 避免化學清潔劑殘留" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 儲存：" },
+        { "type": "text", "text": "   • 燃燒硫磺片防止微生物" },
+        { "type": "text", "text": "   • 保持桶內濕潤（避免乾裂）" },
+        { "type": "text", "text": "   • 或填滿清水儲存" },
+        { "type": "divider" },
+        { "type": "heading", "text": "檢查與修復" },
+        { "type": "text", "text": "• 定期檢查滲漏" },
+        { "type": "text", "text": "• 更換損壞的金屬箍" },
+        { "type": "text", "text": "• 檢查木材裂痕" },
+        { "type": "divider" },
+        { "type": "heading", "text": "桶齡管理" },
+        { "type": "text", "text": "• 追蹤每個桶的使用次數與年份" },
+        { "type": "text", "text": "• 5-6 年後考慮重新刨削或淘汰" }
+      ],
+      "icon": "🔧"
+    },
+    {
+      "id": 17,
+      "type": "content",
+      "title": "重新刨削（Re-toasting）",
+      "content": [
+        { "type": "heading", "text": "延長橡木桶壽命" },
+        { "type": "text", "text": "• 將桶內壁刨削 2-5mm" },
+        { "type": "text", "text": "• 重新烘烤" },
+        { "type": "text", "text": "• 恢復部分風味貢獻" },
+        { "type": "divider" },
+        { "type": "heading", "text": "效果" },
+        { "type": "text", "text": "✓ 成本僅為新桶的 30-40%" },
+        { "type": "text", "text": "✓ 風味強度約為新桶的 60-70%" },
+        { "type": "text", "text": "✓ 可再使用 2-3 年" },
+        { "type": "divider" },
+        { "type": "heading", "text": "限制" },
+        { "type": "text", "text": "⚠ 只能刨削 1-2 次（木材厚度限制）" },
+        { "type": "text", "text": "⚠ 無法恢復如新桶的風味複雜度" },
+        { "type": "text", "text": "⚠ 微氧化特性改變" },
+        { "type": "divider" },
+        { "type": "text", "text": "許多紐西蘭酒莊使用重新刨削的桶來平衡成本與品質" }
+      ],
+      "icon": "♻️"
+    },
+    {
+      "id": 18,
+      "type": "table",
+      "title": "橡木桶 vs 其他陳年容器",
+      "tableData": {
+        "headers": ["容器", "風味貢獻", "微氧化", "質地影響", "成本", "適用"],
+        "rows": [
+          {
+            "disease": "新橡木桶",
+            "condition": "強",
+            "symptom": "適度",
+            "prevention": "顯著",
+            "risk": "很高",
+            "detail": "濃郁型酒款"
+          },
+          {
+            "disease": "舊橡木桶",
+            "condition": "低",
+            "symptom": "適度",
+            "prevention": "適度",
+            "risk": "中",
+            "detail": "風土表達型"
+          },
+          {
+            "disease": "不鏽鋼桶",
+            "condition": "無",
+            "symptom": "無",
+            "prevention": "無",
+            "risk": "低",
+            "detail": "清新果香型"
+          },
+          {
+            "disease": "混凝土蛋/槽",
+            "condition": "無",
+            "symptom": "微量",
+            "prevention": "適度",
+            "risk": "高",
+            "detail": "質地提升"
+          },
+          {
+            "disease": "陶罐",
+            "condition": "無",
+            "symptom": "微量",
+            "prevention": "顯著",
+            "risk": "很高",
+            "detail": "實驗性"
+          },
+          {
+            "disease": "大型橡木桶",
+            "condition": "極低",
+            "symptom": "少",
+            "prevention": "少",
+            "risk": "高",
+            "detail": "傳統/義式風格"
+          }
+        ]
+      },
+      "note": "容器選擇反映釀酒師對風格的追求與哲學",
+      "icon": "🏺"
+    },
+    {
+      "id": 19,
+      "type": "content",
+      "title": "紐西蘭酒莊的橡木桶成本",
+      "content": [
+        { "type": "heading", "text": "新橡木桶價格" },
+        { "type": "text", "text": "法國橡木桶（225L）：" },
+        { "type": "text", "text": "  • 標準品質：NZ$1,200-1,500" },
+        { "type": "text", "text": "  • 高端桶廠（Taransaud, François Frères）：$1,800-2,500" },
+        { "type": "divider" },
+        { "type": "text", "text": "美國橡木桶（225L）：" },
+        { "type": "text", "text": "  • $600-900（價格較低）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "成本計算" },
+        { "type": "text", "text": "• 一個 Barrique 裝 225 公升 = 300 瓶" },
+        { "type": "text", "text": "• 新桶成本：$1,500 ÷ 300 = $5/瓶" },
+        { "type": "text", "text": "• 使用 5 年後攤提：$1/瓶" },
+        { "type": "divider" },
+        { "type": "text", "text": "對於 $30 以上的酒款，橡木桶成本是可接受的投資" },
+        { "type": "text", "text": "對於 $15-20 的酒款，需謹慎使用新桶比例" }
+      ],
+      "icon": "💰"
+    },
+    {
+      "id": 20,
+      "type": "content",
+      "title": "頂級酒莊的橡木桶策略案例",
+      "content": [
+        { "type": "heading", "text": "Felton Road（Central Otago）" },
+        { "type": "text", "text": "• 25-35% 新法國橡木桶" },
+        { "type": "text", "text": "• 使用 François Frères、Remond 等頂級桶廠" },
+        { "type": "text", "text": "• 輕-中度烘烤" },
+        { "type": "text", "text": "• 14-16 個月陳年" },
+        { "type": "text", "text": "• 目標：支持果味而非主導" },
+        { "type": "divider" },
+        { "type": "heading", "text": "Kumeu River（Auckland）" },
+        { "type": "text", "text": "Chardonnay：" },
+        { "type": "text", "text": "  • 100% 法國橡木桶發酵" },
+        { "type": "text", "text": "  • 30-50% 新桶" },
+        { "type": "text", "text": "  • 11 個月陳年 + 攪桶" },
+        { "type": "text", "text": "  • 完全 MLF" },
+        { "type": "text", "text": "  • 目標：勃艮第風格的複雜度與質地" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 21,
+      "type": "content",
+      "title": "橡木桶使用的趨勢變化",
+      "content": [
+        { "type": "heading", "text": "1990-2000s：橡木桶熱潮" },
+        { "type": "text", "text": "• 高比例新桶（50-100%）" },
+        { "type": "text", "text": "• 追求國際風格、濃郁口感" },
+        { "type": "text", "text": "• 重度烘烤流行" },
+        { "type": "divider" },
+        { "type": "heading", "text": "2010s-現在：回歸平衡" },
+        { "type": "text", "text": "✓ 降低新桶比例（20-40%）" },
+        { "type": "text", "text": "✓ 輕-中度烘烤為主" },
+        { "type": "text", "text": "✓ 強調風土而非橡木" },
+        { "type": "text", "text": "✓ 部分頂級酒莊甚至不用新桶" },
+        { "type": "divider" },
+        { "type": "heading", "text": "未來趨勢" },
+        { "type": "text", "text": "• 大型中性橡木桶興起" },
+        { "type": "text", "text": "• 混凝土與陶罐實驗" },
+        { "type": "text", "text": "• 「隱形橡木」哲學：橡木支持而非主導" },
+        { "type": "text", "text": "• 消費者偏好更純淨、細緻的風格" }
+      ],
+      "icon": "📈"
+    },
+    {
+      "id": 22,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "橡木桶從運輸工具演變為塑造葡萄酒風格的精密工具",
+        "烘烤程度影響風味：輕烤（香草）、中烤（焦糖）、重烤（煙燻）",
+        "法國橡木：細緻優雅；美國橡木：椰子奶油；各有適用情境",
+        "橡木桶六大作用：風味、微氧化、質地、顏色、穩定、複雜度",
+        "新桶風味最強，4-5 次使用後變中性，可重新刨削延長壽命",
+        "紐西蘭 Chardonnay：30-50% 新桶；Pinot Noir：20-40% 新桶",
+        "陳年時間：白酒 6-12 月，紅酒 10-18 月，視風格而定",
+        "橡木桶替代品（木片）成本低但質感粗糙，精品酒莊避免使用",
+        "紐西蘭趨勢：降低新桶比例，強調風土而非橡木主導",
+        "橡木桶成本高但可攤提，對 $30+ 酒款是值得的投資"
+      ],
+      "icon": "✅"
+    }
+  ]
+}

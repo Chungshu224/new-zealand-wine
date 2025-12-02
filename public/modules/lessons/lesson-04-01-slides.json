@@ -1,0 +1,109 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Marlborough — 白酒之都",
+      "subtitle": "探索紐西蘭最知名的白酒產區：氣候、土壤與 Sauvignon Blanc 的風格",
+      "icon": "🍾",
+      "background": "linear-gradient(135deg,#a8edea 0%,#fed6e3 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "產區概覽與地理位置",
+      "content": [
+        { "type": "text", "text": "Marlborough 位於紐西蘭南島東北部，長日照與相對乾燥的生長季造就鮮明果香與高酸度，是紐西蘭白酒（特別是 Sauvignon Blanc）最重要的產區。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "氣候與生長條件",
+      "icon": "☀️",
+      "features": [
+        { "title": "長日照與涼爽夜晚", "description": "日夜溫差保留酸度與芳香化合物，促進果香發展。", "icon": "🌡️" },
+        { "title": "乾燥生長季", "description": "降低病害壓力，利於成熟與品質穩定。", "icon": "🌾" }
+      ],
+      "quiz": {
+        "question": "Marlborough 長日照與涼爽夜晚對 Sauvignon Blanc 的主要貢獻是？",
+        "options": ["增加單寧", "保留酸度並強化果香", "提高糖分殘留", "使果香消失"],
+        "correct": 1,
+        "explanation": "長日照與涼爽夜晚有助於累積風味化合物並在晚間保留酸度，讓 Sauvignon Blanc 展現鮮明果香與清爽酸度。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "代表性土壤與子產區",
+      "content": [
+        { "type": "text", "text": "產區包含多樣土壤：沖積砂礫、砂質壤土與黏土混合帶來不同的風味表現。子產區如 Wairau Plain 與 Awatere Valley 在風土與風格上各有差異。" }
+      ],
+      "icon": "🪨"
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "Sauvignon Blanc 的典型風格（Marlborough）",
+      "icon": "🍋",
+      "features": [
+        { "title": "果香明顯", "description": "青柑橘、草本、熱帶水果（如百香果）等鮮明香氣。", "icon": "🍈" },
+        { "title": "高酸度", "description": "清爽的酸度使其在餐酒搭配上相當百搭。", "icon": "🍋" },
+        { "title": "礦物與草本調性", "description": "在特定地塊可見礦物感與草本複雜度。", "icon": "🌿" }
+      ],
+      "quiz": {
+        "question": "哪一種香氣是 Marlborough Sauvignon Blanc 的典型描述？",
+        "options": ["百香果（熱帶水果）", "黑醋栗", "濃郁巧克力", "煙燻香"],
+        "correct": 0,
+        "explanation": "Marlborough Sauvignon Blanc 常以百香果、草本和柑橘類果香聞名，是其典型風格表現。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "釀造與風格塑造",
+      "content": [
+        { "type": "text", "text": "冷藏壓榨、短時間發酵與不過度的橡木使用，能保留 Sauvignon Blanc 的鮮明香氣；部分酒莊會透過罐澄與不完全發酵達到不同口感。" }
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "id": 7,
+      "type": "feature",
+      "title": "品鑑指引與建議搭配",
+      "icon": "🥂",
+      "features": [
+        { "title": "建議溫度", "description": "8-10°C，能突顯清新果香與酸度。", "icon": "🌡️" },
+        { "title": "搭配建議", "description": "生蠔、海鮮、清淡沙拉與亞洲酸辣料理皆為好選擇。", "icon": "🦪" },
+        { "title": "醒酒與保存", "description": "通常不需醒酒；年輕飲用最能體現活潑果香。", "icon": "⏳" }
+      ],
+      "quiz": {
+        "question": "Marlborough Sauvignon Blanc 最合適的飲用溫度範圍是？",
+        "options": ["8-10°C", "14-16°C", "18-20°C", "22-24°C"],
+        "correct": 0,
+        "explanation": "建議在 8-10°C 飲用 Marlborough 的 Sauvignon Blanc，可以突顯其清新果香與亮麗酸度。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "title": "產業趨勢與可持續實踐",
+      "content": [
+        { "type": "text", "text": "越來越多 Marlborough 酒莊導入節水、土壤保護與有機栽培措施，並探索提高地塊表現的策略以面對氣候變化。" }
+      ],
+      "icon": "🌱"
+    },
+    {
+      "id": 9,
+      "type": "summary",
+      "title": "本課重點總結",
+      "icon": "🔑",
+      "points": [
+        "Marlborough 是紐西蘭白酒的核心產區，尤其以 Sauvignon Blanc 著稱",
+        "長日照與夜間涼爽造就鮮明果香與高酸度",
+        "土壤與子產區差異造成風味多樣性，且產業正朝向更多可持續作法發展"
+      ]
+    }
+  ]
+}

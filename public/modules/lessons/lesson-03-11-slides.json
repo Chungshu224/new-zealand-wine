@@ -1,0 +1,107 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Martinborough 代表酒莊與風格",
+      "subtitle": "認識精品小酒莊與其獨特釀酒哲學",
+      "icon": "🏆",
+      "background": "linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Martinborough 酒莊特色",
+      "content": [
+        { "type": "text", "text": "Martinborough 以家族經營的小型精品酒莊為主，強調手工釀造、低產量與風土表現。許多酒莊由葡萄酒愛好者創立，注重品質勝於產量。" }
+      ],
+      "icon": "🏡"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "經典酒莊風格取向",
+      "icon": "🎯",
+      "features": [
+        { "title": "傳統勃艮第風格", "description": "強調優雅、細膩與陳年潛力，使用法國橡木桶與天然酵母。", "icon": "🇫🇷" },
+        { "title": "現代果香風格", "description": "注重純淨果香與易飲性，適合較早飲用。", "icon": "✨" },
+        { "title": "生物動力實踐", "description": "部分酒莊採用生物動力法，追求最自然的風土表現。", "icon": "🌙" }
+      ],
+      "quiz": {
+        "question": "Martinborough 酒莊常見的兩種釀酒風格為何？",
+        "options": ["甜酒與氣泡酒", "傳統勃艮第風格與現代果香風格", "清甜型白酒與加烈酒", "起泡酒與加香酒"],
+        "correct": 1,
+        "explanation": "Martinborough 的酒莊常見風格有偏向傳統勃艮第的優雅陳年款，也有追求明亮果香的現代風格，兩者並存於區內不同酒莊。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "知名酒莊案例",
+      "content": [
+        { "type": "text", "text": "Martinborough 擁有多家獲國際認可的精品酒莊，如 Ata Rangi、Dry River、Martinborough Vineyard 等，各具特色但都以高品質 Pinot Noir 著稱." }
+      ],
+      "icon": "🌟",
+      "quiz": {
+        "question": "下列哪一家不是 Martinborough 的代表酒莊？",
+        "options": ["Ata Rangi", "Dry River", "Kumeu River", "Martinborough Vineyard"],
+        "correct": 2,
+        "explanation": "Kumeu River 位於 Auckland 附近，以 Chardonnay 著名；而 Ata Rangi、Dry River 與 Martinborough Vineyard 為 Martinborough 的代表酒莊。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "酒莊釀造哲學差異",
+      "icon": "🎨",
+      "features": [
+        { "title": "地塊表現", "description": "單一葡萄園酒款展現特定風土特性。", "icon": "🪨" },
+        { "title": "混釀平衡", "description": "混合不同地塊以達到複雜度與平衡。", "icon": "⚖️" },
+        { "title": "最低干預", "description": "自然發酵、不過濾、低二氧化硫添加。", "icon": "🌿" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "如何從酒標判讀風格",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Single Vineyard", "value": "標示特定葡萄園名稱，風格更精準集中", "icon": "📍" },
+          { "label": "Reserve / Premium", "value": "通常代表最佳地塊或精選桶陳", "icon": "⭐" },
+          { "label": "有機/生物動力認證", "value": "標示認證標章，強調自然栽培", "icon": "🌱" }
+        ] }
+      ],
+      "icon": "🔍",
+      "quiz": {
+        "question": "酒標上出現 "Single Vineyard" 時，代表什麼？",
+        "options": ["來自多個葡萄園混釀", "標示該酒來自特定葡萄園，風格較集中", "保證採用機械採收", "表示為特製甜酒"],
+        "correct": 1,
+        "explanation": ""Single Vineyard" 表示葡萄來自特定葡萄園，通常代表酒款更能反映該地塊的風土特性與集中風格。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "timeline",
+      "title": "品鑑不同風格酒莊的建議順序",
+      "items": [
+        { "year": "入門款", "text": "從村莊級或基本款開始，了解產區基本風格。" },
+        { "year": "單一葡萄園", "text": "品嚐特定地塊，理解風土差異。" },
+        { "year": "頂級 Reserve", "text": "體驗酒莊最高表現與陳年潛力。" },
+        { "year": "陳年酒款", "text": "若有機會，品嚐 5-10 年陳年酒了解發展。" }
+      ],
+      "icon": "🥂"
+    },
+    {
+      "id": 8,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Martinborough 以小型家族精品酒莊為特色",
+        "風格從傳統勃艮第取向到現代果香都有",
+        "單一葡萄園酒款能展現細緻的風土差異",
+        "酒標資訊可協助判斷酒款風格與品質定位"
+      ]
+    }
+  ]
+}

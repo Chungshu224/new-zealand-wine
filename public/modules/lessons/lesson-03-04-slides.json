@@ -1,0 +1,103 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Gisborne 與其他北島產區 — 海岸、河谷與多樣風格",
+      "subtitle": "快速了解 Gisborne、Northland 與 Waiheke 等北島產區的特色與代表酒款",
+      "icon": "🌊",
+      "background": "linear-gradient(135deg,#89f7fe 0%,#66a6ff 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Gisborne 產區概覽",
+      "content": [
+        { "type": "text", "text": "Gisborne 位於北島東岸,以溫暖、日照充足的氣候聞名,適合生產成熟而果香濃鬱的白酒（如 Chardonnay）與較輕盈的紅酒。產區也有長期的釀酒歷史與特色酒莊。" }
+      ],
+      "icon": "🗺️",
+      "quiz": {
+        "question": "Gisborne 產區最適合生產哪類酒款?",
+        "options": ["起泡酒", "成熟果香濃鬱的白酒", "陳年型紅酒", "加烈酒"],
+        "correct": 1,
+        "explanation": "Gisborne 位於北島東岸,擁有溫暖且日照充足的氣候,特別適合生產成熟而果香濃鬱的白酒,尤其是 Chardonnay,也有較輕盈的紅酒生產。"
+      }
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "北島其他重點產區速覽",
+      "icon": "📍",
+      "features": [
+        { "title": "Northland", "description": "更北方且氣候溫暖,部分區域適合種植芳香型白葡萄與較輕盈的紅酒。", "icon": "🌿" },
+        { "title": "Waiheke（補充）", "description": "小島氣候溫暖,出品高酒精度的濃鬱紅酒,適合富有結構的烤肉搭配。", "icon": "🏝️" },
+        { "title": "其他小產區", "description": "一些近海或河谷地塊提供多樣風格,從礦物感白酒到果香豐富的紅酒皆有。", "icon": "🔎" }
+      ],
+      "quiz": {
+        "question": "Northland 產區的氣候特色是什麼?",
+        "options": ["冷涼且多雨", "溫暖且位於北方", "高海拔山區", "乾燥沙漠氣候"],
+        "correct": 1,
+        "explanation": "Northland 位於紐西蘭北島的最北端,氣候溫暖,適合種植芳香型白葡萄與較輕盈的紅酒品種,是紐西蘭氣候最溫暖的葡萄酒產區之一。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "土壤與微氣候影響",
+      "content": [
+        { "type": "text", "text": "海岸影響、河谷沖積層與古河床礫石都會影響水分保持與根系發展，進而改變果香濃度與酸度表現。" }
+      ],
+      "icon": "🪨"
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "代表品種與風格",
+      "icon": "🍇",
+      "features": [
+        { "title": "Chardonnay", "description": "在 Gisborne、Kumeu 等地能表現從清新礦物到奶油橡木多樣風格。", "icon": "🥂" },
+        { "title": "Sauvignon Blanc / Pinot Gris", "description": "視產區而異，從礦石感到果香豐富都有。", "icon": "🍋" },
+        { "title": "輕型紅酒", "description": "北島部分區域生產較輕盈、果香的紅酒，適合早飲。", "icon": "🍒" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "timeline",
+      "title": "北島產業趨勢",
+      "subtitle": "從地方性生產到旅遊與直銷驅動的商業模式",
+      "items": [
+        { "year": "地方性生產", "text": "許多小酒莊以家族經營為主，注重地塊與風格多樣性。" },
+        { "year": "觀光與直銷", "text": "近年遊客帶動酒莊品酒與直售，提升小產區的能見度。" },
+        { "year": "精品化趨勢", "text": "重視低產量、高品質的製酒方式與地塊標示。" }
+      ],
+      "icon": "📈"
+    },
+    {
+      "id": 7,
+      "type": "feature",
+      "title": "品鑑要點（北島白酒與輕紅）",
+      "icon": "🥂",
+      "features": [
+        { "title": "觀察酸度與果香", "description": "北島白酒多呈現飽滿果香,重點在酸度平衡與礦物感的辨識。", "icon": "🍋" },
+        { "title": "紅酒爽飲性", "description": "輕型紅酒強調純淨紅果與易飲性,適合較短熟成。", "icon": "🍷" }
+      ],
+      "quiz": {
+        "question": "北島產區近年的產業趋勢主要包括哪些方向?",
+        "options": ["大量出口與機械化生產", "旅遊化、直銷與精品化", "低價競爭策略", "放棄小型酒莊"],
+        "correct": 1,
+        "explanation": "北島產區近年朝向旅遊化、直銷與精品化發展,許多小型酒莊以家族經營為主,注重地塊與風格多樣性,這客帶動酒莊品酒體驗與直接銷售,提升小產區的能見度。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "summary",
+      "title": "本課重點總結",
+      "icon": "🔑",
+      "points": [
+        "Gisborne 與北島其他產區風格多樣，受海岸與河谷影響明顯",
+        "Chardonnay 與芳香型白酒在北島多有亮眼表現，部分區域也生產輕盈紅酒",
+        "產業趨勢朝向旅遊化、直銷與精品化發展"
+      ]
+    }
+  ]
+}

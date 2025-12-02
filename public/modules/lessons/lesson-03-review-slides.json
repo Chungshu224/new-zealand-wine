@@ -1,0 +1,29 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Level 2 複習測驗",
+      "subtitle": "涵蓋北島與南島主要產區、風土、品種與釀造要點",
+      "icon": "🧭",
+      "background": "linear-gradient(135deg,#a1c4fd 0%,#c2e9fb 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "開始複習測驗",
+      "content": [
+        { "type": "text", "text": "題庫約 30 題，將隨機抽取 10 題進行測驗；80% 為通過標準。通過後可進階閱讀 Level 3。" }
+      ],
+      "icon": "📘",
+      "reviewQuiz": {
+        "bankPath": "/modules/lessons/lesson-03-review-questions.json",
+        "numQuestions": 10,
+        "passingScore": 80,
+        "storageKey": "nz-wine-level2-review",
+        "passedKey": "nz-wine-level2-passed",
+        "nextLevel": 3
+      }
+    }
+  ]
+}

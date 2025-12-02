@@ -1,0 +1,255 @@
+[
+  {
+    "id": "Marlborough",
+    "name": "Marlborough",
+    "island": "South Island",
+    "type": "Wine Region",
+    "hectare": 31000,
+    "style": ["白酒", "氣泡酒", "紅酒", "芳香型白酒"],
+    "grapes": ["Sauvignon Blanc", "Pinot Noir", "Chardonnay", "Pinot Gris", "Riesling", "Gewurztraminer", "Grüner Veltliner", "Viognier", "Syrah"],
+    "subregions": ["Southern Valleys", "Wairau Valley", "Awatere Valley"],
+    "description": "紐西蘭最大且最著名的葡萄酒產區，佔全國葡萄園總面積的70%以上。以其獨特、風味濃郁的Sauvignon Blanc聞名於世，此品種的成功奠定了紐西蘭在全球葡萄酒市場的地位。除了Sauvignon Blanc，Marlborough也出產優質的Pinot Noir、Chardonnay和芳香型白酒。",
+    "details": {
+      "introduction": "Marlborough是紐西蘭葡萄酒的代名詞，尤其以Sauvignon Blanc在1980年代取得國際性成功而聞名。該產區擁有超過全國三分之二的葡萄園，是紐西蘭葡萄酒出口的絕對主力。這裡不僅有大型酒莊，也有許多精品酒莊，共同塑造了產區的多元風貌。",
+      "climate": "作為紐西蘭陽光最充足、最乾燥的地區之一，Marlborough受益於漫長而緩慢的成熟季節。溫暖的白天和涼爽的夜晚有助於葡萄風味的積累，同時保持了清新的酸度，這是其葡萄酒充滿活力的關鍵。",
+      "subregions": {
+        "Wairau Valley": "最大、最溫暖的子產區，出產的Sauvignon Blanc帶有濃郁的熱帶水果香氣。",
+        "Southern Valleys": "土壤中黏土含量較高，非常適合種植Pinot Noir，釀出的紅酒風格備受讚譽。",
+        "Awatere Valley": "最為涼爽和乾燥的子產區，葡萄酒風格清脆，帶有草本和柑橘的氣息。"
+      },
+      "grape_varieties": ["Sauvignon Blanc", "Pinot Noir", "Chardonnay", "Pinot Gris", "Riesling", "Gewurztraminer", "Grüner Veltliner", "Viognier", "Syrah"]
+    }
+  },
+  {
+    "id": "HawkesBay",
+    "name": "Hawkes Bay",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": 4700,
+    "style": ["紅酒", "白酒", "芳香型白酒"],
+    "grapes": ["Merlot", "Cabernet Sauvignon", "Syrah", "Chardonnay", "Sauvignon Blanc", "Pinot Gris", "Pinot Noir"],
+    "subregions": ["Gimblett Gravels", "Bridge Pa Triangle", "Te Awanga", "Esk Valley", "Havelock North"],
+    "description": "紐西蘭最古老、第二大的葡萄酒產區，以其高品質的波爾多風格紅酒混釀、濃郁的Chardonnay和優雅的Syrah而聞名。自1851年由傳教士種下第一批葡萄藤以來，Hawke's Bay已成為紐西蘭頂級紅酒的搖籃。",
+    "details": {
+      "introduction": "Hawke's Bay位於北島東海岸，是紐西蘭的紅酒重鎮。這裡擁有許多歷史悠久的酒莊，如Te Mata Estate和Mission Estate。產區的風土條件多樣，能夠釀造出從強勁的紅酒到清新的白酒等多種風格。",
+      "climate": "氣候溫暖而乾燥，日照時間長，是種植葡萄的理想之地。太平洋的調節作用和山脈的屏障使其免受極端天氣影響。多樣的土壤和微氣候是其能夠成功種植多種葡萄的關鍵。",
+      "subregions": {
+        "Gimblett Gravels": "以其深厚的礫石土壤而聞名，能夠吸收和反射熱量，是釀造頂級波爾多混釀和Syrah的理想之地。",
+        "Bridge Pa Triangle": "同樣以強勁的紅酒聞名，特別是Merlot、Cabernet Sauvignon和Syrah。",
+        "Te Awanga": "沿海地區，受海洋影響，氣候涼爽，適合釀造優雅的葡萄酒。",
+        "Esk Valley": "位於北部的子產區，擁有獨特的微氣候。",
+        "Havelock North": "許多歷史悠久的酒莊坐落於此，特別是在Te Mata Peak的山坡上。"
+      },
+      "grape_varieties": ["Merlot", "Cabernet Sauvignon", "Syrah", "Chardonnay", "Sauvignon Blanc", "Pinot Gris", "Pinot Noir"]
+    }
+  },
+  {
+    "id": "CentralOtago",
+    "name": "Central Otago",
+    "island": "South Island",
+    "type": "Wine Region",
+    "hectare": 2000,
+    "style": ["紅酒", "白酒", "芳香型白酒", "氣泡酒"],
+    "grapes": ["Pinot Noir", "Riesling", "Pinot Gris", "Gewurztraminer", "Chardonnay", "Sauvignon Blanc"],
+    "subregions": ["Gibbston", "Bannockburn", "Cromwell/Lowburn/Pisa", "Bendigo", "Wanaka", "Alexandra"],
+    "description": "世界最南端的商業葡萄酒產區，以其壯麗的風景和出產的頂級Pinot Noir而聞名。這裡的葡萄酒以其濃郁的果味、絲滑的質地和複雜的層次感而備受讚譽。",
+    "details": {
+      "introduction": "Central Otago坐落在南島的壯麗山脈之間，是一個充滿戲劇性美景的產區。儘管面臨霜凍等極端氣候的挑戰，這裡的釀酒師們卻成功地釀造出世界一流的Pinot Noir，佔據了產區約80%的種植面積。",
+      "climate": "典型的半大陸性氣候，夏季炎熱乾燥，冬季寒冷，晝夜溫差極大。這種巨大的日溫差有助於葡萄在積累濃郁風味的同時，保持了至關重要的酸度，使酒體平衡而集中。",
+      "subregions": {
+        "Gibbston": "海拔最高、最涼爽的子產區，被稱為“藤之谷”，出產的葡萄酒風格優雅。",
+        "Bannockburn": "最溫暖乾燥的區域之一，被譽為“沙漠之心”，釀造的Pinot Noir強勁而結構複雜。",
+        "Cromwell Basin": "最大的子產區，出產的葡萄酒絲滑誘人。",
+        "Bendigo": "溫暖的子產區，以其風味集中、單寧堅實的Pinot Noir而聞名。",
+        "Alexandra": "最南端的子產區，氣候極端，葡萄酒芳香四溢，結構精細。",
+        "Wanaka": "圍繞風景如畫的瓦納卡湖，氣候較涼，葡萄酒精緻芬芳。"
+      },
+      "grape_varieties": ["Pinot Noir", "Riesling", "Pinot Gris", "Gewurztraminer", "Chardonnay", "Sauvignon Blanc"]
+    }
+  },
+  {
+    "id": "NorthCanterbury",
+    "name": "North Canterbury",
+    "island": "South Island",
+    "type": "Wine Region",
+    "hectare": 1400,
+    "style": ["紅酒", "白酒", "芳香型白酒"],
+    "grapes": ["Pinot Noir", "Chardonnay", "Riesling", "Pinot Gris", "Sauvignon Blanc"],
+    "subregions": ["Waipara Valley", "Canterbury Plains", "Waikari", "Banks Peninsula"],
+    "description": "一個充滿活力和快速發展的產區，以其風味集中、層次豐富的Pinot Noir和Riesling而聞名。這裡的釀酒師以其獨立和創新的精神而自豪。",
+    "details": {
+      "introduction": "North Canterbury位於南島東海岸，西邊是南阿爾卑斯山，東邊是太平洋。這裡有超過90個葡萄園，其中大部分是獨立經營的。涼爽、乾燥的氣候和充足的陽光，加上漫長的生長季節，賦予了葡萄酒濃郁的風味和複雜性。",
+      "climate": "氣候涼爽乾燥，日照充足，生長季節長。多樣的地理環境造就了多個具有獨特土壤和微氣候的子產區。",
+      "subregions": {
+        "Waipara Valley": "North Canterbury的核心產區，氣候溫暖乾燥，以其濃郁辛辣的Pinot Noir和Riesling而聞名。",
+        "Canterbury Plains": "環繞基督城，地勢平坦，土壤多石，適合釀造優雅的Riesling和Pinot Noir。",
+        "Waikari": "位於內陸，以其石灰岩土壤而聞名。",
+        "Banks Peninsula": "火山山丘地帶，是該地區最早種植葡萄的地方之一。"
+      },
+      "grape_varieties": ["Pinot Noir", "Chardonnay", "Riesling", "Pinot Gris", "Sauvignon Blanc"]
+    }
+  },
+  {
+    "id": "Gisborne",
+    "name": "Gisborne",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": 1200,
+    "style": ["白酒", "紅酒", "芳香型白酒"],
+    "grapes": ["Chardonnay", "Pinot Gris", "Gewurztraminer", "Viognier", "Chenin Blanc", "Albariño", "Merlot", "Malbec", "Syrah"],
+    "subregions": ["Ormond", "Patutahi", "Manutuke", "Central Valley"],
+    "description": "紐西蘭的“Chardonnay之都”，以其濃郁、果味豐富的Chardonnay而聞名。作為每天最早看到日出的城市之一，這裡的葡萄藤沐浴在充足的陽光下。",
+    "details": {
+      "introduction": "Gisborne位於北島的最東端，是紐西蘭歷史悠久的產區之一。這裡是庫克船長1769年首次登陸紐西蘭的地方。該產區以白葡萄酒為主，特別是Chardonnay，風格濃郁飽滿。",
+      "climate": "溫暖乾燥的海洋性氣候，擁有紐西蘭最高的日照時數之一。午後的海風有助於保持葡萄的天然酸度和果香。這裡通常是紐西蘭最早開始收穫的產區。",
+      "subregions": {
+        "Ormond": "擁有著名的“金色山坡”，其石灰岩土壤出產頂級的Chardonnay。",
+        "Patutahi": "溫暖的內陸地區，非常適合種植Gewurztraminer。",
+        "Manutuke": "最古老的種植區，沙質和粉質土壤非常適合Chardonnay。",
+        "Central Valley": "受河流影響，土壤類型多樣。"
+      },
+      "grape_varieties": ["Chardonnay", "Pinot Gris", "Gewurztraminer", "Viognier", "Chenin Blanc", "Albariño", "Merlot", "Malbec", "Syrah"]
+    }
+  },
+  {
+    "id": "Wairarapa",
+    "name": "Wairarapa",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": 900,
+    "style": ["紅酒", "白酒", "芳香型白酒", "甜酒"],
+    "grapes": ["Pinot Noir", "Sauvignon Blanc", "Chardonnay", "Pinot Gris", "Riesling", "Gewurztraminer", "Syrah"],
+    "subregions": ["Martinborough", "Gladstone", "Masterton"],
+    "description": "一個小而精的產區，以其世界級的Pinot Noir而聞名。雖然產量僅佔紐西蘭的1%，但其品質卻備受國際讚譽。",
+    "details": {
+      "introduction": "Wairarapa位於北島的東南角，距離首都威靈頓僅一個多小時車程。這裡的現代釀酒史始於1970年代末，一份報告指出其風土與法國勃根地驚人地相似，從而吸引了釀酒先驅前來種植Pinot Noir。",
+      "climate": "氣候涼爽乾燥，夏季白天炎熱，夜晚涼爽，使得葡萄能夠緩慢成熟，發展出複雜的風味和良好的酸度。山脈的屏障保護了葡萄園免受強風侵襲。",
+      "subregions": {
+        "Martinborough": "最著名、最南端的子產區，以其世界級的Pinot Noir而聞名。許多精品酒莊環繞著風景如畫的村莊廣場。",
+        "Gladstone": "以其芳香型白酒和果味柔和的紅酒而聞名。",
+        "Masterton": "Wairarapa最大的城鎮，也是該地區最早種植葡萄的地方。"
+      },
+      "grape_varieties": ["Pinot Noir", "Sauvignon Blanc", "Chardonnay", "Pinot Gris", "Riesling", "Gewurztraminer", "Syrah"]
+    }
+  },
+  {
+    "id": "Nelson",
+    "name": "Nelson",
+    "island": "South Island",
+    "type": "Wine Region",
+    "hectare": 1100,
+    "style": ["白酒", "紅酒", "芳香型白酒"],
+    "grapes": ["Sauvignon Blanc", "Pinot Noir", "Chardonnay", "Riesling", "Pinot Gris", "Gewurztraminer"],
+    "subregions": ["Moutere Hills", "Waimea Plains"],
+    "description": "一個陽光普照的精品產區，以其芳香型白酒和優雅的Pinot Noir而聞名。這裡不僅是葡萄酒產區，也是一個充滿活力的藝術和美食中心。",
+    "details": {
+      "introduction": "Nelson位於南島的最北端，是紐西蘭陽光最充足的地區之一。這裡的釀酒業始於1970年代，如今以其高品質的精品葡萄酒而聞名。除了葡萄酒，Nelson還以其手工啤酒、新鮮海鮮和三個國家公園而吸引遊客。",
+      "climate": "氣候陽光充足，受到良好保護，秋季漫長而乾燥，為葡萄的成熟創造了完美的條件。涼爽的氣候特別適合芳香型白酒的生長。",
+      "subregions": {
+        "Moutere Hills": "土壤為礫石點綴的黏土，氣候稍暖濕，出產的葡萄酒口感豐富、質地複雜。",
+        "Waimea Plains": "土壤為多石的沖積土，靠近海洋，出產的葡萄酒通常更輕盈、更清新，香氣明亮。"
+      },
+      "grape_varieties": ["Sauvignon Blanc", "Pinot Noir", "Chardonnay", "Riesling", "Pinot Gris", "Gewurztraminer"]
+    }
+  },
+  {
+    "id": "Auckland",
+    "name": "Auckland",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": 1000,
+    "style": ["紅酒", "白酒", "芳香型白酒"],
+    "grapes": ["Chardonnay", "Syrah", "Merlot", "Cabernet Sauvignon", "Pinot Gris", "Cabernet Franc", "Montepulciano", "Petit Verdot"],
+    "subregions": ["Waiheke Island", "West Auckland", "Matakana"],
+    "description": "紐西蘭最古老、最多樣化的葡萄酒產區之一，以其濃郁、結構飽滿的葡萄酒而聞名，這得益於其獨特的火山黏土土壤。",
+    "details": {
+      "introduction": "Auckland的釀酒歷史可以追溯到1900年代初。許多紐西蘭最古老的釀酒家族都發源於此。如今，該產區由三個各具特色的子產區組成，共同展現了Auckland葡萄酒的魅力。",
+      "climate": "亞熱帶海洋性氣候，夏季溫暖，降雨適中，沿海的微風有助於葡萄的成熟。火山土壤為葡萄酒增添了獨特的個性。",
+      "subregions": {
+        "Waiheke Island": "一個風景優美的島嶼，以其溫暖乾燥的海洋性氣候而聞名，出產風味集中、層次複雜的紅酒和白酒。",
+        "West Auckland": "紐西蘭最古老的種植區之一，以其時尚的Chardonnay和Merlot而獲得國際讚譽。",
+        "Matakana": "一個受歡迎的葡萄酒旅遊目的地，出產果味十足的Pinot Gris、Syrah和波爾多風格的紅酒。"
+      },
+      "grape_varieties": ["Chardonnay", "Syrah", "Merlot", "Cabernet Sauvignon", "Pinot Gris", "Cabernet Franc", "Montepulciano", "Petit Verdot"]
+    }
+  },
+  {
+    "id": "Northland",
+    "name": "Northland",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": 90,
+    "style": ["白酒", "紅酒", "芳香型白酒"],
+    "grapes": ["Chardonnay", "Pinot Gris", "Viognier", "Syrah", "Merlot", "Cabernet Sauvignon", "Pinotage", "Chambourcin"],
+    "subregions": ["Bay of Islands", "Kerikeri", "Whangarei", "Kaitaia"],
+    "description": "紐西蘭歷史最悠久、地理位置最北的葡萄酒產區。溫暖的氣候使其能夠釀造出酒體飽滿、風味濃郁的葡萄酒。",
+    "details": {
+      "introduction": "Northland是紐西蘭葡萄酒的發源地，第一批葡萄藤由傳教士Samuel Marsden於1819年種下。儘管歷史悠久，這裡仍然是紐西蘭最小的產區之一，以精品、高品質的生產為重點。",
+      "climate": "近乎亞熱帶的濕潤溫暖海洋性氣候。生長季節的熱量比紐西蘭任何其他產區都多，使得葡萄能夠早熟。葡萄園通常位於沿海地區，以利用海風的調節作用。",
+      "subregions": {
+        "Bay of Islands": "歷史悠久的地區，氣候溫暖。",
+        "Kerikeri": "沿海地區，適合多種葡萄品種。",
+        "Whangarei": "沿海地區，氣候溫暖。",
+        "Kaitaia": "北部的種植區。"
+      },
+      "grape_varieties": ["Chardonnay", "Pinot Gris", "Viognier", "Syrah", "Merlot", "Cabernet Sauvignon", "Pinotage", "Chambourcin"]
+    }
+  },
+  {
+    "id": "WaitakiValley",
+    "name": "Waitaki Valley North Otago",
+    "island": "South Island",
+    "type": "Wine Region",
+    "hectare": 60,
+    "style": ["紅酒", "白酒", "芳香型白酒"],
+    "grapes": ["Pinot Noir", "Pinot Gris", "Riesling", "Chardonnay"],
+    "subregions": ["Waitaki Valley North Otago"],
+    "description": "紐西蘭最年輕的葡萄酒產區，以其獨特的石灰岩土壤和出產的優質涼爽氣候葡萄酒而迅速贏得聲譽。Waitaki Valley North Otago 是該產區的核心子產區，以高品質的Pinot Noir和芳香型白酒著稱。",
+    "details": {
+      "introduction": "Waitaki Valley位於North Otago和South Canterbury的邊界，是一個小而重要的產區。第一批葡萄藤於2001年種植。儘管面臨霜凍等挑戰，這裡的釀酒師們憑藉其熱情和專注，正在贏得越來越多的認可。Waitaki Valley North Otago作為主要子產區，擁有石灰岩和鵝卵石土壤，賦予葡萄酒獨特的礦物感和結構。",
+      "climate": "氣候獨特，夏季炎熱乾燥，冬季寒冷，秋季漫長而乾燥。漫長的生長季節有助於葡萄緩慢成熟，從而增強其香氣強度和品種特徵。夜晚溫度較低，有助於保持葡萄的酸度和新鮮度。",
+      "subregions": {
+        "Waitaki Valley North Otago": "Waitaki Valley North Otago是該產區的核心，擁有石灰岩和鵝卵石土壤，出產的Pinot Noir以其優雅、細緻的結構和鮮明的礦物感著稱。芳香型白酒如Riesling和Pinot Gris則展現出明亮的酸度和純淨的果香。這裡的葡萄酒通常產量有限，品質極高，深受行家青睞。"
+      },
+      "grape_varieties": ["Pinot Noir", "Pinot Gris", "Riesling", "Chardonnay"]
+    }
+  },
+  {
+    "id": "Kumeu",
+    "name": "Kumeu",
+    "island": "North Island",
+    "type": "Wine Region",
+    "hectare": null,
+    "style": ["白酒", "紅酒"],
+    "grapes": ["Chardonnay", "Pinot Gris", "Pinot Noir", "Syrah", "Merlot"],
+    "subregions": [],
+    "description": "庫姆是奧克蘭葡萄酒產區的一個重要子產區，以生產世界級的夏多內 (Chardonnay) 而聞名。此地的葡萄酒常被比擬為高品質的布根地白酒，具有極佳的陳年潛力。其釀酒歷史與19世紀末期來此定居的克羅埃西亞移民息息相關，這些家族至今仍是當地葡萄酒產業的主力。",
+    "details": {
+      "introduction": "庫姆位於奧克蘭市中心西北方約25-35公里處，周圍是悠閒的田園風光，以其悠久的釀酒歷史和家族式經營的精品酒莊而聞名。儘管相較於紐西蘭其他大型產區面積較小，但其出產的夏多內卻在全球葡萄酒界備受讚譽。",
+      "climate": "庫姆屬於涼爽的海洋性氣候。由於靠近塔斯曼海和太平洋，夏季氣溫很少超過30°C。涼爽的氣候有助於葡萄緩慢成熟，得以保留清新的酸度和香氣，是釀造優雅而富有層次感葡萄酒的關鍵。",
+      "subregions": {},
+      "grape_varieties": ["Chardonnay", "Pinot Gris", "Pinot Noir", "Syrah", "Merlot"]
+    }
+    },
+    {
+      "id": "CentralHawkesBay",
+      "name": "Central Hawkes Bay",
+      "island": "North Island",
+      "type": "Wine Region",
+      "hectare": null,
+      "style": ["紅酒", "白酒"],
+      "grapes": ["Merlot", "Syrah", "Chardonnay", "Sauvignon Blanc", "Pinot Noir"],
+      "subregions": ["Ongaonga", "Tikokino", "Takapau"],
+      "description": "Central Hawke's Bay 是 Hawke's Bay 葡萄酒產區的南部延伸，以其多樣化的風土和不斷發展的葡萄酒產業而聞名。這個子產區的氣候相對於北部更涼爽，為種植多種葡萄品種提供了獨特的條件，特別是那些喜歡涼爽氣候的品種。",
+      "details": {
+        "introduction": "Central Hawke's Bay 位於 Hawke's Bay 的南部，地勢從沿海平原延伸至內陸的丘陵。這個地區的葡萄酒產業雖然規模較小，但充滿了活力和潛力。許多新興的酒莊正在這裡探索不同品種的可能性，並展現出獨特的風土特色。",
+        "climate": "Central Hawke's Bay 的氣候受到其內陸位置和山脈的影響，與 Hawke's Bay 北部的溫暖、乾燥氣候略有不同。這裡的日夜溫差較大，有助於葡萄緩慢成熟，發展出複雜的香氣和良好的酸度。土壤類型多樣，包括沖積土、黏土和礫石。",
+        "subregions": {
+          "Ongaonga": "以其內陸的涼爽氣候和獨特土壤而聞名，適合種植黑皮諾等對氣候敏感的品種。",
+          "Tikokino": "位於內陸腹地，這裡的葡萄園受益於較高的海拔和良好的排水性土壤。",
+          "Takapau": "這個地區的風土為釀造平衡且風味濃郁的葡萄酒提供了條件。"
+        },
+        "grape_varieties": ["Merlot", "Syrah", "Chardonnay", "Sauvignon Blanc", "Pinot Noir"]
+      }
+    }
+  ]

@@ -1,0 +1,111 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Central Otago — 世界最南端產區",
+      "subtitle": "探索地理極限如何造就出色的 Pinot Noir 與高海拔葡萄酒風格",
+      "icon": "🏔️",
+      "background": "linear-gradient(135deg,#f3e7e9 0%,#e3eeff 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "產區概覽與地理位置",
+      "content": [
+        { "type": "text", "text": "Central Otago 位於紐西蘭南島，是世界上最南端的葡萄酒產區之一；地勢多山，葡萄園常分布在坡地與河谷，海拔與日夜溫差對葡萄品質影響顯著。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "極端氣候與成熟節奏",
+      "icon": "🌡️",
+      "features": [
+        { "title": "強烈日夜溫差", "description": "有助於保留酸度並形成集中而純淨的果香。", "icon": "❄️" },
+        { "title": "短生長季", "description": "生長季較短，成熟期關鍵在陽光累積與無霜的窗口期。", "icon": "☀️" }
+      ],
+      "quiz": {
+        "question": "Central Otago 強烈的日夜溫差主要有利於哪項？",
+        "options": ["降低酸度", "保留酸度並形成純淨果香", "使葡萄提早成熟", "提高產量"],
+        "correct": 1,
+        "explanation": "強烈日夜溫差有助於保留酸度，同時在白天形成純淨且集中的果香，是 Central Otago Pinot 的重要特徵。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "土壤與地形對風味的影響",
+      "content": [
+        { "type": "text", "text": "Central Otago 的土壤多樣，包含砾石、砂質與薄層土，排水良好有利於根系深入與風味集中，地塊差異常造就不同的 Pinot 特性。" }
+      ],
+      "icon": "🪨"
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "Pinot Noir 在 Central Otago 的典型風格",
+      "icon": "🍒",
+      "features": [
+        { "title": "果香與顏色", "description": "以紅色與黑色水果為主，果味純淨且輪廓分明。", "icon": "🍇" },
+        { "title": "質地與單寧", "description": "單寧中等偏緊，結構清晰，酸度支持良好陳年潛力。", "icon": "💪" },
+        { "title": "次級香氣發展", "description": "陳年後出現皮革、蘑菇、乾果等層次感。", "icon": "🕰️" }
+      ],
+      "quiz": {
+        "question": "Central Otago Pinot Noir 陳年後常出現哪類次級香氣？",
+        "options": ["巧克力與咖啡", "皮革與蘑菇", "強烈花香", "濃郁香草"],
+        "correct": 1,
+        "explanation": "隨著陳年，Pinot Noir 常會發展出皮革、蘑菇和乾果等次級香氣，這是成熟與氧化演變的表現。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "timeline",
+      "title": "栽培與釀造要點",
+      "subtitle": "哪些決策會改變 Pinot 的表現？",
+      "items": [
+        { "year": "園位選擇", "text": "選擇受陽光充足的坡地以促進成熟並避免低窪霜害區。" },
+        { "year": "採收時機", "text": "精準判斷糖度與酸度的平衡，避免過晚採收造成失去細緻性。" },
+        { "year": "釀造手法", "text": "低溫或溫和萃取保留精緻香氣，法國橡木可用於增加結構。" }
+      ],
+      "icon": "⚙️",
+      "quiz": {
+        "question": "在 Central Otago, 為什麼採收時機特別重要？",
+        "options": ["因為可以增加產量", "避免過晚採收以保留細緻性與酸度", "讓酒更甜", "無關緊要"],
+        "correct": 1,
+        "explanation": "採收時機會影響酸度與果香，過晚採收可能導致失去 Pinot 的細緻性與清晰度，因此在 Central Otago 精準掌握採收時間非常重要。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品鑑指南：如何品嚐 Central Otago Pinot",
+      "content": [
+        { "type": "text", "text": "觀察顏色深淺、聞香找出紅/黑果與香料，品飲時注意酸度、單寧與尾韻的長度，並比較不同地塊的細緻差異。" }
+      ],
+      "icon": "👃"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "經典搭配與建議",
+      "icon": "🍽️",
+      "features": [
+        { "title": "烤羊排與紅肉", "description": "中等單寧與酸度的 Pinot 能很好地搭配烤羊與風味不過重的紅肉。", "icon": "🥩" },
+        { "title": "蘑菇與野味", "description": "陳年款的泥土與菌菇風味能與野味料理呼應。", "icon": "🍄" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Central Otago 以冷涼、日夜溫差大與高海拔條件聞名",
+        "Pinot Noir 在此能展現純淨果香、清晰結構與良好陳年潛力",
+        "地塊選擇、採收時機與溫和釀造是關鍵決策"
+      ]
+    }
+  ]
+}

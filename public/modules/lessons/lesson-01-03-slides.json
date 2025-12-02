@@ -1,0 +1,160 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "紐西蘭葡萄酒法規體系",
+      "subtitle": "了解地理標誌、標示規定與品質控管",
+      "icon": "⚖️",
+      "background": "linear-gradient(135deg, #30cfd0 0%, #330867 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "法規的角色與目的",
+      "content": [
+        {
+          "type": "text",
+          "text": "葡萄酒法規的主要目的包括保護消費者、保障產品標示透明、維護地理產區聲譽，以及確保出口與國際貿易的一致性。法規透過地理標誌、標示規則與生產準則，建立市場信任。"
+        }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "地理標誌 (Geographical Indications, GIs)",
+      "icon": "📍",
+      "features": [
+        {
+          "title": "作用",
+          "description": "GI 用於保護產區名稱，讓消費者可以辨識葡萄酒的產地風格與品質連結。",
+          "icon": "🔖"
+        },
+        {
+          "title": "申請與註冊",
+          "description": "生產者或其組織必須提出證明，說明地理範圍與該地名對品質或特性的影響，經審查後才可註冊。",
+          "icon": "📝"
+        },
+        {
+          "title": "對消費者的意義",
+          "description": "GI 確保標示可信，消費者可依產區特性做購買判斷。",
+          "icon": "👥"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "標示與成分規定",
+      "content": [
+        {
+          "type": "text",
+          "text": "標示規定涵蓋品種 (varietal) 標示、年份 (vintage) 要求、產地標示以及酒精濃度顯示等。若標示單一品種，通常需達到一定比例（例如 85%）；年份標示則需有一定比例的葡萄來自該年收成。"
+        }
+      ],
+      "icon": "🏷️",
+      "quiz": {
+        "question": "如果要在酒標上標示單一品種，通常需要該品種達到多少比例？",
+        "options": [
+          "50%",
+          "75%",
+          "85%",
+          "100%"
+        ],
+        "correct": 2,
+        "explanation": "根據紐西蘭的葡萄酒標示規定，如果要在酒標上標示單一品種，該品種通常需要達到 85% 的比例。這確保了標示的可信性和一致性。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "品質與檢驗流程",
+      "subtitle": "從葡萄園到出貨的品質控管路徑",
+      "items": [
+        { "year": "農園作業", "text": "栽培管理、病蟲害防治、採收時間決策" },
+        { "year": "釀造過程", "text": "發酵管理、溫度控制與衛生規範" },
+        { "year": "成品檢驗", "text": "化學分析、感官評估、標示核對" },
+        { "year": "包裝與出貨", "text": "標籤檢查、文件與報關準備" }
+      ],
+      "icon": "🔬"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "特別制度與標準",
+      "icon": "✅",
+      "features": [
+        {
+          "title": "成分與添加物限制",
+          "description": "法規規範了可添加的物質與最大使用量，確保產品安全與一致性。",
+          "icon": "⚗️"
+        },
+        {
+          "title": "有機與永續標章",
+          "description": "雖然法規提供基礎保障，但有機或可持續認證由第三方組織（例如 SWNZ）進行驗證與標章管理。",
+          "icon": "🌿"
+        },
+        {
+          "title": "原產地保護與商標",
+          "description": "GI 與商標制度並行，能夠加強產區認同並保護本地生產者利益。",
+          "icon": "🛡️"
+        }
+      ],
+      "quiz": {
+        "question": "SWNZ 是哪個組織的縮寫？",
+        "options": [
+          "South Wellington New Zealand",
+          "Sustainable Winegrowing New Zealand",
+          "Special Wine Network Zealand",
+          "Standard Wine New Zealand"
+        ],
+        "correct": 1,
+        "explanation": "SWNZ 代表 Sustainable Winegrowing New Zealand（紐西蘭永續葡萄栽培），是紐西蘭的永續葡萄酒認證系統。約 96% 的紐西蘭葡萄園都採用此認證，展現了對環境保護的承諾。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "國際貿易與符合性",
+      "content": [
+        {
+          "type": "text",
+          "text": "為了出口到不同市場，生產者需遵守目標國家的法規與貿易協定（例如成分限制、標示語言要求、原產地證明）。合規性是打入國際市場的必要條件。"
+        }
+      ],
+      "icon": "✈️"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "政府角色與產業組織",
+      "icon": "🏛️",
+      "features": [
+        {
+          "title": "監管單位",
+          "description": "政府相關單位負責法規制定與執行，並在必要時進行調整。",
+          "icon": "🏢"
+        },
+        {
+          "title": "產業組織",
+          "description": "產業協會與產區組織負責推動 GI、品質提升與國際行銷。",
+          "icon": "🤝"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "地理標誌 (GI) 是維護產區聲譽與保護消費者的重要工具",
+        "標示規則（品種、年份、產地）有明確比例要求，確保資訊透明",
+        "品質控管包含農園、釀造與成品檢驗等多階段流程",
+        "有機/永續等認證與法規互補，提升差異化競爭力",
+        "合規性與國際標準對出口與市場接軌至關重要"
+      ]
+    }
+  ]
+}

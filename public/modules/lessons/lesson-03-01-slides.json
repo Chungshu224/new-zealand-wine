@@ -1,0 +1,129 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Hawke's Bay — 紅酒重鎮",
+      "subtitle": "探索紐西蘭最重要的紅葡萄酒產區：歷史、風土與卓越品質",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Hawke's Bay 產區概覽",
+      "content": [
+        { "type": "text", "text": "Hawke's Bay 位於紐西蘭北島東岸，是全國第二大葡萄酒產區，以生產高品質紅葡萄酒聞名。溫暖的海洋性氣候、充足的日照與多樣化的土壤，造就了獨特的釀酒條件。" }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "產區核心優勢",
+      "icon": "⭐",
+      "features": [
+        { "title": "氣候條件", "description": "溫暖乾燥的生長季，充足日照促進葡萄完全成熟，適合種植紅葡萄品種。", "icon": "☀️" },
+        { "title": "土壤多樣性", "description": "從 Gimblett Gravels 的礫石到河谷的沖積土，不同土壤賦予葡萄酒豐富層次。", "icon": "🪨" },
+        { "title": "釀酒傳統", "description": "自 1851 年開始種植葡萄，擁有悠久的釀酒歷史與成熟的產業基礎。", "icon": "🏛️" }
+      ],
+      "quiz": {
+        "question": "Hawke's Bay 最適合種植哪類葡萄品種？",
+        "options": ["白葡萄品種", "紅葡萄品種", "起泡酒用葡萄", "加烈酒用葡萄"],
+        "correct": 1,
+        "explanation": "Hawke's Bay 擁有溫暖乾燥的生長季與充足日照，這些條件特別適合紅葡萄品種完全成熟，因此該產區以生產高品質紅葡萄酒聞名。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "主要葡萄品種",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Cabernet Sauvignon", "value": "結構強勁、單寧豐富，常用於混釀或單一品種酒", "icon": "🍇" },
+          { "label": "Merlot", "value": "柔順圓潤，為混釀增添易飲性與果香", "icon": "🍷" },
+          { "label": "Syrah", "value": "香料感明顯，帶來深度與複雜性", "icon": "🌶️" },
+          { "label": "Chardonnay", "value": "白葡萄品種中的代表，風格多元", "icon": "🥂" }
+        ] }
+      ],
+      "icon": "🍇"
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "Hawke's Bay 葡萄酒發展史",
+      "subtitle": "從傳教士種植到現代精品酒莊",
+      "items": [
+        { "year": "1851年", "text": "天主教傳教士首次在該地區種植葡萄，開啟釀酒歷史。" },
+        { "year": "1980年代", "text": "Gimblett Gravels 被發現，高品質紅酒產區開始受到矚目。" },
+        { "year": "1990-2000年代", "text": "國際認可度提升，多家酒莊獲得國際獎項。" },
+        { "year": "現今", "text": "成為紐西蘭紅葡萄酒的代表產區，吸引全球投資與關注。" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "著名子產區",
+      "icon": "📍",
+      "features": [
+        { "title": "Gimblett Gravels", "description": "礫石土壤，排水極佳，產出結構集中、陳年潛力強的紅酒。", "icon": "💎" },
+        { "title": "Bridge Pa Triangle", "description": "溫暖的微氣候，適合晚熟品種，紅酒風格優雅細緻。", "icon": "🌉" },
+        { "title": "Havelock North", "description": "多樣化土壤，既產紅酒也產優質白酒。", "icon": "🏔️" }
+      ],
+      "quiz": {
+        "question": "Gimblett Gravels 子產區最大的土壤特色是什麼？",
+        "options": ["黏土為主", "礫石土壤，排水極佳", "火山灰土壤", "石灰岩為主"],
+        "correct": 1,
+        "explanation": "Gimblett Gravels 以礫石土壤著稱，排水性極佳，能產出結構集中、單寧豐富且具有優異陳年潛力的紅葡萄酒。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "釀酒風格與特色",
+      "content": [
+        { "type": "text", "text": "Hawke's Bay 的紅酒以飽滿酒體、成熟單寧和良好的陳年潛力著稱。波爾多式混釀（Cabernet-Merlot blend）是該產區的招牌風格，結合了結構與柔順度。" }
+      ],
+      "icon": "🏺",
+      "quiz": {
+        "question": "Hawke's Bay 的招牌釀酒風格是什麼？",
+        "options": ["單一品種 Pinot Noir", "波爾多式混釀（Cabernet-Merlot blend）", "起泡酒", "甜型 Riesling"],
+        "correct": 1,
+        "explanation": "Hawke's Bay 的招牌風格是波爾多式混釀，通常以 Cabernet Sauvignon 和 Merlot 為主，結合了強勁的結構與柔順的口感，並具有良好的陳年潛力。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "品鑑建議",
+      "icon": "🥂",
+      "features": [
+        { "title": "適飲溫度", "description": "紅酒建議 16-18°C，能充分展現香氣與結構。", "icon": "🌡️" },
+        { "title": "醒酒時間", "description": "年輕的紅酒建議醒酒 30-60 分鐘，釋放潛藏香氣。", "icon": "⏳" },
+        { "title": "搭配建議", "description": "烤羊排、牛排、濃郁起司等風味豐富的料理。", "icon": "🍖" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "永續發展與未來",
+      "content": [
+        { "type": "text", "text": "越來越多 Hawke's Bay 酒莊採用有機與生物動力法栽培，注重環境保護與長期土壤健康。產區也積極推動永續認證，確保葡萄酒產業的長遠發展。" }
+      ],
+      "icon": "🌿"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Hawke's Bay 是紐西蘭最重要的紅葡萄酒產區，氣候溫暖、土壤多樣",
+        "以 Cabernet Sauvignon、Merlot 為主的波爾多式混釀是招牌風格",
+        "Gimblett Gravels 等子產區以礫石土壤產出高品質、可陳年的紅酒",
+        "產區注重永續發展，是紐西蘭葡萄酒產業的重要基石"
+      ]
+    }
+  ]
+}

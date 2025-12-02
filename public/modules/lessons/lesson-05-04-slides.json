@@ -1,0 +1,651 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "生物動力法",
+      "subtitle": "葡萄酒世界的哲學與實踐",
+      "icon": "🌙",
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將探討" },
+        { "type": "text", "text": "• 生物動力法的起源與哲學基礎" },
+        { "type": "text", "text": "• Rudolf Steiner 的人智學思想" },
+        { "type": "text", "text": "• 九大生物動力製劑（500-508）" },
+        { "type": "text", "text": "• 天文曆法與宇宙節律" },
+        { "type": "text", "text": "• 整體農場有機體概念" },
+        { "type": "text", "text": "• 紐西蘭生物動力酒莊實踐" },
+        { "type": "text", "text": "• 科學爭議與實證研究" },
+        { "type": "text", "text": "• Demeter 認證標準" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "生物動力法的起源",
+      "content": [
+        { "type": "heading", "text": "Rudolf Steiner（1861-1925）" },
+        { "type": "text", "text": "• 奧地利哲學家、社會改革家" },
+        { "type": "text", "text": "• 人智學（Anthroposophy）創始人" },
+        { "type": "text", "text": "• 1924 年於德國 Koberwitz 的八場農業講座" },
+        { "type": "divider" },
+        { "type": "heading", "text": "歷史背景" },
+        { "type": "text", "text": "1920 年代，德國農民面臨：" },
+        { "type": "text", "text": "  • 土壤退化與作物品質下降" },
+        { "type": "text", "text": "  • 化學肥料剛開始普及" },
+        { "type": "text", "text": "  • 農民尋求替代方案" },
+        { "type": "divider" },
+        { "type": "text", "text": "Steiner 提出整體性農業哲學：" },
+        { "type": "text", "text": "  「農場是一個自我維持的有機體」" }
+      ],
+      "icon": "📖"
+    },
+    {
+      "id": 4,
+      "type": "infographic",
+      "title": "生物動力法的核心概念",
+      "infographicData": {
+        "context": "生物動力法將農場視為完整的生命有機體",
+        "challenge": {
+          "title": "三大核心理念",
+          "items": [
+            "整體農場有機體：農場應自給自足，動植物循環互補",
+            "宇宙節律：月亮、行星、星座影響植物生長",
+            "能量與生命力：物質背後存在精微能量（以太力）",
+            "製劑與順勢：特殊製劑啟動土壤與植物的生命力"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "農場循環",
+            "cost": "中",
+            "effectiveness": "自給自足",
+            "coverage": "整體",
+            "detail": "動物、堆肥、作物互相支持"
+          },
+          {
+            "method": "天文曆法",
+            "cost": "低",
+            "effectiveness": "時機選擇",
+            "coverage": "種植/收穫",
+            "detail": "根據月相與星座作業"
+          },
+          {
+            "method": "生物動力製劑",
+            "cost": "中",
+            "effectiveness": "能量激活",
+            "coverage": "土壤/植物",
+            "detail": "500-508 九種製劑"
+          },
+          {
+            "method": "整體觀察",
+            "cost": "低",
+            "effectiveness": "直覺感知",
+            "coverage": "全面",
+            "detail": "超越物質的觀察"
+          }
+        ],
+        "result": "生物動力法是有機農業的進階形式，結合科學與精神層面"
+      },
+      "icon": "🌌"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "九大生物動力製劑概覽",
+      "content": [
+        { "type": "heading", "text": "噴灑製劑（Field Sprays）" },
+        { "type": "text", "text": "500（牛角糞肥）：提升土壤生命力" },
+        { "type": "text", "text": "501（牛角矽）：提升光合作用與品質" },
+        { "type": "divider" },
+        { "type": "heading", "text": "堆肥製劑（Compost Preparations）" },
+        { "type": "text", "text": "502（西洋蓍草）：鉀元素與硫磺過程" },
+        { "type": "text", "text": "503（洋甘菊）：鈣元素與氮素穩定" },
+        { "type": "text", "text": "504（蕁麻）：氮、鐵元素與土壤健康" },
+        { "type": "text", "text": "505（橡樹皮）：鈣元素與病害防護" },
+        { "type": "text", "text": "506（蒲公英）：矽、鉀元素與光的敏感性" },
+        { "type": "text", "text": "507（纈草）：磷元素與溫暖過程" },
+        { "type": "divider" },
+        { "type": "heading", "text": "特殊製劑" },
+        { "type": "text", "text": "508（木賊茶）：真菌病害預防" }
+      ],
+      "icon": "🧪"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "製劑 500：牛角糞肥",
+      "content": [
+        { "type": "heading", "text": "製作方法" },
+        { "type": "text", "text": "1. 將新鮮牛糞填入牛角" },
+        { "type": "text", "text": "2. 秋分時埋入土中（南半球：3-4 月）" },
+        { "type": "text", "text": "3. 冬季在土中發酵" },
+        { "type": "text", "text": "4. 春分時挖出（南半球：9-10 月）" },
+        { "type": "text", "text": "5. 取出深色、有土壤氣味的糞肥" },
+        { "type": "divider" },
+        { "type": "heading", "text": "使用方式" },
+        { "type": "text", "text": "• 100-200 克/公頃（極少量）" },
+        { "type": "text", "text": "• 攪拌 1 小時：順時針/逆時針交替創造渦旋" },
+        { "type": "text", "text": "• 下午噴灑於土壤" },
+        { "type": "divider" },
+        { "type": "heading", "text": "聲稱效果" },
+        { "type": "text", "text": "✓ 刺激根系生長與微生物活性" },
+        { "type": "text", "text": "✓ 提升土壤結構與保水力" },
+        { "type": "text", "text": "✓ 促進腐殖質形成" }
+      ],
+      "icon": "🐮"
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "製劑 501：牛角矽",
+      "content": [
+        { "type": "heading", "text": "製作方法" },
+        { "type": "text", "text": "1. 將研磨的石英粉與水混合" },
+        { "type": "text", "text": "2. 填入牛角" },
+        { "type": "text", "text": "3. 春分時埋入土中" },
+        { "type": "text", "text": "4. 夏季在土中吸收宇宙能量" },
+        { "type": "text", "text": "5. 秋分時挖出" },
+        { "type": "divider" },
+        { "type": "heading", "text": "使用方式" },
+        { "type": "text", "text": "• 4-5 克/公頃（更少量）" },
+        { "type": "text", "text": "• 攪拌 1 小時" },
+        { "type": "text", "text": "• 清晨噴灑於植物葉片" },
+        { "type": "text", "text": "• 通常在開花後至成熟期使用" },
+        { "type": "divider" },
+        { "type": "heading", "text": "聲稱效果" },
+        { "type": "text", "text": "✓ 提升光合作用效率" },
+        { "type": "text", "text": "✓ 改善果實品質、糖度、酚類物質" },
+        { "type": "text", "text": "✓ 增強植物對光的敏感性" },
+        { "type": "text", "text": "✓ 提升葡萄酒的風土表達與細緻度" }
+      ],
+      "icon": "💎",
+      "quiz": {
+        "question": "生物動力製劑 500（牛角糞肥）應在何時噴灑？",
+        "options": [
+          "清晨噴灑於葉片",
+          "正午噴灑於土壤",
+          "下午噴灑於土壤",
+          "夜間噴灑於葉片"
+        ],
+        "correct": 2,
+        "explanation": "製劑 500（牛角糞肥）應在下午噴灑於土壤，用於刺激根系生長與微生物活性。相對的，製劑 501（牛角矽）則是清晨噴灑於植物葉片，用於提升光合作用。時間選擇與製劑的能量特性相關。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "table",
+      "title": "堆肥製劑 502-507 詳解",
+      "tableData": {
+        "headers": ["製劑", "植物材料", "動物器官", "元素作用", "製作時機"],
+        "rows": [
+          {
+            "disease": "502",
+            "condition": "西洋蓍草花",
+            "symptom": "雄鹿膀胱",
+            "prevention": "鉀、硫磺過程",
+            "risk": "夏季掛樹上"
+          },
+          {
+            "disease": "503",
+            "condition": "洋甘菊花",
+            "symptom": "牛小腸",
+            "prevention": "鈣、氮穩定",
+            "risk": "秋季埋土中"
+          },
+          {
+            "disease": "504",
+            "condition": "蕁麻全草",
+            "symptom": "直接埋土",
+            "prevention": "氮、鐵、土壤",
+            "risk": "埋一年"
+          },
+          {
+            "disease": "505",
+            "condition": "橡樹皮",
+            "symptom": "家畜頭骨",
+            "prevention": "鈣、病害防護",
+            "risk": "秋季埋水中"
+          },
+          {
+            "disease": "506",
+            "condition": "蒲公英花",
+            "symptom": "牛腸繫膜",
+            "prevention": "矽、鉀、光感",
+            "risk": "冬季埋土中"
+          },
+          {
+            "disease": "507",
+            "condition": "纈草花汁",
+            "symptom": "直接稀釋",
+            "prevention": "磷、溫暖過程",
+            "risk": "即時使用"
+          }
+        ]
+      },
+      "note": "將少量（指甲大小）製劑插入堆肥堆，啟動轉化過程",
+      "icon": "🌸"
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "為何使用動物器官？",
+      "content": [
+        { "type": "heading", "text": "Steiner 的解釋" },
+        { "type": "text", "text": "• 動物器官具有特定的「成形力」" },
+        { "type": "text", "text": "• 牛角向內聚集宇宙力量" },
+        { "type": "text", "text": "• 腸道與消化過程連結轉化能量" },
+        { "type": "text", "text": "• 器官形狀與功能與元素過程對應" },
+        { "type": "divider" },
+        { "type": "heading", "text": "現代解釋" },
+        { "type": "text", "text": "支持者：順勢療法原理，微量物質帶有能量訊息" },
+        { "type": "text", "text": "懷疑者：缺乏科學機制，更多是象徵與儀式" },
+        { "type": "divider" },
+        { "type": "text", "text": "無論機制為何，許多生物動力實踐者堅信製劑的效果" }
+      ],
+      "icon": "❓"
+    },
+    {
+      "id": 10,
+      "type": "chart",
+      "title": "天文曆法與葡萄園作業",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "根日",
+          "months": "Root Days",
+          "phase": "土象星座",
+          "tasks": [
+            "月亮經過金牛、處女、摩羯座",
+            "能量向下集中於根部",
+            "適合：施用製劑 500",
+            "適合：土壤作業、翻堆肥",
+            "避免：葉面噴灑、採收"
+          ],
+          "risk": "土壤",
+          "color": "#8b4513"
+        },
+        {
+          "season": "花日",
+          "months": "Flower Days",
+          "phase": "風象星座",
+          "tasks": [
+            "月亮經過雙子、天秤、水瓶座",
+            "能量集中於花朵",
+            "適合：開花期觀察",
+            "適合：採收花草",
+            "一般作業：中性日"
+          ],
+          "risk": "花",
+          "color": "#ff69b4"
+        },
+        {
+          "season": "葉日",
+          "months": "Leaf Days",
+          "phase": "水象星座",
+          "tasks": [
+            "月亮經過巨蟹、天蠍、雙魚座",
+            "能量集中於葉片",
+            "適合：施用製劑 501",
+            "適合：葉面管理、灌溉",
+            "避免：果實採收"
+          ],
+          "risk": "葉",
+          "color": "#32cd32"
+        },
+        {
+          "season": "果日",
+          "months": "Fruit Days",
+          "phase": "火象星座",
+          "tasks": [
+            "月亮經過白羊、獅子、射手座",
+            "能量集中於果實",
+            "適合：採收葡萄（最佳日）",
+            "適合：修剪、疏果",
+            "最佳品質與風味表現"
+          ],
+          "risk": "果實",
+          "color": "#ff4500"
+        }
+      ],
+      "icon": "🌙"
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "Maria Thun 的天文曆法",
+      "content": [
+        { "type": "heading", "text": "實用工具" },
+        { "type": "text", "text": "• Maria Thun（1922-2012）：德國生物動力實踐者" },
+        { "type": "text", "text": "• 50 年觀察與實驗" },
+        { "type": "text", "text": "• 出版《生物動力種植與播種日曆》" },
+        { "type": "text", "text": "• 全球生物動力農民的必備工具" },
+        { "type": "divider" },
+        { "type": "heading", "text": "實際應用" },
+        { "type": "text", "text": "✓ 根日：土壤作業、施用 500" },
+        { "type": "text", "text": "✓ 果日：採收葡萄、疏果、修剪" },
+        { "type": "text", "text": "✓ 葉日：施用 501、冠層管理" },
+        { "type": "text", "text": "✓ 花日：一般中性日" },
+        { "type": "divider" },
+        { "type": "text", "text": "許多酒莊嚴格遵循曆法，認為能提升葡萄品質與酒質" }
+      ],
+      "icon": "📅",
+      "quiz": {
+        "question": "根據生物動力天文曆法，葡萄採收應選擇哪種日子？",
+        "options": [
+          "根日（Root Days）",
+          "花日（Flower Days）",
+          "葉日（Leaf Days）",
+          "果日（Fruit Days）"
+        ],
+        "correct": 3,
+        "explanation": "葡萄採收應選擇果日（Fruit Days），即月亮經過火象星座（白羊、獅子、射手）時。生物動力實踐者相信此時能量集中於果實，採收的葡萄品質與風味表現最佳，釀出的酒也更優質。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "整體農場有機體",
+      "content": [
+        { "type": "heading", "text": "核心概念" },
+        { "type": "text", "text": "「農場應是一個自我維持、自我調節的有機體」" },
+        { "type": "divider" },
+        { "type": "heading", "text": "理想的生物動力農場" },
+        { "type": "text", "text": "✓ 動物：牛、羊、雞提供糞肥與動力" },
+        { "type": "text", "text": "✓ 作物：葡萄、蔬菜、穀物、牧草輪作" },
+        { "type": "text", "text": "✓ 森林與野地：生物多樣性庇護所" },
+        { "type": "text", "text": "✓ 水體：池塘、濕地調節微氣候" },
+        { "type": "text", "text": "✓ 堆肥：農場廢棄物循環" },
+        { "type": "text", "text": "✓ 生態廊道：昆蟲、鳥類、小型動物" },
+        { "type": "divider" },
+        { "type": "heading", "text": "挑戰" },
+        { "type": "text", "text": "• 現代專業化葡萄園難以完全實現" },
+        { "type": "text", "text": "• 許多酒莊部分採用生物動力原則" },
+        { "type": "text", "text": "• 重點在精神而非字面執行" }
+      ],
+      "icon": "🌳"
+    },
+    {
+      "id": 13,
+      "type": "content",
+      "title": "Demeter 認證標準",
+      "content": [
+        { "type": "heading", "text": "國際生物動力認證機構" },
+        { "type": "text", "text": "• 1928 年成立於德國" },
+        { "type": "text", "text": "• 全球最古老的有機認證體系" },
+        { "type": "text", "text": "• 比有機標準更嚴格" },
+        { "type": "divider" },
+        { "type": "heading", "text": "認證要求" },
+        { "type": "text", "text": "✓ 符合所有有機農業標準（禁止化學品）" },
+        { "type": "text", "text": "✓ 必須使用製劑 500 與 501" },
+        { "type": "text", "text": "✓ 堆肥製劑 502-507 的應用" },
+        { "type": "text", "text": "✓ 天文曆法的考量（推薦但非強制）" },
+        { "type": "text", "text": "✓ 整體農場計畫與生物多樣性" },
+        { "type": "text", "text": "✓ 10% 以上農地作為生態保留區" },
+        { "type": "text", "text": "✓ 自製堆肥（盡量自給自足）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "轉換期" },
+        { "type": "text", "text": "• 3 年有機轉換 + 持續生物動力實踐" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 14,
+      "type": "content",
+      "title": "紐西蘭生物動力酒莊：Felton Road",
+      "content": [
+        { "type": "heading", "text": "Central Otago 的標竿" },
+        { "type": "text", "text": "成就：" },
+        { "type": "text", "text": "  • 2002 年獲 Demeter 認證" },
+        { "type": "text", "text": "  • 紐西蘭最知名的生物動力酒莊" },
+        { "type": "text", "text": "  • 世界級 Pinot Noir 生產者" },
+        { "type": "divider" },
+        { "type": "heading", "text": "實踐" },
+        { "type": "text", "text": "✓ 使用全部九種製劑" },
+        { "type": "text", "text": "✓ 嚴格遵循 Maria Thun 曆法" },
+        { "type": "text", "text": "✓ 極低產量（<3 噸/公頃）" },
+        { "type": "text", "text": "✓ 完全手工採收與細緻管理" },
+        { "type": "text", "text": "✓ 保留原生植被與濕地" },
+        { "type": "divider" },
+        { "type": "heading", "text": "哲學" },
+        { "type": "text", "text": "「生物動力法讓我們的葡萄酒更真實地表達風土，" },
+        { "type": "text", "text": "  達到一種無法用其他方式實現的純淨度」" }
+      ],
+      "icon": "🌟"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "紐西蘭生物動力酒莊：Seresin Estate",
+      "content": [
+        { "type": "heading", "text": "Marlborough 的生態莊園" },
+        { "type": "text", "text": "轉型歷程：" },
+        { "type": "text", "text": "  • 1990s 有機轉換" },
+        { "type": "text", "text": "  • 2000s 採用生物動力法" },
+        { "type": "text", "text": "  • 2007 年獲 Demeter 認證" },
+        { "type": "divider" },
+        { "type": "heading", "text": "整體農場方法" },
+        { "type": "text", "text": "✓ 100 公頃葡萄園 + 90 公頃原生林" },
+        { "type": "text", "text": "✓ 橄欖園、果園、蔬菜園整合" },
+        { "type": "text", "text": "✓ 羊群提供糞肥與除草" },
+        { "type": "text", "text": "✓ 生物多樣性：150+ 種鳥類記錄" },
+        { "type": "text", "text": "✓ 30+ 種覆蓋作物混種" },
+        { "type": "text", "text": "✓ 自製堆肥與製劑 500、501" },
+        { "type": "divider" },
+        { "type": "text", "text": "酒款：純淨、優雅的 Sauvignon Blanc 與 Pinot Noir" }
+      ],
+      "icon": "🌿"
+    },
+    {
+      "id": 16,
+      "type": "content",
+      "title": "紐西蘭生物動力酒莊：Millton Vineyards",
+      "content": [
+        { "type": "heading", "text": "紐西蘭生物動力先驅（1984）" },
+        { "type": "text", "text": "創辦人：James Millton" },
+        { "type": "text", "text": "  • 「生物動力法之父」在紐西蘭" },
+        { "type": "text", "text": "  • 1980s 即開始實踐" },
+        { "type": "text", "text": "  • 積極推廣與教育" },
+        { "type": "divider" },
+        { "type": "heading", "text": "生物動力實踐" },
+        { "type": "text", "text": "✓ Gisborne 最早的 Demeter 認證酒莊" },
+        { "type": "text", "text": "✓ 自製所有製劑 500-508" },
+        { "type": "text", "text": "✓ 嚴格遵循天文曆法" },
+        { "type": "text", "text": "✓ 整合農場：葡萄、橄欖、動物、森林" },
+        { "type": "text", "text": "✓ 教育訪客與新進農民" },
+        { "type": "divider" },
+        { "type": "heading", "text": "影響" },
+        { "type": "text", "text": "啟發了整個產業，包括 Seresin 和 Felton Road" },
+        { "type": "text", "text": "證明生物動力法在紐西蘭可行且能產出頂級品質" }
+      ],
+      "icon": "🎖️",
+      "quiz": {
+        "question": "以下哪項不是 Demeter 生物動力認證的強制要求？",
+        "options": [
+          "必須使用製劑 500 和 501",
+          "禁止使用合成化學品",
+          "嚴格按天文曆法進行所有作業",
+          "10% 以上農地作為生態保留區"
+        ],
+        "correct": 2,
+        "explanation": "天文曆法的考量是推薦但非強制要求。Demeter 認證強制要求包括：符合有機標準、使用製劑 500 和 501、應用堆肥製劑、保留生態區等。許多生物動力實踐者會遵循曆法，但這不是認證的必要條件。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "comparison",
+      "title": "生物動力法的科學爭議",
+      "comparisonData": {
+        "title": "支持者與懷疑者觀點",
+        "left": {
+          "label": "支持者論點",
+          "color": "#38a169",
+          "icon": "✓",
+          "items": [
+            "頂級酒莊採用（Romanée-Conti, Leflaive）",
+            "土壤生命力明顯提升",
+            "葡萄酒純淨度與細緻度更高",
+            "整體觀察比化驗更全面",
+            "農民經驗證實效果",
+            "與自然節律和諧共處",
+            "「科學尚未能測量的能量」"
+          ]
+        },
+        "right": {
+          "label": "懷疑者論點",
+          "color": "#e53e3e",
+          "icon": "⚠",
+          "items": [
+            "缺乏嚴格對照實驗",
+            "順勢稀釋違背化學原理",
+            "天文影響無科學證據",
+            "動物器官使用缺乏機制",
+            "實踐者多為高品質酒莊（選擇偏差）",
+            "效果可能來自有機實踐本身",
+            "「魔法思維與偽科學」"
+          ]
+        }
+      },
+      "summary": "生物動力法效果爭議不斷，但無損其在精品酒莊中的流行",
+      "icon": "⚖️"
+    },
+    {
+      "id": 18,
+      "type": "content",
+      "title": "科學研究的發現",
+      "content": [
+        { "type": "heading", "text": "實證研究" },
+        { "type": "text", "text": "支持發現：" },
+        { "type": "text", "text": "  • 土壤微生物多樣性增加" },
+        { "type": "text", "text": "  • 有機質與團粒結構改善" },
+        { "type": "text", "text": "  • 某些研究顯示品質提升" },
+        { "type": "divider" },
+        { "type": "text", "text": "無法證實：" },
+        { "type": "text", "text": "  • 製劑的特殊能量作用" },
+        { "type": "text", "text": "  • 天文曆法的影響" },
+        { "type": "text", "text": "  • 順勢效果機制" },
+        { "type": "divider" },
+        { "type": "heading", "text": "科學共識" },
+        { "type": "text", "text": "1. 生物動力法的有機實踐部分有效" },
+        { "type": "text", "text": "2. 製劑與曆法效果未獲科學證實" },
+        { "type": "text", "text": "3. 高品質可能來自極度用心的管理" },
+        { "type": "text", "text": "4. 需要更嚴格、長期的對照研究" }
+      ],
+      "icon": "🔬"
+    },
+    {
+      "id": 19,
+      "type": "content",
+      "title": "務實的觀點",
+      "content": [
+        { "type": "heading", "text": "不可否認的事實" },
+        { "type": "text", "text": "✓ 許多世界頂級酒莊採用生物動力法" },
+        { "type": "text", "text": "✓ 實踐者高度滿意並堅持" },
+        { "type": "text", "text": "✓ 消費者願意為生物動力酒支付溢價" },
+        { "type": "text", "text": "✓ 環境效益與生物多樣性明顯" },
+        { "type": "divider" },
+        { "type": "heading", "text": "可能的解釋" },
+        { "type": "text", "text": "1. 整體效果：" },
+        { "type": "text", "text": "   • 有機實踐 + 極度用心 + 低產量 = 高品質" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 安慰劑效應：" },
+        { "type": "text", "text": "   • 信念與專注帶來更好的決策" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 選擇偏差：" },
+        { "type": "text", "text": "   • 採用者本身就是追求極致的完美主義者" },
+        { "type": "divider" },
+        { "type": "text", "text": "4. 未知機制：" },
+        { "type": "text", "text": "   • 科學尚未理解的複雜交互作用" }
+      ],
+      "icon": "💭"
+    },
+    {
+      "id": 20,
+      "type": "comparison",
+      "title": "有機 vs 生物動力法",
+      "comparisonData": {
+        "title": "兩種方法的差異",
+        "left": {
+          "label": "有機栽培（Organic）",
+          "color": "#48bb78",
+          "icon": "🌱",
+          "items": [
+            "禁止合成化學品",
+            "科學與實證基礎",
+            "養分管理：堆肥、綠肥",
+            "病害管理：銅、硫磺、生物製劑",
+            "主流接受度高",
+            "認證相對簡單",
+            "產業標準化"
+          ]
+        },
+        "right": {
+          "label": "生物動力法（Biodynamic）",
+          "color": "#667eea",
+          "icon": "🌙",
+          "items": [
+            "包含所有有機要求",
+            "哲學與精神層面",
+            "製劑 500-508 的應用",
+            "天文曆法與宇宙節律",
+            "整體農場有機體概念",
+            "小眾與精品定位",
+            "高度個人化實踐"
+          ]
+        }
+      },
+      "summary": "生物動力法是有機農業的「進階版」，加入哲學與宇宙觀",
+      "icon": "🔄"
+    },
+    {
+      "id": 21,
+      "type": "content",
+      "title": "是否應該採用生物動力法？",
+      "content": [
+        { "type": "heading", "text": "適合的情況" },
+        { "type": "text", "text": "✓ 追求極致品質與風土表達" },
+        { "type": "text", "text": "✓ 認同整體農業哲學" },
+        { "type": "text", "text": "✓ 願意投入時間與勞力" },
+        { "type": "text", "text": "✓ 擁有或能建立整體農場系統" },
+        { "type": "text", "text": "✓ 高端市場定位" },
+        { "type": "divider" },
+        { "type": "heading", "text": "挑戰因素" },
+        { "type": "text", "text": "⚠ 需要深入學習與實踐" },
+        { "type": "text", "text": "⚠ 製劑製作較複雜" },
+        { "type": "text", "text": "⚠ Demeter 認證流程嚴格" },
+        { "type": "text", "text": "⚠ 部分實踐缺乏科學證據" },
+        { "type": "text", "text": "⚠ 可能面對懷疑與質疑" },
+        { "type": "divider" },
+        { "type": "heading", "text": "中間道路" },
+        { "type": "text", "text": "• 許多酒莊採用生物動力原則但不尋求認證" },
+        { "type": "text", "text": "• 部分使用製劑與曆法，靈活調整" },
+        { "type": "text", "text": "• 重點在整體觀與土壤健康，而非教條" }
+      ],
+      "icon": "🤔"
+    },
+    {
+      "id": 22,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "生物動力法起源於 Rudolf Steiner 1924 年的農業講座",
+        "核心理念：農場有機體、宇宙節律、能量與生命力",
+        "九大製劑（500-508）：牛角糞肥、牛角矽、堆肥製劑",
+        "天文曆法：根日、花日、葉日、果日指導農事作業",
+        "Demeter 認證：比有機更嚴格，要求使用製劑與整體計畫",
+        "紐西蘭先驅：Millton（1984）、Seresin、Felton Road",
+        "科學爭議：支持者強調效果，懷疑者質疑機制",
+        "實證研究：土壤改善有證據，製劑與曆法效果未證實",
+        "頂級酒莊廣泛採用，品質表現卓越（無論原因為何）",
+        "生物動力法是哲學、科學、藝術的結合，超越單純農業技術"
+      ],
+      "icon": "✅"
+    }
+  ]
+}

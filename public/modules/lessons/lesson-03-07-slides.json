@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "代表酒莊案例研究",
+      "subtitle": "從實際酒莊看 Hawke's Bay 風格如何被人為選擇與強化",
+      "icon": "🏆",
+      "background": "linear-gradient(135deg,#fef9a7 0%,#fbc2eb 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Gimblett Gravels 的興起",
+      "content": [
+        { "type": "text", "text": "Gimblett Gravels 以其礫石地塊聞名,這些地塊常產出結構集中且耐陳的紅酒,吸引投資與精緻釀造實務。" }
+      ],
+      "icon": "🪨",
+      "quiz": {
+        "question": "Gimblett Gravels 以什麼特色聞名?",
+        "options": ["黏土與高保水性", "礫石地塊與耐陳紅酒", "火山土壤與白酒", "沙質土壤與輕盈風格"],
+        "correct": 1,
+        "explanation": "Gimblett Gravels 以其礫石地塊聞名，這些礫石土壤排水性極佳，能產出結構集中、單寧豐富且具有優異陳年潛力的紅酒，因此吸引了大量投資與精緻的釀造實務。"
+      }
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "酒莊的風格選擇與市場定位",
+      "features": [
+        { "title": "高品質陳年款", "description": "強調低產與長時間橡木陳年以獲得陳年潛力。", "icon": "🍷" },
+        { "title": "現代果香取向", "description": "追求早期可飲與明亮果香的消費群體。", "icon": "✨" },
+        { "title": "有機與永續實踐", "description": "越來越多酒莊導入永續栽培以提高長期土壤健康。", "icon": "🌿" }
+      ],
+      "icon": "🏡",
+      "quiz": {
+        "question": "Hawke's Bay 酒莊的市場定位主要分為哪兩大類型?",
+        "options": ["起泡酒與甜酒", "高品質陳年款與現代果香取向", "有機與工業化生產", "出口型與內銷型"],
+        "correct": 1,
+        "explanation": "Hawke's Bay 酒莊的市場定位主要分為兩大類型：一是強調低產量、長時間橡木陳年的「高品質陳年款」，二是追求早期可飲、明亮果香的「現代果香取向」，分別鎖定不同的消費群體。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "如何從酒標與酒莊描述中判讀風格",
+      "content": [
+        { "type": "text", "text": "留意酒莊是否標示地塊名稱、陳年時間、新桶比例與混釀比例——這些信息能快速提示風格傾向。" }
+      ],
+      "icon": "🔍",
+      "quiz": {
+        "question": "從酒標上可以獲得哪些關於風格的重要信息?",
+        "options": ["酒莊所有者的姓名", "地塊名稱、陳年時間、新桶比例與混釀比例", "葡萄園的面積大小", "酒莊的建築風格"],
+        "correct": 1,
+        "explanation": "從酒標上可以獲得許多關於風格的重要信息，包括：地塊名稱（如 Gimblett Gravels）、陳年時間、新桶比例（影響橡木香）與混釀比例（品種組成），這些資訊能幫助快速判斷酒款的風格傾向。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "summary",
+      "title": "本課重點整理",
+      "points": [
+        "酒莊選擇地塊與釀造策略會強烈影響最終風格",
+        "Gimblett Gravels 為 Hawke's Bay 的代表性礫石產區",
+        "市場與定位決定酒莊在果香或陳年潛力間的取捨"
+      ],
+      "icon": "🔑"
+    }
+  ]
+}

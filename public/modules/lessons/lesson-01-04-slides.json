@@ -1,0 +1,114 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Sauvignon Blanc — 紐西蘭的驕傲",
+      "subtitle": "從葡萄園到酒杯，探索這個代表性的白葡萄品種",
+      "icon": "🍇",
+      "background": "linear-gradient(135deg, #67d2a4 0%, #2b6cb0 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "品種起源與傳入紐西蘭",
+      "content": [
+        { "type": "text", "text": "Sauvignon Blanc 原產自法國波爾多/盧瓦爾河流域，於20世紀後期在紐西蘭獲得重大成功。Marlborough 地區在1970s-1980s 推動了其國際聲譽，並成為紐西蘭最具代表性的品種之一。" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "典型風味輪廓",
+      "icon": "👃",
+      "features": [
+        { "title": "草本與綠色果實", "description": "青椒、青草、番石榴與青蘋果等鮮明香氣。", "icon": "🌿" },
+        { "title": "熱帶果香", "description": "尤其在成熟度偏高或較溫暖產區，常見百香果與芒果香氣。", "icon": "🥭" },
+        { "title": "礦物與酸度", "description": "優良的酸度結構及礦物感，造就清新且耐喝的風格。", "icon": "🪨" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "主要產區與風土對比",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Marlborough", "value": "以濃郁百香果、鮮明酸度著稱，是最知名的產區", "icon": "🏞️" },
+          { "label": "Nelson / Waipara", "value": "氣候較溫和，風味偏向細緻花香與熱帶果", "icon": "🌸" },
+          { "label": "Hawke's Bay", "value": "較溫暖，果實成熟度高，風格更為圓潤", "icon": "☀️" }
+        ] }
+      ],
+      "icon": "🗺️"
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "從葡萄到酒杯的關鍵工序",
+      "subtitle": "栽培與釀造要點影響風格形成",
+      "items": [
+        { "year": "田間管理", "text": "整枝與遮蔭控制葉果比例，影響糖分與風味濃度" },
+        { "year": "採收時機", "text": "早採保留酸度與綠色香氣；晚採增加熱帶果風味" },
+        { "year": "壓榨與發酵", "text": "不鏽鋼低溫發酵以保留鮮明香氣；部分使用橡木或野生酵母可增加複雜度" },
+        { "year": "調配與裝瓶", "text": "調整酸度、殘糖與澄清，決定最終風格（乾型、半乾或帶甜）" }
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "不同釀造手法對風格的影響",
+      "icon": "🍶",
+      "features": [
+        { "title": "不鏽鋼低溫發酵", "description": "保留清新果香與高酸度，是紐西蘭典型風格的關鍵。", "icon": "🔧" },
+        { "title": "部分橡木陳釀或混合發酵", "description": "可以帶來奶油感與結構性，適合想要更複雜風格的酒款。", "icon": "🪵" },
+        { "title": "野生酵母發酵", "description": "增加礦物感與口感層次，但風味較不可預測。", "icon": "🧫" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品鑑指南：如何品嚐 Sauvignon Blanc",
+      "content": [
+        { "type": "text", "text": "觀察色澤（通常淡稻草到淺綠），聞香辨別草本、熱帶果與礦物，品飲注意酸度、酒體與餘韻。" },
+        { "type": "stats", "items": [
+          { "label": "建議溫度", "value": "8-12°C", "icon": "🌡️" },
+          { "label": "理想醒酒", "value": "通常不需，除非較厚重的橡木款", "icon": "⏳" }
+        ] }
+      ],
+      "icon": "🥂"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "經典搭配菜餚",
+      "icon": "🍽️",
+      "features": [
+        { "title": "海鮮與貝類", "description": "清新酸度可平衡油脂，提亮食材鮮味。", "icon": "🦪" },
+        { "title": "山羊起司與清爽沙拉", "description": "酸度與草本香與山羊起司特別契合。", "icon": "🧀" },
+        { "title": "亞洲口味（青檸、香菜）", "description": "與酸香料搭配良好，適合泰、越等料理。", "icon": "🍜" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "知名酒莊與推薦酒款",
+      "content": [
+        { "type": "text", "text": "推薦從 Marlborough 的代表酒莊入手，嘗試不同子產區與釀造風格：Cloudy Bay、Kim Crawford、Greywacke、Dog Point 等。" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Sauvignon Blanc 在紐西蘭展現出鮮明的果香、清晰酸度與地域性差異",
+        "栽培與採收時機、發酵溫度與容器選擇直接影響風格走向",
+        "Marlborough 為代表性產區，但其他地區亦提供不同層次與風格",
+        "搭配海鮮、山羊起司與亞洲酸香料理能最大化飲用體驗"
+      ]
+    }
+  ]
+}

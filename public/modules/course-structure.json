@@ -1,0 +1,273 @@
+[
+  {
+    "id": "module-01",
+    "level": 1,
+    "title": "紐西蘭葡萄酒概論",
+    "order": 1,
+    "icon": "🍇",
+    "description": "了解紐西蘭葡萄酒產業的歷史、發展與全球地位",
+    "lessons": [
+      {
+        "id": "lesson-01-01",
+        "title": "紐西蘭葡萄酒簡史",
+        "duration": "15分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-01-02",
+        "title": "氣候與地理特徵",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-01-03",
+        "title": "產業法規與分級制度",
+        "duration": "15分鐘",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "module-02",
+    "level": 1,
+    "title": "主要葡萄品種",
+    "order": 2,
+    "icon": "🍷",
+    "description": "深入了解紐西蘭種植的主要白葡萄與紅葡萄品種",
+    "lessons": [
+      {
+        "id": "lesson-02-01",
+        "title": "Sauvignon Blanc - 紐西蘭的驕傲",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-02-02",
+        "title": "Pinot Noir - 優雅的紅色珍寶",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-02-03",
+        "title": "Chardonnay 與其他白葡萄",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-02-04",
+        "title": "其他紅葡萄品種",
+        "duration": "20分鐘",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "module-03",
+    "level": 2,
+    "title": "北島產區探索",
+    "order": 3,
+    "icon": "🗺️",
+    "description": "探索北島各大葡萄酒產區的風土特色",
+    "lessons": [
+      {
+        "id": "lesson-03-01",
+        "title": "Hawke's Bay - 紅酒重鎮",
+        "duration": "30分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-05",
+        "title": "Hawke's Bay：風土與土壤",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-06",
+        "title": "Hawke's Bay 的紅酒風格與釀造實務",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-07",
+        "title": "代表酒莊案例研究",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-08",
+        "title": "搭配 Hawke's Bay 的美食與品評練習",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-02",
+        "title": "Wairarapa/Martinborough - Pinot 的優雅之地",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-09",
+        "title": "Martinborough 的風土與氣候特性",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-10",
+        "title": "Pinot Noir 在 Martinborough 的表現",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-11",
+        "title": "Martinborough 代表酒莊與風格",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-12",
+        "title": "Wairarapa 葡萄酒品評與餐酒配對",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-03",
+        "title": "Auckland 及周邊產區",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-03-04",
+        "title": "Gisborne 與其他北島產區",
+        "duration": "20分鐘",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "module-04",
+    "level": 2,
+    "title": "南島產區探索",
+    "order": 4,
+    "icon": "🏔️",
+    "description": "探索南島各大葡萄酒產區的獨特魅力",
+    "lessons": [
+      {
+        "id": "lesson-04-01",
+        "title": "Marlborough - 白酒之都",
+        "duration": "35分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-04-02",
+        "title": "Central Otago - 世界最南端產區",
+        "duration": "30分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-04-03",
+        "title": "Nelson 與 Canterbury",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-04-04",
+        "title": "Waitaki Valley",
+        "duration": "20分鐘",
+        "type": "text"
+      }
+      ,
+      {
+        "id": "lesson-03-review",
+        "title": "Level 2 複習測驗",
+        "duration": "15分鐘",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "module-05",
+    "level": 3,
+    "title": "葡萄栽培與釀造",
+    "order": 5,
+    "icon": "🌱",
+    "description": "了解紐西蘭的葡萄栽培實踐與釀酒技術",
+    "lessons": [
+      {
+        "id": "lesson-05-01",
+        "title": "葡萄園管理實踐",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-02",
+        "title": "永續葡萄酒認證",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-03",
+        "title": "有機葡萄栽培",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-04",
+        "title": "生物動力法",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-05",
+        "title": "釀造技術與風格",
+        "duration": "30分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-06",
+        "title": "橡木桶使用與陳年",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-05-review",
+        "title": "Level 3 複習測驗",
+        "duration": "20分鐘",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "module-06",
+    "level": 1,
+    "title": "品酒技巧與餐酒搭配",
+    "order": 6,
+    "icon": "🥂",
+    "description": "掌握系統化的品酒方法與餐酒搭配原則",
+    "lessons": [
+      {
+        "id": "lesson-06-02",
+        "title": "紐西蘭葡萄酒風格分析",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-06-03",
+        "title": "餐酒搭配原則",
+        "duration": "25分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-06-04",
+        "title": "品酒筆記與評估",
+        "duration": "20分鐘",
+        "type": "text"
+      },
+      {
+        "id": "lesson-01-review",
+        "title": "Level 1 複習測驗",
+        "duration": "15分鐘",
+        "type": "text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "其他紅葡萄品種",
+      "subtitle": "認識 Merlot、Cabernet、Syrah、Malbec 等常見紅葡萄",
+      "icon": "🍷",
+      "background": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "為何分類其他紅葡萄？",
+      "content": [
+        { "type": "text", "text": "除了 Pinot Noir，紐西蘭與國際市場也栽培多種紅葡萄。這些品種在風土與釀造方式上有不同表現，了解其特性有助於品飲與配餐判斷。" }
+      ],
+      "icon": "📚"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "Merlot：柔順與果香",
+      "icon": "🍒",
+      "features": [
+        { "title": "典型風格", "description": "中等酒體，成熟紅果如李子、黑櫻桃，單寧較柔和。", "icon": "🍑" },
+        { "title": "栽培要點", "description": "喜歡溫暖到中等氣候，適度產量控制可提升濃度。", "icon": "☀️" },
+        { "title": "常見搭配", "description": "烤肉、燉菜與口味適中的紅肉料理。", "icon": "🥘" }
+      ],
+      "quiz": {
+        "question": "Merlot 葡萄酒相較於 Cabernet Sauvignon 的主要特點是什麼？",
+        "options": [
+          "單寧更加強勁，酒體更重",
+          "單寧較柔和，果香更加成熟圓潤",
+          "酸度更高，風味更加清新",
+          "只適合在涼爽氣候下種植"
+        ],
+        "correct": 1,
+        "explanation": "Merlot 是一個較為柔順易飲的紅葡萄品種，其主要特點是中等酒體、柔和的單寧，以及成熟的紅果風味（如李子、黑櫻桃）。相比之下，Cabernet Sauvignon 通常有更強勁的單寧結構、更飽滿的酒體和更明顯的黑色果實風味（黑醋栗）。Merlot 的柔和特性使其更容易在年輕時飲用，也是波爾多右岸混釀中的主角。在混釀中，Merlot 常用來柔化 Cabernet Sauvignon 的強勁單寧。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "feature",
+      "title": "Cabernet Sauvignon：結構與陳年潛力",
+      "icon": "🛡️",
+      "features": [
+        { "title": "典型風格", "description": "黑加侖子、黑莓、草本與香料，單寧結構明顯，適合陳年。", "icon": "🖤" },
+        { "title": "栽培要點", "description": "偏愛溫暖成熟條件，晚採可提升成熟度與單寧軟化。", "icon": "🌞" },
+        { "title": "常見搭配", "description": "濃郁紅肉、燒烤與成熟乳酪皆為好選擇。", "icon": "🥩" }
+      ],
+      "quiz": {
+        "question": "為什麼 Cabernet Sauvignon 被認為具有優秀的陳年潛力？",
+        "options": [
+          "因為它的果香最濃郁",
+          "因為它具有強勁的單寧結構和高酸度",
+          "因為它的酒精度最高",
+          "因為它只在涼爽氣候下種植"
+        ],
+        "correct": 1,
+        "explanation": "Cabernet Sauvignon 是最具陳年潛力的紅葡萄品種之一，主要原因有三：1) 強勁的單寧結構，這些單寧在陳年過程中會逐漸柔化並與其他成分整合；2) 較高的酸度，能保持葡萄酒的新鮮度和平衡；3) 濃郁的風味物質和色素。這些特性使得優質的 Cabernet Sauvignon 可以陳年數十年，在陳年過程中發展出複雜的次級和三級香氣，如雪松、煙草、皮革等。相比之下，Merlot 雖然也可陳年，但通常更早進入適飲期。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "feature",
+      "title": "Syrah (Shiraz)：香料與果實的結合",
+      "icon": "🌶️",
+      "features": [
+        { "title": "典型風格", "description": "黑莓、黑胡椒、香料與動物香（陳年後）。由果實濃郁到辛香皆有。", "icon": "🍇" },
+        { "title": "栽培要點", "description": "對熱度較敏感，適合多樣風格從新鮮到濃郁皆可能。", "icon": "☀️" },
+        { "title": "常見搭配", "description": "辛香燒烤、香料菜餚與風乾肉品。", "icon": "🔥" }
+      ],
+      "quiz": {
+        "question": "Syrah/Shiraz 葡萄酒最具標誌性的香氣特徵是什麼？",
+        "options": [
+          "櫻桃與覆盆子的紅果香",
+          "黑胡椒與辛香料的風味",
+          "青草與青椒的草本氣息",
+          "奶油與香草的桶陳風味"
+        ],
+        "correct": 1,
+        "explanation": "Syrah（在澳洲稱為 Shiraz）最具標誌性的特徵就是其獨特的黑胡椒和辛香料氣息，這種香氣來自品種本身的芳香化合物（特別是羅塔蓮rotundone）。除了辛香料，Syrah 還常展現黑莓、藍莓等黑色果實香氣，以及在陳年後可能出現的橄欖、煙燻、皮革等複雜氣息。這種香料特性使得 Syrah 特別適合搭配辛香料理、燒烤和風乾肉品。涼爽產區的 Syrah 傾向更多黑胡椒與優雅感，溫暖產區則更偏向成熟果實與豐滿酒體。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "Malbec：深色果實與柔順單寧",
+      "icon": "🍫",
+      "features": [
+        { "title": "典型風格", "description": "黑色果實、巧克力與香料，單寧中等至豐富。", "icon": "🍇" },
+        { "title": "栽培要點", "description": "耐旱性較好，適合乾燥且溫暖地區。", "icon": "🌵" },
+        { "title": "常見搭配", "description": "燒烤、辛香紅肉與濃郁風味料理。", "icon": "🍖" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "釀造與混釀的角色",
+      "content": [
+        { "type": "text", "text": "這些品種常被用於單一品種表現或混釀（如 Bordeaux 風格），透過混釀可以平衡果香、單寧與結構。了解每種葡萄的特質有助於預測混釀的結果。" }
+      ],
+      "icon": "🔀"
+    },
+    {
+      "id": 8,
+      "type": "timeline",
+      "title": "選擇與搭配指南（簡要）",
+      "subtitle": "根據風格選擇料理與飲用時機",
+      "items": [
+        { "year": "輕飲風格", "text": "選 Merlot 或年輕 Syrah，較適合日常搭餐。" },
+        { "year": "結構與陳年", "text": "Cabernet 與高度結構化的混釀適合陳年與搭配濃郁料理。" },
+        { "year": "特殊風味", "text": "Malbec 與辛香 Syrah 適合煙燻或辛香料理。" }
+      ],
+      "icon": "📅"
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "推薦入門酒款與試飲建議",
+      "content": [
+        { "type": "text", "text": "從容易取得的入門酒款開始，注意產區差異與橡木處理；嘗試同一品種不同產區以觀察風土影響。" }
+      ],
+      "icon": "🏷️"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "其他紅葡萄如 Merlot、Cabernet、Syrah、Malbec 各有典型風格與用途",
+        "了解栽培條件與釀造選擇能幫助預測酒款風格",
+        "混釀是調和與強化風味的常見策略，選擇搭配時考慮酒體與香料層次"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "Chardonnay 與其他白葡萄",
+      "subtitle": "從果香到橡木：理解白葡萄的風格與釀造選擇",
+      "icon": "🍾",
+      "background": "linear-gradient(135deg, #fceabb 0%, #f8b500 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Chardonnay 的全球與紐西蘭背景",
+      "content": [
+        { "type": "text", "text": "Chardonnay 原產於法國勃艮第，但在全球多個產區被廣泛種植。紐西蘭的多樣氣候讓 Chardonnay 可展現從清新礦物到豐富奶油風格的廣泛譜系。" }
+      ],
+      "icon": "📜"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "title": "Chardonnay 的典型風味",
+      "icon": "👃",
+      "features": [
+        { "title": "綠色與黃果香", "description": "蘋果、梨、青檸到桃、杏等果香依成熟度變化。", "icon": "🍏" },
+        { "title": "柑橘與花香", "description": "在較涼爽地塊常見檸檬/青檸與白花香氣。", "icon": "🌼" },
+        { "title": "橡木與乳化風格", "description": "橡木與馬鈴薯般的奶油、奶油杏仁感來自發酵與乳酸發酵處理。", "icon": "🪵" }
+      ],
+      "quiz": {
+        "question": "Chardonnay 葡萄酒的奶油與香草風味主要來自哪種釀造處理？",
+        "options": [
+          "在不鏽鋼桶中低溫發酵",
+          "橡木桶發酵與乳酸發酵處理",
+          "延長葡萄在藤上的成熟時間",
+          "使用特殊的酵母菌株"
+        ],
+        "correct": 1,
+        "explanation": "Chardonnay 的奶油、香草、奶油杏仁等風味主要來自兩個釀造技術：1) 橡木桶發酵與陳年，特別是使用新的法國橡木桶會帶來香草、香料、烘烤等香氣；2) 乳酸發酵（Malolactic Fermentation, MLF），這個過程將酸度較高的蘋果酸轉化為較柔和的乳酸，同時產生奶油般的質地和風味。相比之下，不鏽鋼桶發酵會保留純淨的果香和高酸度，風格截然不同。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "其他重要白葡萄（簡介）",
+      "content": [
+        { "type": "stats", "items": [
+          { "label": "Sauvignon Blanc", "value": "鮮明草本與熱帶果香，是紐西蘭代表性白品種", "icon": "🍃" },
+          { "label": "Riesling", "value": "高酸度，從乾型到甜型都有表現，香氣以花果與礦物為主", "icon": "🍋" },
+          { "label": "Pinot Gris", "value": "中等酒體、帶梨與蜂蜜香，適合多種風格處理", "icon": "🍯" }
+        ] }
+      ],
+      "icon": "🗺️",
+      "quiz": {
+        "question": "下列哪個白葡萄品種最適合釀造從乾型到甜型的多種風格葡萄酒？",
+        "options": [
+          "Sauvignon Blanc",
+          "Chardonnay",
+          "Riesling",
+          "Pinot Gris"
+        ],
+        "correct": 2,
+        "explanation": "Riesling 是最具風格多樣性的白葡萄品種之一。由於其天生的高酸度，Riesling 可以釀造從極乾型（bone dry）到貴腐甜酒（noble rot）的各種風格。其高酸度在甜型酒中能平衡糖分，不會顯得膩口。此外，Riesling 的花果香與礦物感在各種風格中都能良好表現。相比之下，Sauvignon Blanc 主要釀造乾型酒，Chardonnay 雖然風格多樣但較少釀甜酒，Pinot Gris 雖然可以有不同甜度但範圍不如 Riesling 廣泛。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "timeline",
+      "title": "栽培與釀造對風格的影響",
+      "subtitle": "關鍵決策如何改變 Chardonnay 的最終風貌",
+      "items": [
+        { "year": "土壤與地塊選擇", "text": "石灰質、粘土或砂質土壤會影響排水、養分與礦物感表現。" },
+        { "year": "採收時機", "text": "早採保留酸度與鮮明果香；遲採增加糖度與熱帶果風。" },
+        { "year": "發酵容器", "text": "不鏽鋼保留純淨果香；法國橡木桶與乳酸發酵帶來奶油與香草風味。" }
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "id": 6,
+      "type": "feature",
+      "title": "釀造技術選項",
+      "icon": "🏺",
+      "features": [
+        { "title": "全果壓榨與分級壓榨", "description": "分級壓榨能控制單寧與苦味，提升精緻度。", "icon": "⚖️" },
+        { "title": "乳酸發酵 (MLF)", "description": "會降低酸度並帶出奶油口感，常見於橡木款 Chardonnay。", "icon": "🧫" },
+        { "title": "橡木桶陳年", "description": "新桶增加香草與烘烤香，舊桶保留果香與柔化酒體。", "icon": "🪵" }
+      ],
+      "quiz": {
+        "question": "乳酸發酵（MLF）對白葡萄酒產生的主要影響是什麼？",
+        "options": [
+          "增加酒精度並提升果香",
+          "降低酸度並帶出奶油質感",
+          "增強單寧結構",
+          "延長葡萄酒的陳年潛力"
+        ],
+        "correct": 1,
+        "explanation": "乳酸發酵（Malolactic Fermentation, MLF）是一個重要的釀造技術，特別常見於橡木款 Chardonnay。在這個過程中，乳酸菌將尖銳的蘋果酸（malic acid）轉化為較柔和的乳酸（lactic acid），從而降低葡萄酒的整體酸度。同時，這個過程會產生雙乙酰（diacetyl）等化合物，帶來奶油、黃油般的質感和風味。這使得葡萄酒口感更加圓潤、豐富。相比之下，追求清新風格的白葡萄酒（如大部分 Sauvignon Blanc）通常會阻止 MLF 的發生，以保留高酸度和純淨果香。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "品鑑指南：白葡萄的要點",
+      "content": [
+        { "type": "text", "text": "聞香注意果香、花香與桶香的比例；入口評估酸度、酒體與餘韻是否平衡。" },
+        { "type": "stats", "items": [
+          { "label": "Chardonnay 建議溫度", "value": "10-12°C（清爽款） / 12-14°C（桶陳款）", "icon": "🌡️" },
+          { "label": "Sauvignon Blanc 建議溫度", "value": "8-12°C", "icon": "❄️" }
+        ] }
+      ],
+      "icon": "🥂"
+    },
+    {
+      "id": 8,
+      "type": "feature",
+      "title": "經典搭配菜餚",
+      "icon": "🍽️",
+      "features": [
+        { "title": "清淡海鮮與貝類", "description": "清爽酸度或細緻桶香皆可提升海鮮風味。", "icon": "🦪" },
+        { "title": "奶油醬汁與白肉", "description": "桶陳 Chardonnay 的奶油質地與白肉料理搭配良好。", "icon": "🍗" },
+        { "title": "辛香料理與亞洲菜", "description": "Sauvignon Blanc 的酸與香草特性適合搭配較清爽的亞洲口味。", "icon": "🍜" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "推薦紐西蘭風格代表酒款",
+      "content": [
+        { "type": "text", "text": "建議嘗試不同子產區與釀造處理：涼爽地塊的清新款、不鏽鋼發酵的純淨風格，以及桶陳發展的豐富款。" }
+      ],
+      "icon": "🏆"
+    },
+    {
+      "id": 10,
+      "type": "summary",
+      "title": "重點總結",
+      "icon": "🔑",
+      "points": [
+        "Chardonnay 在紐西蘭能展現從清新礦物到豐富桶陳的多樣風格",
+        "釀造決策（發酵容器、MLF、橡木）決定最終風格方向",
+        "其他白品種如 Sauvignon Blanc、Riesling、Pinot Gris 各有其典型用途與搭配場景"
+      ]
+    }
+  ]
+}

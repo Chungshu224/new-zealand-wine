@@ -1,0 +1,705 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "永續認證體系",
+      "subtitle": "紐西蘭葡萄酒產業的永續標準與實踐",
+      "icon": "♻️",
+      "background": "linear-gradient(135deg, #48bb78 0%, #38a169 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將深入探討" },
+        { "type": "text", "text": "• Sustainable Winegrowing New Zealand (SWNZ) 認證體系" },
+        { "type": "text", "text": "• 國際永續標準對比與趨勢" },
+        { "type": "text", "text": "• 碳足跡管理與氣候行動" },
+        { "type": "text", "text": "• 水資源與能源效率管理" },
+        { "type": "text", "text": "• 社會責任與公平貿易" },
+        { "type": "text", "text": "• 永續包裝創新與循環經濟" },
+        { "type": "text", "text": "• 市場優勢與消費者趨勢" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "infographic",
+      "title": "紐西蘭永續葡萄酒產業的全球地位",
+      "infographicData": {
+        "context": "紐西蘭是世界上第一個實現產業級永續認證的葡萄酒生產國",
+        "challenge": {
+          "title": "產業成就",
+          "items": [
+            "96% 葡萄園面積獲 SWNZ 認證（2023）",
+            "化學農藥使用減少超過 50%（自1990年代）",
+            "水資源使用效率提升 30%",
+            "產業承諾 2050 年實現碳中和"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "SWNZ 認證",
+            "cost": "產業標準",
+            "effectiveness": "96%",
+            "coverage": "全產區",
+            "detail": "涵蓋栽培、釀造、包裝、社會責任"
+          },
+          {
+            "method": "carboNZero",
+            "cost": "碳中和認證",
+            "effectiveness": "領先者",
+            "coverage": "20+ 酒莊",
+            "detail": "測量、減排、抵銷碳足跡"
+          },
+          {
+            "method": "ISO 14001",
+            "cost": "環境管理",
+            "effectiveness": "部分",
+            "coverage": "大型酒莊",
+            "detail": "國際環境管理系統標準"
+          },
+          {
+            "method": "B Corp",
+            "cost": "社會企業",
+            "effectiveness": "少數",
+            "coverage": "先驅者",
+            "detail": "平衡利潤與社會責任"
+          }
+        ],
+        "result": "紐西蘭葡萄酒產業成為全球永續實踐的標竿"
+      },
+      "icon": "🌍"
+    },
+    {
+      "id": 4,
+      "type": "chart",
+      "title": "SWNZ 認證的四大支柱",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "葡萄栽培",
+          "months": "Viticulture",
+          "phase": "環境管理核心",
+          "tasks": [
+            "病蟲害綜合管理（IPM）",
+            "土壤健康與生物多樣性",
+            "水資源效率管理",
+            "化學品使用記錄與減量",
+            "能源使用監測"
+          ],
+          "risk": "環境影響",
+          "color": "#48bb78"
+        },
+        {
+          "season": "釀造管理",
+          "months": "Winemaking",
+          "phase": "生產效率優化",
+          "tasks": [
+            "能源使用監測與效率",
+            "廢水處理與再利用",
+            "化學添加劑管理",
+            "廢棄物減量與回收",
+            "冷卻系統效率"
+          ],
+          "risk": "資源消耗",
+          "color": "#9f7aea"
+        },
+        {
+          "season": "包裝物流",
+          "months": "Packaging",
+          "phase": "供應鏈責任",
+          "tasks": [
+            "輕量化瓶身設計",
+            "可回收材料使用",
+            "碳足跡計算與標示",
+            "本地供應商優先",
+            "運輸優化"
+          ],
+          "risk": "碳排放",
+          "color": "#ed8936"
+        },
+        {
+          "season": "社會責任",
+          "months": "Social",
+          "phase": "人本管理",
+          "tasks": [
+            "員工健康與安全",
+            "公平薪資與工作條件",
+            "社區關係與回饋",
+            "文化多樣性尊重",
+            "培訓與發展"
+          ],
+          "risk": "社會影響",
+          "color": "#4299e1"
+        }
+      ],
+      "icon": "🏛️"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "SWNZ 認證流程詳解",
+      "content": [
+        { "type": "heading", "text": "第一步：自我評估" },
+        { "type": "text", "text": "• 填寫線上問卷（100+ 問題）" },
+        { "type": "text", "text": "• 涵蓋栽培、釀造、包裝、社會四大面向" },
+        { "type": "text", "text": "• 需提供詳細記錄與數據" },
+        { "type": "divider" },
+        { "type": "heading", "text": "第二步：獨立審核" },
+        { "type": "text", "text": "• 第三方審核員現場檢查" },
+        { "type": "text", "text": "• 審查記錄與實際操作" },
+        { "type": "text", "text": "• 與員工訪談" },
+        { "type": "divider" },
+        { "type": "heading", "text": "第三步：持續改進" },
+        { "type": "text", "text": "• 制定改進計畫與目標" },
+        { "type": "text", "text": "• 年度自我評估與監測" },
+        { "type": "text", "text": "• 每三年重新認證" }
+      ],
+      "icon": "📝",
+      "quiz": {
+        "question": "SWNZ 認證需要多久重新認證一次？",
+        "options": [
+          "每年一次",
+          "每兩年一次",
+          "每三年一次",
+          "一次性認證，無需更新"
+        ],
+        "correct": 2,
+        "explanation": "SWNZ 認證要求每三年重新認證一次，以確保酒莊持續符合永續標準並不斷改進。這種定期審核機制確保認證的可信度與實效性。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "table",
+      "title": "SWNZ 核心要求與評分標準",
+      "tableData": {
+        "headers": ["類別", "核心要求", "評估重點", "達成率", "重要性"],
+        "rows": [
+          {
+            "disease": "病蟲害管理",
+            "condition": "採用 IPM 策略",
+            "symptom": "監測、記錄、非化學優先、必要時精準施藥",
+            "prevention": "95%+",
+            "risk": "極高"
+          },
+          {
+            "disease": "化學品管理",
+            "condition": "完整記錄與儲存",
+            "symptom": "使用記錄、安全儲存、員工培訓、替代方案",
+            "prevention": "98%+",
+            "risk": "極高"
+          },
+          {
+            "disease": "水資源管理",
+            "condition": "監測與效率提升",
+            "symptom": "用水記錄、灌溉效率、廢水處理、水源保護",
+            "prevention": "90%+",
+            "risk": "高"
+          },
+          {
+            "disease": "土壤健康",
+            "condition": "保護與改善",
+            "symptom": "覆蓋作物、有機質、侵蝕控制、生物多樣性",
+            "prevention": "85%+",
+            "risk": "高"
+          },
+          {
+            "disease": "員工安全",
+            "condition": "健康與安全計畫",
+            "symptom": "培訓、防護裝備、事故記錄、風險評估",
+            "prevention": "100%",
+            "risk": "極高"
+          }
+        ]
+      },
+      "note": "所有「極高」重要性項目為強制要求，未達成將無法通過認證",
+      "icon": "📊"
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "國際永續標準對比",
+      "content": [
+        { "type": "heading", "text": "主要國際認證體系" },
+        { "type": "text", "text": "ISO 14001：環境管理系統國際標準" },
+        { "type": "text", "text": "  • 適用於所有產業" },
+        { "type": "text", "text": "  • 強調持續改進與法規遵循" },
+        { "type": "divider" },
+        { "type": "text", "text": "B Corporation：社會企業認證" },
+        { "type": "text", "text": "  • 平衡利潤與社會/環境責任" },
+        { "type": "text", "text": "  • 全面評估企業影響力（B Impact Assessment）" },
+        { "type": "divider" },
+        { "type": "text", "text": "Fair Trade：公平貿易認證" },
+        { "type": "text", "text": "  • 確保公平價格與工作條件" },
+        { "type": "text", "text": "  • 較少應用於紐西蘭（主要針對發展中國家）" }
+      ],
+      "icon": "🌐"
+    },
+    {
+      "id": 8,
+      "type": "comparison",
+      "title": "SWNZ vs 國際標準",
+      "comparisonData": {
+        "title": "紐西蘭產業標準與國際認證的差異",
+        "left": {
+          "label": "SWNZ 優勢",
+          "color": "#48bb78",
+          "icon": "🇳🇿",
+          "items": [
+            "專為葡萄酒產業設計",
+            "涵蓋從葡萄園到瓶裝的全鏈條",
+            "產業級覆蓋率（96%）",
+            "與紐西蘭法規深度整合",
+            "強調紐西蘭特有環境挑戰",
+            "成本相對可負擔",
+            "產業協作與知識分享"
+          ]
+        },
+        "right": {
+          "label": "ISO 14001 特點",
+          "color": "#4299e1",
+          "icon": "🌍",
+          "items": [
+            "國際通用標準",
+            "適用於任何產業",
+            "強調管理系統與流程",
+            "需要更多文件與程序",
+            "全球市場認可度高",
+            "認證成本較高",
+            "較少產業特定指導"
+          ]
+        }
+      },
+      "summary": "許多大型紐西蘭酒莊同時持有 SWNZ 和 ISO 14001，雙重認證展現全面承諾",
+      "icon": "⚖️"
+    },
+    {
+      "id": 9,
+      "type": "comparison",
+      "title": "碳足跡管理：排放源與減排策略",
+      "comparisonData": {
+        "title": "葡萄酒產業的碳排放與應對",
+        "left": {
+          "label": "主要碳排放源",
+          "color": "#e53e3e",
+          "icon": "💨",
+          "items": [
+            "玻璃瓶生產（40-50%）",
+            "國際運輸與物流（20-30%）",
+            "農業機械與燃料（10-15%）",
+            "化學肥料生產（5-10%）",
+            "釀造能源消耗（5-10%）",
+            "包裝材料（3-5%）",
+            "廢棄物處理（2-3%）"
+          ]
+        },
+        "right": {
+          "label": "減排策略",
+          "color": "#38a169",
+          "icon": "🌱",
+          "items": [
+            "輕量化瓶身（-30-40%）",
+            "本地供應鏈優化",
+            "電動/混合動力機械",
+            "精準施肥減少用量",
+            "太陽能/風能發電",
+            "可回收包裝材料",
+            "碳抵銷計畫（植樹、碳權）"
+          ]
+        }
+      },
+      "regionComparison": [
+        { 
+          "region": "紐西蘭產業目標", 
+          "mechanization": "2050", 
+          "reason": "實現碳中和（Net Zero）" 
+        },
+        { 
+          "region": "領先酒莊（已達成）", 
+          "mechanization": "20+", 
+          "reason": "Yealands, Tohu, Babich 等" 
+        }
+      ],
+      "summary": "減碳需要全供應鏈努力，從葡萄園到消費者手中",
+      "icon": "🌍"
+    },
+    {
+      "id": 10,
+      "type": "infographic",
+      "title": "carboNZero 認證流程",
+      "infographicData": {
+        "context": "carboNZero 是紐西蘭碳中和認證計畫，由獨立機構 Toitū Envirocare 管理",
+        "challenge": {
+          "title": "認證步驟",
+          "items": [
+            "測量（Measure）：計算整個營運的碳足跡（Scope 1, 2, 3）",
+            "管理（Manage）：設定減排目標與行動計畫",
+            "減少（Reduce）：實施減排措施並記錄成效",
+            "抵銷（Offset）：購買碳權抵銷無法避免的排放"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "Scope 1 排放",
+            "cost": "直接排放",
+            "effectiveness": "可控",
+            "coverage": "酒莊直接",
+            "detail": "拖拉機燃料、釀造設備燃料"
+          },
+          {
+            "method": "Scope 2 排放",
+            "cost": "間接排放",
+            "effectiveness": "可控",
+            "coverage": "能源使用",
+            "detail": "購買的電力、供暖"
+          },
+          {
+            "method": "Scope 3 排放",
+            "cost": "供應鏈",
+            "effectiveness": "複雜",
+            "coverage": "上下游",
+            "detail": "玻璃瓶、運輸、廢棄物處理"
+          },
+          {
+            "method": "碳抵銷",
+            "cost": "購買碳權",
+            "effectiveness": "最終手段",
+            "coverage": "剩餘排放",
+            "detail": "植樹、再生能源專案"
+          }
+        ],
+        "result": "獲得 carboNZero 標章，可在產品上展示碳中和承諾"
+      },
+      "icon": "🏅"
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title": "碳中和酒莊案例：Yealands Estate",
+      "content": [
+        { "type": "heading", "text": "紐西蘭首家碳中和認證酒莊（2008）" },
+        { "type": "text", "text": "減排措施：" },
+        { "type": "text", "text": "  • 大規模太陽能板安裝（100+ kW）" },
+        { "type": "text", "text": "  • 風力發電機組" },
+        { "type": "text", "text": "  • 輕量化瓶身（減少 20% 玻璃）" },
+        { "type": "text", "text": "  • 電動葡萄園設備" },
+        { "type": "text", "text": "  • 雨水收集與循環使用" },
+        { "type": "divider" },
+        { "type": "text", "text": "碳抵銷：" },
+        { "type": "text", "text": "  • 購買紐西蘭本地碳權" },
+        { "type": "text", "text": "  • 支持原生森林恢復專案" },
+        { "type": "divider" },
+        { "type": "text", "text": "成效：年度碳足跡減少超過 40%（相比基準年）" }
+      ],
+      "icon": "🏆",
+      "quiz": {
+        "question": "在葡萄酒產業的碳足跡中，哪項占比最高？",
+        "options": [
+          "葡萄園的拖拉機燃料",
+          "玻璃瓶生產",
+          "釀造過程的能源消耗",
+          "辦公室用電"
+        ],
+        "correct": 1,
+        "explanation": "玻璃瓶生產占葡萄酒產品碳足跡的 40-50%，是最大單一排放源。這就是為什麼許多酒莊積極採用輕量化瓶身、可回收玻璃，或探索替代包裝（如紙盒、鐵罐）來減少碳排放。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "水資源管理的重要性",
+      "content": [
+        { "type": "heading", "text": "紐西蘭的水資源挑戰" },
+        { "type": "text", "text": "• 東岸產區（Marlborough, Hawke's Bay）夏季缺水" },
+        { "type": "text", "text": "• 水資源許可證管理日趨嚴格" },
+        { "type": "text", "text": "• 競爭性用水需求（農業、城市、環境流量）" },
+        { "type": "text", "text": "• 氣候變遷加劇旱災頻率" },
+        { "type": "divider" },
+        { "type": "heading", "text": "法規框架" },
+        { "type": "text", "text": "Resource Management Act (RMA)：" },
+        { "type": "text", "text": "  • 要求取得水資源許可證" },
+        { "type": "text", "text": "  • 限制取水量與時間" },
+        { "type": "text", "text": "  • 保護河流與地下水位" }
+      ],
+      "icon": "💧"
+    },
+    {
+      "id": 13,
+      "type": "table",
+      "title": "水資源效率提升策略",
+      "tableData": {
+        "headers": ["策略", "技術", "節水效果", "投資成本", "採用率"],
+        "rows": [
+          {
+            "disease": "滴灌系統",
+            "condition": "精準灌溉",
+            "symptom": "相比漫灌節水 30-50%",
+            "prevention": "中",
+            "risk": "高"
+          },
+          {
+            "disease": "土壤濕度監測",
+            "condition": "感測器即時監測",
+            "symptom": "避免過度灌溉 15-25%",
+            "prevention": "低-中",
+            "risk": "中"
+          },
+          {
+            "disease": "蓄水設施",
+            "condition": "冬季降雨收集",
+            "symptom": "減少夏季取水壓力",
+            "prevention": "高",
+            "risk": "中"
+          },
+          {
+            "disease": "覆蓋作物",
+            "condition": "減少蒸發",
+            "symptom": "改善土壤持水力 10-20%",
+            "prevention": "低",
+            "risk": "高"
+          },
+          {
+            "disease": "廢水再利用",
+            "condition": "處理後用於灌溉",
+            "symptom": "減少新鮮水需求 20-30%",
+            "prevention": "中-高",
+            "risk": "低"
+          }
+        ]
+      },
+      "note": "SWNZ 要求所有灌溉酒莊監測用水量並設定效率改善目標",
+      "icon": "💦"
+    },
+    {
+      "id": 14,
+      "type": "content",
+      "title": "能源效率與可再生能源",
+      "content": [
+        { "type": "heading", "text": "釀造過程的能源消耗" },
+        { "type": "text", "text": "主要用途：" },
+        { "type": "text", "text": "  • 冷卻系統（發酵溫控）" },
+        { "type": "text", "text": "  • 壓榨與泵送設備" },
+        { "type": "text", "text": "  • 酒窯溫濕度控制" },
+        { "type": "text", "text": "  • 清洗與消毒" },
+        { "type": "divider" },
+        { "type": "heading", "text": "節能措施" },
+        { "type": "text", "text": "✓ 高效冷卻系統（熱回收）" },
+        { "type": "text", "text": "✓ LED 照明" },
+        { "type": "text", "text": "✓ 保溫建築設計" },
+        { "type": "text", "text": "✓ 能源管理系統（監測與優化）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "可再生能源" },
+        { "type": "text", "text": "• 太陽能板（適合紐西蘭陽光充足地區）" },
+        { "type": "text", "text": "• 風力發電（適合 Marlborough）" },
+        { "type": "text", "text": "• 生質能（葡萄藤修剪物、酒糟）" }
+      ],
+      "icon": "⚡"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title": "社會責任與員工福祉",
+      "content": [
+        { "type": "heading", "text": "SWNZ 社會責任要求" },
+        { "type": "text", "text": "1. 健康與安全：" },
+        { "type": "text", "text": "   • 風險評估與管理計畫" },
+        { "type": "text", "text": "   • 員工培訓與防護裝備" },
+        { "type": "text", "text": "   • 事故記錄與分析" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 公平就業：" },
+        { "type": "text", "text": "   • 符合最低薪資標準" },
+        { "type": "text", "text": "   • 合理工時與休息" },
+        { "type": "text", "text": "   • 平等機會與反歧視政策" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. 社區關係：" },
+        { "type": "text", "text": "   • 與當地社區良好溝通" },
+        { "type": "text", "text": "   • 支持社區活動與發展" },
+        { "type": "text", "text": "   • 尊重毛利文化與土地連結" }
+      ],
+      "icon": "🤝"
+    },
+    {
+      "id": 16,
+      "type": "content",
+      "title": "季節性勞工計畫（RSE）",
+      "content": [
+        { "type": "heading", "text": "Recognised Seasonal Employer Scheme" },
+        { "type": "text", "text": "背景：" },
+        { "type": "text", "text": "  • 紐西蘭園藝業（包括葡萄）勞動力短缺" },
+        { "type": "text", "text": "  • 2007 年啟動 RSE 計畫" },
+        { "type": "text", "text": "  • 從太平洋島國引進季節性工人" },
+        { "type": "divider" },
+        { "type": "heading", "text": "永續就業原則" },
+        { "type": "text", "text": "✓ 公平薪資（符合紐西蘭標準）" },
+        { "type": "text", "text": "✓ 合適住宿條件" },
+        { "type": "text", "text": "✓ 健康保險與安全保障" },
+        { "type": "text", "text": "✓ 透明合約與準時支付" },
+        { "type": "text", "text": "✓ 回饋太平洋社區發展" },
+        { "type": "divider" },
+        { "type": "text", "text": "雙贏：解決紐西蘭勞動力短缺，為太平洋島國提供收入與技能" }
+      ],
+      "icon": "👥",
+      "quiz": {
+        "question": "SWNZ 認證的四大支柱不包括以下哪一項？",
+        "options": [
+          "葡萄栽培",
+          "釀造管理",
+          "行銷推廣",
+          "社會責任"
+        ],
+        "correct": 2,
+        "explanation": "SWNZ 認證的四大支柱是：葡萄栽培（Viticulture）、釀造管理（Winemaking）、包裝物流（Packaging）、社會責任（Social）。行銷推廣不在認證範圍內，SWNZ 專注於生產過程的永續性與社會影響。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "content",
+      "title": "永續包裝創新",
+      "content": [
+        { "type": "heading", "text": "玻璃瓶的環境成本" },
+        { "type": "text", "text": "• 標準 750ml 酒瓶重約 500-600g" },
+        { "type": "text", "text": "• 玻璃製造高度能源密集" },
+        { "type": "text", "text": "• 占產品碳足跡 40-50%" },
+        { "type": "text", "text": "• 增加運輸重量與成本" },
+        { "type": "divider" },
+        { "type": "heading", "text": "永續包裝方案" },
+        { "type": "text", "text": "1. 輕量化瓶身：減至 350-420g（-30-40% 排放）" },
+        { "type": "text", "text": "2. 100% 回收玻璃瓶：減少原料開採" },
+        { "type": "text", "text": "3. 替代包裝：" },
+        { "type": "text", "text": "   • 紙盒包裝（Bag-in-Box）" },
+        { "type": "text", "text": "   • 鐵罐：輕便、高回收率" },
+        { "type": "text", "text": "   • 紙瓶（Frugal Bottle）" },
+        { "type": "text", "text": "4. 減少外包裝：簡化不必要包裝" }
+      ],
+      "icon": "📦"
+    },
+    {
+      "id": 18,
+      "type": "comparison",
+      "title": "包裝材料碳足跡比較",
+      "comparisonData": {
+        "title": "不同包裝形式的環境影響",
+        "left": {
+          "label": "傳統玻璃瓶（500g）",
+          "color": "#718096",
+          "icon": "🍾",
+          "items": [
+            "碳足跡：~400-500g CO2e/瓶",
+            "重量：500-600g",
+            "可回收：是（回收率有限）",
+            "消費者認知：高級、傳統",
+            "適用：所有葡萄酒",
+            "市場接受度：最高"
+          ]
+        },
+        "right": {
+          "label": "輕量化瓶身（350g）",
+          "color": "#48bb78",
+          "icon": "🍷",
+          "items": [
+            "碳足跡：~250-300g CO2e/瓶（-40%）",
+            "重量：350-420g",
+            "可回收：是",
+            "消費者認知：逐漸接受",
+            "適用：所有葡萄酒",
+            "市場接受度：增長中"
+          ]
+        }
+      },
+      "regionComparison": [
+        { 
+          "region": "Bag-in-Box (3L)", 
+          "mechanization": "-60%", 
+          "reason": "碳足跡最低，適合日常飲用酒" 
+        },
+        { 
+          "region": "鐵罐 (375ml)", 
+          "mechanization": "-50%", 
+          "reason": "新興市場，年輕消費者與戶外場景" 
+        }
+      ],
+      "summary": "輕量化瓶身是高品質葡萄酒的最佳平衡點",
+      "icon": "♻️"
+    },
+    {
+      "id": 19,
+      "type": "content",
+      "title": "循環經濟與廢棄物管理",
+      "content": [
+        { "type": "heading", "text": "葡萄酒產業的廢棄物" },
+        { "type": "text", "text": "• 葡萄藤修剪物" },
+        { "type": "text", "text": "• 葡萄皮與籽（酒糟）" },
+        { "type": "text", "text": "• 酒泥（發酵沉澱物）" },
+        { "type": "text", "text": "• 包裝廢料" },
+        { "type": "divider" },
+        { "type": "heading", "text": "循環利用策略" },
+        { "type": "text", "text": "葡萄藤修剪物：" },
+        { "type": "text", "text": "  → 堆肥原料或生質能燃料" },
+        { "type": "text", "text": "酒糟：" },
+        { "type": "text", "text": "  → 動物飼料、堆肥、葡萄籽油、保健品" },
+        { "type": "text", "text": "酒泥：" },
+        { "type": "text", "text": "  → 堆肥、土壤改良劑" },
+        { "type": "text", "text": "包裝廢料：" },
+        { "type": "text", "text": "  → 回收再利用（玻璃、紙板）" }
+      ],
+      "icon": "♻️"
+    },
+    {
+      "id": 20,
+      "type": "content",
+      "title": "永續認證的市場價值",
+      "content": [
+        { "type": "heading", "text": "消費者趨勢" },
+        { "type": "text", "text": "• 永續消費意識持續上升（特別是年輕世代）" },
+        { "type": "text", "text": "• 願意為永續產品支付溢價（5-15%）" },
+        { "type": "text", "text": "• 要求透明度：碳標籤、認證標章" },
+        { "type": "divider" },
+        { "type": "heading", "text": "市場優勢" },
+        { "type": "text", "text": "✓ 差異化定位：紐西蘭 = 永續葡萄酒" },
+        { "type": "text", "text": "✓ 品牌價值提升與消費者忠誠度" },
+        { "type": "text", "text": "✓ 通路優勢：零售商優先採購" },
+        { "type": "text", "text": "✓ 法規準備：提前符合未來環境法規" },
+        { "type": "text", "text": "✓ 風險管理：氣候韌性、資源保障" },
+        { "type": "text", "text": "✓ 員工吸引力：年輕人才偏好永續企業" }
+      ],
+      "icon": "💰"
+    },
+    {
+      "id": 21,
+      "type": "timeline",
+      "title": "紐西蘭葡萄酒產業永續發展時間軸",
+      "subtitle": "從產業倡議到全球標竿",
+      "items": [
+        { "year": "1995", "text": "Sustainable Winegrowing NZ 計畫啟動" },
+        { "year": "2007", "text": "SWNZ 成為獨立第三方認證計畫" },
+        { "year": "2008", "text": "Yealands Estate 獲首個 carboNZero 認證" },
+        { "year": "2012", "text": "80% 葡萄園面積獲 SWNZ 認證" },
+        { "year": "2019", "text": "95% 葡萄園面積獲認證（全球最高）" },
+        { "year": "2020", "text": "產業承諾 2050 碳中和目標" },
+        { "year": "2023", "text": "96% 認證覆蓋率，持續領先全球" }
+      ],
+      "icon": "📅"
+    },
+    {
+      "id": 22,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "紐西蘭是全球首個實現產業級永續認證的葡萄酒國家（96% 認證率）",
+        "SWNZ 認證涵蓋葡萄栽培、釀造管理、包裝物流、社會責任四大支柱",
+        "每三年重新認證確保持續改進與標準遵循",
+        "碳足跡管理是產業優先議題，玻璃瓶占碳排放 40-50%",
+        "carboNZero 認證指引酒莊測量、減少、抵銷碳排放",
+        "水資源與能源效率管理對應紐西蘭資源挑戰",
+        "社會責任包括員工安全、公平就業、社區關係",
+        "永續包裝創新（輕量化瓶身、替代材料）減少環境影響",
+        "永續認證帶來市場優勢、品牌價值與長期韌性",
+        "紐西蘭產業目標：2050 年實現碳中和"
+      ],
+      "icon": "✅"
+    }
+  ]
+}

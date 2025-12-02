@@ -1,0 +1,536 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": "葡萄園管理實踐",
+      "subtitle": "紐西蘭葡萄栽培的專業技術與永續管理",
+      "icon": "🌱",
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "課程概覽",
+      "content": [
+        { "type": "heading", "text": "本課程將涵蓋" },
+        { "type": "text", "text": "• 紐西蘭葡萄園的年度管理週期" },
+        { "type": "text", "text": "• 冠層管理與修剪技術" },
+        { "type": "text", "text": "• 病蟲害綜合管理（IPM）" },
+        { "type": "text", "text": "• 灌溉與水分管理策略" },
+        { "type": "text", "text": "• 土壤健康與營養管理" },
+        { "type": "text", "text": "• 氣候挑戰與應對措施" }
+      ],
+      "icon": "📋"
+    },
+    {
+      "id": 3,
+      "type": "chart",
+      "title": "紐西蘭葡萄園的年度管理週期",
+      "chartType": "cycle",
+      "data": [
+        {
+          "season": "春季",
+          "months": "9-11月",
+          "phase": "萌芽與開花期",
+          "tasks": [
+            "修剪後的葡萄藤開始萌芽",
+            "病害預防（霜霉病、白粉病）",
+            "霜害風險管理",
+            "芽選擇與疏芽作業"
+          ],
+          "risk": "霜害",
+          "color": "#81C784"
+        },
+        {
+          "season": "夏季",
+          "months": "12-2月",
+          "phase": "果實發育期",
+          "tasks": [
+            "冠層管理：疏葉、摘心、修剪側枝",
+            "控制產量：疏果串以集中風味",
+            "灌溉管理：控制水分脅迫",
+            "病蟲害監測與防治"
+          ],
+          "risk": "病蟲害",
+          "color": "#FFB74D"
+        },
+        {
+          "season": "秋季",
+          "months": "3-5月",
+          "phase": "成熟與採收期",
+          "tasks": [
+            "成熟度監測：糖度、酸度、酚類",
+            "採收時機決策",
+            "鳥害防護",
+            "人工/機械採收"
+          ],
+          "risk": "降雨、鳥害",
+          "color": "#E57373"
+        },
+        {
+          "season": "冬季",
+          "months": "6-8月",
+          "phase": "休眠與修剪期",
+          "tasks": [
+            "冬季修剪：決定明年產量",
+            "土壤管理：覆蓋作物、施肥",
+            "藤架維護與修復",
+            "病害源清理"
+          ],
+          "risk": "低溫損傷",
+          "color": "#64B5F6"
+        }
+      ],
+      "icon": "🌿"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "年度週期（續）",
+      "content": [
+        { "type": "heading", "text": "秋季（3-5月）：成熟與採收期" },
+        { "type": "text", "text": "• 成熟度監測：糖度、酸度、酚類成熟度" },
+        { "type": "text", "text": "• 採收時機決策：平衡風味、酸度與氣候風險" },
+        { "type": "text", "text": "• 鳥害防護（網罩、聲音驅趕）" },
+        { "type": "text", "text": "• 人工採收 vs 機械採收的選擇" },
+        { "type": "divider" },
+        { "type": "heading", "text": "冬季（6-8月）：休眠與修剪期" },
+        { "type": "text", "text": "• 冬季修剪：決定明年產量與品質的基礎" },
+        { "type": "text", "text": "• 土壤管理：覆蓋作物、施肥、改良" },
+        { "type": "text", "text": "• 藤架維護與修復" },
+        { "type": "text", "text": "• 病害源清理（落葉、病枝）" }
+      ],
+      "icon": "📅",
+      "quiz": {
+        "question": "在紐西蘭葡萄園管理中，哪個季節是霜害風險管理的關鍵期？",
+        "options": [
+          "夏季果實發育期",
+          "春季萌芽與開花期",
+          "秋季採收期",
+          "冬季休眠期"
+        ],
+        "correct": 1,
+        "explanation": "春季（9-11月）是葡萄萌芽與開花的關鍵期，此時嫩芽對霜害極為敏感，特別是在 Central Otago 和 Martinborough 等產區，需要採取風扇、加熱器或噴水等防霜措施。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "title": "冠層管理技術",
+      "content": [
+        { "type": "heading", "text": "為何冠層管理如此重要？" },
+        { "type": "text", "text": "• 控制光照：影響光合作用與果實成熟" },
+        { "type": "text", "text": "• 空氣流通：降低病害風險（特別是灰霉病）" },
+        { "type": "text", "text": "• 微氣候調節：影響果串溫度與濕度" },
+        { "type": "text", "text": "• 產量控制：平衡產量與品質" },
+        { "type": "divider" },
+        { "type": "heading", "text": "主要技術" },
+        { "type": "text", "text": "疏葉（Leaf Removal）：移除果串周圍葉片，增加通風與光照" },
+        { "type": "text", "text": "摘心（Hedging/Trimming）：控制枝條生長，集中營養" },
+        { "type": "text", "text": "疏果（Bunch Thinning）：移除部分果串，提升剩餘果實品質" },
+        { "type": "text", "text": "側枝管理：控制葉幕密度與結構" }
+      ],
+      "icon": "✂️"
+    },
+    {
+      "id": 6,
+      "type": "comparison",
+      "title": "案例：Marlborough 的冠層管理策略",
+      "comparisonData": {
+        "title": "挑戰 vs 解決方案",
+        "left": {
+          "label": "挑戰",
+          "color": "#EF5350",
+          "items": [
+            "海洋性氣候帶來高濕度",
+            "灰霉病風險極高",
+            "Sauvignon Blanc 生長旺盛",
+            "易形成濃密葉幕",
+            "需保持高酸度與鮮明果香"
+          ]
+        },
+        "right": {
+          "label": "解決方案",
+          "color": "#66BB6A",
+          "items": [
+            "早期疏葉（果串周圍）",
+            "提升通風，降低病害",
+            "適度遮陰維持酸度",
+            "機械化修剪提高效率",
+            "精準產量控制（8-10噸/公頃）"
+          ]
+        }
+      },
+      "summary": "通過系統化的冠層管理，Marlborough 在高濕度環境下仍能生產出清爽、高品質的 Sauvignon Blanc",
+      "icon": "🔬"
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "title": "修剪系統與技術",
+      "content": [
+        { "type": "heading", "text": "紐西蘭主要修剪系統" },
+        { "type": "text", "text": "1. 居由（Guyot）：單居由或雙居由，適合 Pinot Noir" },
+        { "type": "text", "text": "   - 每年選留 1-2 根結果母枝" },
+        { "type": "text", "text": "   - 產量可控，品質穩定" },
+        { "type": "text", "text": "   - Central Otago 和 Martinborough 常用" },
+        { "type": "divider" },
+        { "type": "text", "text": "2. 籬笆式（VSP - Vertical Shoot Positioning）：" },
+        { "type": "text", "text": "   - 紐西蘭最常見系統" },
+        { "type": "text", "text": "   - 適合機械化作業" },
+        { "type": "text", "text": "   - Marlborough Sauvignon Blanc 的標準配置" },
+        { "type": "divider" },
+        { "type": "text", "text": "3. Scott Henry：適合旺盛生長品種" },
+        { "type": "text", "text": "   - 分層管理，增加光照" },
+        { "type": "text", "text": "   - Hawke's Bay 部分葡萄園採用" }
+      ],
+      "icon": "🌿",
+      "quiz": {
+        "question": "Marlborough 產區的 Sauvignon Blanc 葡萄園，最常採用哪種修剪/訓練系統？",
+        "options": [
+          "Scott Henry 系統",
+          "居由（Guyot）系統",
+          "籬笆式（VSP）系統",
+          "棚架式系統"
+        ],
+        "correct": 2,
+        "explanation": "Marlborough 的 Sauvignon Blanc 葡萄園普遍採用籬笆式（VSP - Vertical Shoot Positioning）系統，這種系統適合機械化作業，能有效管理旺盛的葡萄藤生長，並提供良好的通風，降低高濕度環境下的病害風險。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "table",
+      "title": "病蟲害綜合管理（IPM）",
+      "tableData": {
+        "headers": ["病害名稱", "發生條件", "症狀", "主要防治措施", "風險等級"],
+        "rows": [
+          {
+            "disease": "白粉病",
+            "condition": "乾燥溫暖",
+            "symptom": "葉片、果實白色粉狀物",
+            "prevention": "硫磺噴灑、冠層管理、抗性品種",
+            "risk": "中-高"
+          },
+          {
+            "disease": "霜霉病",
+            "condition": "高濕度+溫暖",
+            "symptom": "葉背白色霉層、正面黃斑",
+            "prevention": "銅製劑、疏葉、排水管理",
+            "risk": "高"
+          },
+          {
+            "disease": "灰霉病",
+            "condition": "採收期降雨",
+            "symptom": "果實灰色霉層、腐爛",
+            "prevention": "冠層管理、避免過度灌溉、適時採收",
+            "risk": "極高"
+          },
+          {
+            "disease": "葡萄捲葉蛾",
+            "condition": "春夏季",
+            "symptom": "葉片捲曲、果實受損",
+            "prevention": "性費洛蒙誘捕、生物防治",
+            "risk": "中"
+          },
+          {
+            "disease": "介殼蟲",
+            "condition": "全年",
+            "symptom": "吸食汁液、傳播病毒",
+            "prevention": "天敵保護、選擇性殺蟲劑",
+            "risk": "中"
+          }
+        ]
+      },
+      "note": "IPM 策略：監測預警 → 文化防治 → 生物防治 → 化學防治（最後手段）",
+      "icon": "🔬"
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "title": "IPM 策略（續）",
+      "content": [
+        { "type": "heading", "text": "主要害蟲" },
+        { "type": "text", "text": "葡萄捲葉蛾（Leafroller）：" },
+        { "type": "text", "text": "  - 幼蟲危害葉片與果實" },
+        { "type": "text", "text": "  - 管理：性費洛蒙誘捕、生物防治" },
+        { "type": "divider" },
+        { "type": "text", "text": "介殼蟲（Mealybug）：" },
+        { "type": "text", "text": "  - 傳播病毒病害" },
+        { "type": "text", "text": "  - 管理：天敵保護、選擇性殺蟲劑" },
+        { "type": "divider" },
+        { "type": "heading", "text": "IPM 核心原則" },
+        { "type": "text", "text": "✓ 監測與預警：定期巡查，使用陷阱與氣象資料" },
+        { "type": "text", "text": "✓ 文化防治：冠層管理、衛生措施、抗性品種" },
+        { "type": "text", "text": "✓ 生物防治：保護天敵、使用微生物製劑" },
+        { "type": "text", "text": "✓ 化學防治：最後手段，選擇低毒性、精準施用" }
+      ],
+      "icon": "🐛"
+    },
+    {
+      "id": 10,
+      "type": "content",
+      "title": "灌溉與水分管理",
+      "content": [
+        { "type": "heading", "text": "為何水分管理至關重要？" },
+        { "type": "text", "text": "• 紐西蘭東岸產區（Marlborough, Hawke's Bay）夏季較乾燥" },
+        { "type": "text", "text": "• 適度水分脅迫可提升果實品質與濃度" },
+        { "type": "text", "text": "• 過度灌溉導致旺盛生長與品質下降" },
+        { "type": "text", "text": "• 缺水則影響光合作用與果實發育" },
+        { "type": "divider" },
+        { "type": "heading", "text": "灌溉策略" },
+        { "type": "text", "text": "滴灌系統（Drip Irrigation）：" },
+        { "type": "text", "text": "  - 紐西蘭葡萄園的主流選擇" },
+        { "type": "text", "text": "  - 精準控制、節水、可配合施肥" },
+        { "type": "divider" },
+        { "type": "text", "text": "調虧灌溉（Regulated Deficit Irrigation, RDI）：" },
+        { "type": "text", "text": "  - 在特定生長階段限制水分" },
+        { "type": "text", "text": "  - 提升果實濃度與品質" },
+        { "type": "text", "text": "  - 需精確監測與經驗" }
+      ],
+      "icon": "💧"
+    },
+    {
+      "id": 11,
+      "type": "timeline",
+      "title": "灌溉管理時間線",
+      "events": [
+        { "period": "萌芽至開花前", "description": "充足供水，促進生長", "importance": "中" },
+        { "period": "開花期", "description": "減少灌溉，避免落花", "importance": "高" },
+        { "period": "坐果至轉色前", "description": "開始調虧灌溉，控制產量", "importance": "高" },
+        { "period": "轉色至成熟", "description": "精準控制水分脅迫，提升品質", "importance": "極高" },
+        { "period": "採收前 1-2 週", "description": "停止或最小化灌溉", "importance": "高" }
+      ],
+      "icon": "💧",
+      "quiz": {
+        "question": "在紐西蘭葡萄園管理中，調虧灌溉（RDI）的主要目的是什麼？",
+        "options": [
+          "節省灌溉成本",
+          "促進葡萄藤旺盛生長",
+          "在特定階段限制水分以提升果實濃度與品質",
+          "防止病害發生"
+        ],
+        "correct": 2,
+        "explanation": "調虧灌溉（RDI）是在葡萄生長的特定階段（特別是轉色至成熟期）有意限制水分供應，造成適度的水分脅迫。這種做法可以控制葡萄藤的營養生長，促使養分集中到果實，從而提升果實的濃度、風味複雜度和整體品質。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "content",
+      "title": "土壤健康與營養管理",
+      "content": [
+        { "type": "heading", "text": "紐西蘭葡萄園土壤多樣性" },
+        { "type": "text", "text": "• Marlborough：礫石沖積土，排水良好" },
+        { "type": "text", "text": "• Central Otago：片岩與砂質土壤，貧瘠但排水佳" },
+        { "type": "text", "text": "• Hawke's Bay：從礫石（Gimblett Gravels）到黏土多樣化" },
+        { "type": "text", "text": "• Martinborough：砂礫沖積土，自由排水" },
+        { "type": "divider" },
+        { "type": "heading", "text": "土壤管理實踐" },
+        { "type": "text", "text": "覆蓋作物（Cover Crops）：" },
+        { "type": "text", "text": "  - 改善土壤結構與有機質" },
+        { "type": "text", "text": "  - 控制侵蝕與雜草" },
+        { "type": "text", "text": "  - 促進生物多樣性" },
+        { "type": "text", "text": "  - 常用：禾本科、豆科混播" }
+      ],
+      "icon": "🌾"
+    },
+    {
+      "id": 13,
+      "type": "content",
+      "title": "營養管理策略",
+      "content": [
+        { "type": "heading", "text": "關鍵營養元素" },
+        { "type": "text", "text": "氮（N）：影響生長與產量，需精確控制避免過量" },
+        { "type": "text", "text": "鉀（K）：影響果實成熟與品質" },
+        { "type": "text", "text": "鎂（Mg）：光合作用必需，部分土壤缺乏" },
+        { "type": "text", "text": "硼（B）：影響開花與坐果" },
+        { "type": "divider" },
+        { "type": "heading", "text": "施肥方式" },
+        { "type": "text", "text": "土壤施肥：基肥與追肥" },
+        { "type": "text", "text": "葉面施肥：快速補充微量元素" },
+        { "type": "text", "text": "滴灌施肥：精準控制，提高效率" },
+        { "type": "divider" },
+        { "type": "text", "text": "⚠️ 過度施肥的風險：旺盛生長、病害增加、品質下降、環境污染" }
+      ],
+      "icon": "⚗️"
+    },
+    {
+      "id": 14,
+      "type": "content",
+      "title": "氣候挑戰與應對",
+      "content": [
+        { "type": "heading", "text": "霜害管理" },
+        { "type": "text", "text": "挑戰：春季霜凍損害嫩芽與花穗" },
+        { "type": "text", "text": "高風險產區：Central Otago, Martinborough, Canterbury" },
+        { "type": "text", "text": "應對措施：" },
+        { "type": "text", "text": "  ✓ 風扇（Wind Machines）：混合空氣，提升溫度" },
+        { "type": "text", "text": "  ✓ 加熱器（Frost Pots）：直接加熱" },
+        { "type": "text", "text": "  ✓ 噴水系統：利用凝結熱保護" },
+        { "type": "text", "text": "  ✓ 選址：避開霜凍口袋（低窪地）" },
+        { "type": "text", "text": "  ✓ 延遲修剪：推遲萌芽時間" },
+        { "type": "divider" },
+        { "type": "heading", "text": "熱浪與乾旱" },
+        { "type": "text", "text": "挑戰：極端高溫與水資源短缺" },
+        { "type": "text", "text": "應對：遮陽網、保留更多葉幕、高效灌溉、水資源規劃" }
+      ],
+      "icon": "❄️"
+    },
+    {
+      "id": 15,
+      "type": "infographic",
+      "title": "案例：Central Otago 的霜害管理",
+      "infographicData": {
+        "context": "Central Otago 是世界最南端的主要葡萄酒產區，春季霜害風險極高",
+        "challenge": {
+          "title": "氣候挑戰",
+          "items": [
+            "大陸性氣候，日夜溫差極大",
+            "春季霜凍頻繁（9-11月）",
+            "一次嚴重霜害可損失整年產量",
+            "歷史嚴重霜害：2006、2011、2016年"
+          ]
+        },
+        "solutions": [
+          {
+            "method": "風扇系統",
+            "cost": "高投資",
+            "effectiveness": "90%",
+            "coverage": "4-5公頃/台",
+            "detail": "混合空氣層，提升溫度2-4°C"
+          },
+          {
+            "method": "霜凍預警",
+            "cost": "中等",
+            "effectiveness": "100%",
+            "coverage": "全產區",
+            "detail": "氣象監測站+24小時值班"
+          },
+          {
+            "method": "葡萄園選址",
+            "cost": "規劃階段",
+            "effectiveness": "80%",
+            "coverage": "新園區",
+            "detail": "坡地優於谷底，避開霜凍口袋"
+          },
+          {
+            "method": "直升機",
+            "cost": "極高",
+            "effectiveness": "95%",
+            "coverage": "彈性",
+            "detail": "攪動空氣，頂級酒莊使用"
+          },
+          {
+            "method": "雙輪修剪",
+            "cost": "低",
+            "effectiveness": "60%",
+            "coverage": "全園",
+            "detail": "保留更多芽眼作為備用"
+          }
+        ],
+        "result": "通過系統性防護，Central Otago 仍能穩定生產世界級 Pinot Noir"
+      },
+      "icon": "🌡️"
+    },
+    {
+      "id": 16,
+      "type": "content",
+      "title": "降雨與濕度管理",
+      "content": [
+        { "type": "heading", "text": "採收期降雨的挑戰" },
+        { "type": "text", "text": "問題：秋季降雨導致果實稀釋、病害爆發、果實開裂" },
+        { "type": "text", "text": "高風險產區：西岸與南部產區（降雨較多）" },
+        { "type": "divider" },
+        { "type": "heading", "text": "應對策略" },
+        { "type": "text", "text": "✓ 氣象監測與預報：提前決策採收時機" },
+        { "type": "text", "text": "✓ 冠層管理：確保良好通風" },
+        { "type": "text", "text": "✓ 選擇性採收：只採收健康果實" },
+        { "type": "text", "text": "✓ 快速採收能力：機械化或充足人力" },
+        { "type": "text", "text": "✓ 酒莊設備：光學分選台，剔除受損果實" },
+        { "type": "divider" },
+        { "type": "text", "text": "💡 Marlborough 的經驗：提前採收並保持較高酸度，是應對不可預測天氣的策略之一" }
+      ],
+      "icon": "🌧️"
+    },
+    {
+      "id": 17,
+      "type": "comparison",
+      "title": "機械化與勞動力管理",
+      "comparisonData": {
+        "title": "機械採收 vs 人工採收",
+        "left": {
+          "label": "機械採收",
+          "color": "#42A5F5",
+          "icon": "🚜",
+          "items": [
+            "成本：$200-300/噸",
+            "速度快（24-48小時完成）",
+            "可夜間低溫採收",
+            "不受勞動力限制",
+            "選擇性較低",
+            "果實破損率較高",
+            "需平坦地形",
+            "適合：白葡萄、大量生產"
+          ]
+        },
+        "right": {
+          "label": "人工採收",
+          "color": "#66BB6A",
+          "icon": "👥",
+          "items": [
+            "成本：$600-1000/噸",
+            "速度慢（需數天至數週）",
+            "受天氣與人力限制",
+            "勞動力短缺風險",
+            "選擇性極高",
+            "果實完整性佳",
+            "適應所有地形",
+            "適合：高端酒款、Pinot Noir"
+          ]
+        }
+      },
+      "regionComparison": [
+        { "region": "Marlborough", "mechanization": "90%+", "reason": "平坦地形、大規模、Sauvignon Blanc" },
+        { "region": "Central Otago", "mechanization": "10%", "reason": "陡峭坡地、精品導向、Pinot Noir" },
+        { "region": "Hawke's Bay", "mechanization": "40-60%", "reason": "混合模式，視品種與市場定位" }
+      ],
+      "icon": "🚜"
+    },
+    {
+      "id": 18,
+      "type": "content",
+      "title": "永續葡萄園管理認證",
+      "content": [
+        { "type": "heading", "text": "Sustainable Winegrowing New Zealand (SWNZ)" },
+        { "type": "text", "text": "• 紐西蘭葡萄酒產業的永續認證計畫" },
+        { "type": "text", "text": "• 超過 95% 的產區葡萄園已獲認證" },
+        { "type": "text", "text": "• 涵蓋：葡萄栽培、釀造、包裝、社會責任" },
+        { "type": "divider" },
+        { "type": "heading", "text": "主要要求" },
+        { "type": "text", "text": "✓ 病蟲害綜合管理（IPM）" },
+        { "type": "text", "text": "✓ 水資源與能源效率" },
+        { "type": "text", "text": "✓ 土壤健康與生物多樣性" },
+        { "type": "text", "text": "✓ 廢棄物管理與減碳" },
+        { "type": "text", "text": "✓ 社會與勞工權益保護" },
+        { "type": "divider" },
+        { "type": "text", "text": "🏆 紐西蘭是全球葡萄酒產業永續實踐的領導者之一" }
+      ],
+      "icon": "♻️"
+    },
+    {
+      "id": 19,
+      "type": "summary",
+      "title": "課程總結",
+      "keyPoints": [
+        "紐西蘭葡萄園管理需因應多樣化的氣候與土壤條件",
+        "冠層管理與修剪技術是品質控制的核心",
+        "病蟲害綜合管理（IPM）取代傳統化學防治，符合永續趨勢",
+        "精準的灌溉與水分管理可顯著提升果實品質",
+        "霜害是多個產區的主要挑戰，需投資防護設施",
+        "機械化程度因產區與品種而異，需平衡成本與品質",
+        "SWNZ 認證推動產業整體朝向永續發展",
+        "成功的葡萄園管理需結合科學知識與實務經驗"
+      ],
+      "icon": "✅"
+    }
+  ]
+}
