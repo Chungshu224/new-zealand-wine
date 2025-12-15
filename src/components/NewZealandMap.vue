@@ -249,10 +249,50 @@ html, body {
   }
   
   :deep(.aoc-list) {
-    height: 30%;
+    height: 40%;
+    min-height: 300px;
+    max-height: 50vh;
     width: 100%;
     overflow-y: auto;
     flex-shrink: 0;
+    border-right: none;
+    border-bottom: 3px solid #8b4513;
+  }
+
+  :deep(.search-box) {
+    padding: 12px;
+    font-size: 16px;
+    min-height: 44px;
+  }
+
+  :deep(.region-item),
+  :deep(.island-header) {
+    padding: 12px 16px;
+    min-height: 48px;
+    font-size: 15px;
+  }
+
+  :deep(.aoc-item) {
+    padding: 10px 16px;
+    min-height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  :deep(.aoc-list) {
+    height: 35%;
+    min-height: 250px;
+  }
+
+  :deep(.search-box) {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  :deep(.region-item),
+  :deep(.island-header) {
+    padding: 10px 12px;
+    font-size: 14px;
   }
 }
 </style>

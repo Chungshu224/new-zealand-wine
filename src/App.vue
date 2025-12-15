@@ -401,4 +401,94 @@ html, body {
   min-width: 80px;
   text-align: center;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .main-area {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-area {
+    padding: 0 8px;
+  }
+
+  .utility-bar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 8px;
+  }
+
+  .util-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    min-height: 44px;
+    white-space: nowrap;
+  }
+
+  .slide-nav-controls {
+    width: 100%;
+    order: 3;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .slide-nav-btn {
+    padding: 12px 20px;
+    font-size: 15px;
+    flex: 1;
+    min-height: 44px;
+    max-width: none;
+  }
+
+  .slide-progress {
+    font-size: 16px;
+    padding: 12px 20px;
+    min-width: 80px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .test-mode-banner {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .close-test-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-area {
+    padding: 0 4px;
+  }
+
+  .utility-bar {
+    padding: 10px 4px;
+    gap: 8px;
+  }
+
+  .util-btn {
+    padding: 10px 12px;
+    font-size: 13px;
+    min-height: 44px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .slide-nav-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .slide-progress {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+}
 </style>

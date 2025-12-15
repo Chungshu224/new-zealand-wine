@@ -68,14 +68,30 @@ onUnmounted(() => {
 
 .mobile-menu-btn {
   display: none;
-  position: absolute;
+  position: fixed;
   left: 10px;
   top: 10px;
   z-index: 1000;
-  padding: 8px 12px;
+  padding: 12px 20px;
   background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 2px solid #8b4513;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8b4513;
+  cursor: pointer;
+  min-height: 44px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
+}
+
+.mobile-menu-btn:hover {
+  background: #8b4513;
+  color: #fff;
+}
+
+.mobile-menu-btn:active {
+  transform: scale(0.98);
 }
 
 @media (max-width: 768px) {
@@ -89,11 +105,31 @@ onUnmounted(() => {
     /* transform is now handled via :style binding in the template */
     height: auto;
     max-height: 60vh;
+    width: 100%;
     transform: translateY(v-bind(sidebarOpen ? '0' : '-100%'));
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
   
   .mobile-menu-btn {
     display: block;
+  }
+
+  .main-content {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu-btn {
+    padding: 10px 16px;
+    font-size: 13px;
+    left: 8px;
+    top: 8px;
+    min-height: 40px;
+  }
+
+  .sidebar {
+    max-height: 70vh;
   }
 }
 </style>

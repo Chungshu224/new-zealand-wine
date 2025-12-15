@@ -501,6 +501,12 @@ onMounted(() => {
   .top-left .logo {
     font-size: 16px;
   }
+
+  .back-btn, .back-btn-inline {
+    padding: 10px 16px;
+    font-size: 14px;
+    min-height: 44px;
+  }
   
   .top-center {
     order: 3;
@@ -514,11 +520,40 @@ onMounted(() => {
     justify-content: flex-start;
     gap: 8px;
     padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
   }
   
   .level-pill {
-    padding: 8px 16px;
+    padding: 10px 18px;
+    font-size: 14px;
+    min-height: 44px;
+    white-space: nowrap;
+  }
+
+  .progress-badge {
+    padding: 8px 14px;
     font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar-horizontal {
+    padding: 10px 8px;
+  }
+
+  .top-left .logo {
+    font-size: 14px;
+  }
+
+  .back-btn, .back-btn-inline {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .level-pill {
+    padding: 8px 14px;
+    font-size: 13px;
+    min-height: 40px;
   }
 }
 </style>

@@ -193,20 +193,54 @@ const getQuizOptionClass = (index) => {
 
 @media (max-width: 768px) {
   .quiz-section {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
   }
 
   .quiz-options {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .quiz-option {
-    padding: 0.875rem 1rem;
-    font-size: 0.95rem;
+    padding: 14px 16px;
+    font-size: 16px;
+    min-height: 52px;
+    text-align: left;
+    line-height: 1.5;
   }
 
   .quiz-question {
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .quiz-title {
+    font-size: 20px;
+  }
+
+  .quiz-feedback {
+    padding: 16px;
+  }
+
+  .feedback-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-section {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .quiz-question {
+    font-size: 17px;
+  }
+
+  .quiz-option {
+    padding: 12px 14px;
+    font-size: 15px;
+    min-height: 48px;
   }
 }
 </style>

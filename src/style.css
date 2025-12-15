@@ -65,6 +65,57 @@ button:focus-visible {
   text-align: center;
 }
 
+/* 全局響應式優化 */
+@media (max-width: 768px) {
+  #app {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+  }
+
+  /* 確保所有按鈕都有足夠的觸控區域 */
+  button {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 15px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* 優化輸入框 */
+  input, select, textarea {
+    min-height: 44px;
+    font-size: 16px; /* 防止 iOS Safari 自動縮放 */
+    padding: 10px;
+  }
+
+  /* 改善滾動性能 */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 480px) {
+  #app {
+    padding: 0;
+  }
+
+  button {
+    min-height: 40px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  input, select, textarea {
+    min-height: 40px;
+    font-size: 16px;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -325,8 +325,8 @@ const initEmbeddedMap = async () => {
     embeddedMap = new mapboxgl.Map({
       container: embeddedMapContainer.value,
       style: 'mapbox://styles/mapbox/satellite-streets-v12',
-      center: [174.886, -40.9006],
-      zoom: 5,
+      center: [172.5, -41.5],
+      zoom: 4.8,
       pitch: 0,
       bearing: 0
     })
@@ -1144,13 +1144,37 @@ watch(() => currentSlide.value?.type, (newType) => {
   border: 2px solid #48bb78;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .slide {
+    padding: 50px 60px;
+  }
+
+  .content-map-layout {
+    gap: 30px;
+  }
+
+  .content-text {
+    font-size: 18px;
+  }
+
+  .content-map {
+    min-height: 500px;
+  }
+}
+
+/* Mobile and Small Tablet */
 @media (max-width: 768px) {
   .slide-container {
-    padding: 20px;
+    padding: 10px;
   }
 
   .slide {
     padding: 32px 24px;
+  }
+
+  .slide-cover .slide-icon {
+    font-size: 60px;
   }
 
   .slide-cover .slide-title {
@@ -1162,7 +1186,31 @@ watch(() => currentSlide.value?.type, (newType) => {
   }
 
   .slide-header h2 {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .slide-header {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .content-map-layout {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .content-text {
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 0 8px;
+  }
+
+  .content-map {
+    min-height: 450px;
+    max-height: 60vh;
+    order: -1;
+    margin: 0 -24px;
+    border-radius: 0;
   }
 
   .stats-grid {
@@ -1191,6 +1239,52 @@ watch(() => currentSlide.value?.type, (newType) => {
 
   .solution-stats {
     grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    padding-left: 30px;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 480px) {
+  .slide {
+    padding: 24px 16px;
+  }
+
+  .slide-cover .slide-icon {
+    font-size: 48px;
+  }
+
+  .slide-cover .slide-title {
+    font-size: 24px;
+  }
+
+  .slide-cover .slide-subtitle {
+    font-size: 16px;
+  }
+
+  .slide-header h2 {
+    font-size: 20px;
+  }
+
+  .content-text {
+    font-size: 16px;
+    padding: 0 4px;
+  }
+
+  .content-map {
+    min-height: 350px;
+    max-height: 50vh;
+    margin: 0 -16px;
+  }
+
+  .slide-header {
+    padding-bottom: 16px;
+  }
+
+  .stat-card, .feature-card {
+    padding: 20px;
   }
 }
 </style>
